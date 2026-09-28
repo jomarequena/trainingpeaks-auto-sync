@@ -33,4 +33,9 @@ Este repositorio sincroniza automáticamente tu plan de entrenamiento de Media M
    - **Secret:** el ID numérico de atleta de tu cuenta TrainingPeaks.
 
 ¡Listo! A partir de ese momento, **GitHub Actions ejecutará la sincronización todos los días a las 10:00 AM en sus servidores de forma 100% independiente de tu ordenador**.
+
+## Prevención de duplicados
+
+Antes de crear un workout para un día del plan, la sincronización consulta TrainingPeaks. Si ya existe cualquier workout ese día —planificado o completado—, lo omite y lo registra en `synced_log.json`. Si no puede consultar TrainingPeaks o interpretar la respuesta, no crea el workout y la ejecución termina con error para que el problema sea visible.
+
 # trainingpeaks-auto-sync
