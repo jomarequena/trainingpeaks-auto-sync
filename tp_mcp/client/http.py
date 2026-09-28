@@ -225,6 +225,7 @@ class TPClient:
             )
 
             if response.status_code == 401:
+                print(f"DEBUG Token Exchange 401: {response.text}")
                 return APIResponse(
                     success=False,
                     error_code=ErrorCode.AUTH_EXPIRED,
@@ -232,6 +233,7 @@ class TPClient:
                 )
 
             if response.status_code != 200:
+                print(f"DEBUG Token Exchange Failed: HTTP {response.status_code} - {response.text}")
                 return APIResponse(
                     success=False,
                     error_code=ErrorCode.API_ERROR,
@@ -564,6 +566,7 @@ class TPClient:
 
         response = await self.get("/users/v3/user")
         if not response.success or not response.data:
+            print(f"DEBUG _get_user_data error: success={response.success}, error_code={response.error_code}, message={response.message}")
             return None
 
         user_data = response.data.get("user", response.data)
