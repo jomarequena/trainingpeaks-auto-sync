@@ -74,10 +74,13 @@ def get_credential() -> CredentialResult:
     # Check environment variable first (CI/testing override)
     env_cookie = os.environ.get(ENV_VAR_NAME)
     if env_cookie:
+        clean_cookie = env_cookie.strip().replace("\r", "").replace("\n", "")
+        if clean_cookie.startswith("Production_tpAuth="):
+            clean_cookie = clean_cookie[len("Production_tpAuth="):]
         return CredentialResult(
             success=True,
             message="Credential from environment variable",
-            cookie=env_cookie,
+            cookie=clean_cookie,
         )
 
     # Try keyring first
