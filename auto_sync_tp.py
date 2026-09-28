@@ -15,7 +15,7 @@ Secrets necesarios en GitHub Actions:
 import json
 import os
 import sys
-from datetime import datetime, timedelta
+from datetime import date, datetime, timedelta
 from pathlib import Path
 
 import requests
@@ -191,6 +191,60 @@ def create_workout(
         return {"success": False, "workout_id": None, "message": str(e)}
 
 
+def get_workouts_for_date(bearer_token: str, athlete_id: int, date_str: str) -> dict:
+    """List all workouts on a date; an unverified response must never permit creation."""
+    url = (
+        f"{TP_API_BASE}/fitness/v6/athletes/{athlete_id}/workouts/"
+        f"{date_str}/{date_str}"
+    )
+
+    try:
+        response = requests.get(
+            url,
+            headers=get_api_headers(bearer_token),
+            timeout=20,
+        )
+    except requests.RequestException as e:
+        return {"success": False, "workouts": [], "message": str(e)}
+
+    if response.status_code != 200:
+        return {
+            "success": False,
+            "workouts": [],
+            "message": f"HTTP {response.status_code}: {response.text[:400]}",
+        }
+
+    try:
+        workouts = response.json()
+    except ValueError as e:
+        return {"success": False, "workouts": [], "message": f"Invalid JSON response: {e}"}
+
+    if not isinstance(workouts, list):
+        return {
+            "success": False,
+            "workouts": [],
+            "message": "Expected a list of workouts in the API response.",
+        }
+
+    return {"success": True, "workouts": workouts, "message": "OK"}
+
+
+def normalize_workout_date(value: object) -> str | None:
+    """Normalize ISO date or datetime strings to the workout's calendar date."""
+    if not isinstance(value, str):
+        return None
+
+    value = value.strip()
+    try:
+        if len(value) == 10:
+            return date.fromisoformat(value).isoformat()
+        if len(value) > 10 and value[10] in ("T", " "):
+            return datetime.fromisoformat(value.replace("Z", "+00:00")).date().isoformat()
+    except ValueError:
+        return None
+    return None
+
+
 # ---------------------------------------------------------------------------
 # Helpers de log local
 # ---------------------------------------------------------------------------
@@ -268,16 +322,46 @@ def sync() -> None:
     errors = 0
 
     for item in plan:
-        item_date = item.get("date", "")
+        item_date = normalize_workout_date(item.get("date", ""))
         if item_date not in target_dates:
             continue
 
         if item_date in sync_log:
-            print(f"ℹ️  Already synced for {item_date}: {sync_log[item_date]['title']}")
+            if sync_log[item_date].get("status") == "skipped_existing":
+                print(f"ℹ️  Already skipped for {item_date}: workout already exists")
+            else:
+                print(f"ℹ️  Already synced for {item_date}: {sync_log[item_date]['title']}")
             continue
 
         title = item.get("title", "Workout")
         sport = item.get("sport", "Other")
+
+        existing = get_workouts_for_date(bearer_token, athlete_id, item_date)
+        if not existing["success"]:
+            print(f"❌ ERROR checking workouts for {item_date}: {existing['message']}")
+            errors += 1
+            continue
+
+        if existing["workouts"]:
+            existing_workout = existing["workouts"][0]
+            existing_workout_id = None
+            if isinstance(existing_workout, dict):
+                existing_workout_id = (
+                    existing_workout.get("workoutId") or existing_workout.get("id")
+                )
+            print(f"ℹ️  Skipping {item_date}: {len(existing['workouts'])} workout(s) already exist")
+            sync_log[item_date] = {
+                "status": "skipped_existing",
+                "title": title,
+                "sport": sport,
+                "existing_workout_id": (
+                    str(existing_workout_id) if existing_workout_id is not None else None
+                ),
+                "skipped_at": datetime.now().isoformat(),
+            }
+            save_sync_log(sync_log)
+            continue
+
         print(f"🚀 Uploading workout for {item_date}: {title} ({sport})...")
 
         res = create_workout(
