@@ -82,25 +82,37 @@ def get_bearer_token(tp_auth_cookie_value: str) -> tuple[str | None, int | None]
     }
 
     try:
-        r = requests.post(TOKEN_ENDPOINT, headers=headers, timeout=15)
+        # El endpoint /users/v3/token acepta GET (no POST)
+        r = requests.get(TOKEN_ENDPOINT, headers=headers, timeout=15)
         print(f"DEBUG token exchange: HTTP {r.status_code}")
 
         if r.status_code == 200:
             data = r.json()
-            token = data.get("token") or data.get("access_token") or data.get("accessToken")
+            # Respuesta real: {"success": true, "token": {"access_token": "...", ...}}
+            token_obj = data.get("token") or {}
+            if isinstance(token_obj, str):
+                # por si acaso devuelve el token directamente como string
+                access_token = token_obj
+            else:
+                access_token = (
+                    token_obj.get("access_token")
+                    or data.get("access_token")
+                    or data.get("accessToken")
+                )
+            # El athlete_id no viene en el token; se usa env var o hardcode
             athlete_id = (
                 data.get("athleteId")
                 or data.get("athlete_id")
-                or data.get("userId")
-                or data.get("id")
+                or token_obj.get("athleteId")
             )
-            if token:
-                print(f"✅ Token exchange OK. Athlete ID: {athlete_id}")
-                return token, athlete_id
+            if access_token:
+                print(f"✅ Token exchange OK! Expires in: {token_obj.get('expires_in', '?')}s")
+                return access_token, athlete_id
             else:
-                print(f"DEBUG token response (no token field): {json.dumps(data)[:300]}")
+                print(f"DEBUG token response keys: {list(data.keys())}")
+                print(f"DEBUG token_obj keys: {list(token_obj.keys()) if isinstance(token_obj, dict) else token_obj}")
         else:
-            print(f"DEBUG token exchange failed body: {r.text[:300]}")
+            print(f"DEBUG token exchange failed: HTTP {r.status_code} — {r.text[:300]}")
 
     except Exception as e:
         print(f"DEBUG token exchange exception: {e}")
