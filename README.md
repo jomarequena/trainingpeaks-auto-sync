@@ -31,3 +31,4 @@ Este repositorio sincroniza automáticamente tu plan de entrenamiento de Media M
    - Haz clic en **Add secret**.
 
 ¡Listo! A partir de ese momento, **GitHub Actions ejecutará la sincronización todos los días a las 10:00 AM en sus servidores de forma 100% independiente de tu ordenador**.
+# trainingpeaks-auto-sync
