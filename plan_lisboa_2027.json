@@ -1,0 +1,1106 @@
+[
+  {
+    "date": "2026-09-25",
+    "sport": "Run",
+    "title": "CaCo / Carrera Suave Z1-Z2",
+    "duration_minutes": 40,
+    "tss": 25,
+    "description": "5' Caminar + 30' (5' Correr Z2 suave / 1' Caminar) + 5' Caminar. FC < 143 ppm."
+  },
+  {
+    "date": "2026-09-26",
+    "sport": "Bike",
+    "title": "Rodaje Ciclismo Z1-Z2",
+    "duration_minutes": 60,
+    "tss": 35,
+    "description": "10' Z1 + 40' Z2 constante (150W-175W, cadencia 85-95 rpm, FC <143 ppm) + 10' Z1."
+  },
+  {
+    "date": "2026-09-27",
+    "sport": "Run",
+    "title": "Carrera Continua Aeróbica Z2",
+    "duration_minutes": 35,
+    "tss": 25,
+    "description": "5' Caminar + 25' Carrera continua Z2 (<145 ppm, ~5:30-5:45 min/km) + 5' Caminar."
+  },
+  {
+    "date": "2026-09-29",
+    "sport": "Run",
+    "title": "Carrera Base Z2 (Semana 1)",
+    "duration_minutes": 40,
+    "tss": 30,
+    "description": "[Base 1 (Post-COVID & Acondicionamiento)] 10' Calentamiento + 20' Carrera Z2 constante + 10' Enfriamiento."
+  },
+  {
+    "date": "2026-09-30",
+    "sport": "Bike",
+    "title": "Ciclismo Z2 Cruzado (Semana 1)",
+    "duration_minutes": 60,
+    "tss": 39,
+    "description": "[Base 1 (Post-COVID & Acondicionamiento)] 60' Ciclismo aeróbico en Z2 (160W-185W), cadencia ágil 85-95 rpm."
+  },
+  {
+    "date": "2026-10-02",
+    "sport": "Run",
+    "title": "Carrera Aeróbica Z2 (Semana 1)",
+    "duration_minutes": 42,
+    "tss": 29,
+    "description": "[Base 1 (Post-COVID & Acondicionamiento)] 42' Carrera aeróbica suave en Z2 (FC <145 ppm, ritmo cómodo)."
+  },
+  {
+    "date": "2026-10-03",
+    "sport": "Bike",
+    "title": "Rodaje Ciclismo Fondo (Semana 1)",
+    "duration_minutes": 63,
+    "tss": 37,
+    "description": "[Base 1 (Post-COVID & Acondicionamiento)] 63' Ciclismo de fondo en Z2 aeróbico. Desarrollo cómodo."
+  },
+  {
+    "date": "2026-10-04",
+    "sport": "Run",
+    "title": "Tirada Larga (Semana 1)",
+    "duration_minutes": 50,
+    "tss": 40,
+    "description": "[Base 1 (Post-COVID & Acondicionamiento)] 50' Tirada Larga Base Z2 (8-10 km). Control estricto de FC <145 ppm."
+  },
+  {
+    "date": "2026-10-06",
+    "sport": "Run",
+    "title": "Carrera Base Z2 (Semana 2)",
+    "duration_minutes": 40,
+    "tss": 30,
+    "description": "[Base 1 (Post-COVID & Acondicionamiento)] 10' Calentamiento + 20' Carrera Z2 constante + 10' Enfriamiento."
+  },
+  {
+    "date": "2026-10-07",
+    "sport": "Bike",
+    "title": "Ciclismo Z2 Cruzado (Semana 2)",
+    "duration_minutes": 65,
+    "tss": 42,
+    "description": "[Base 1 (Post-COVID & Acondicionamiento)] 65' Ciclismo aeróbico en Z2 (160W-185W), cadencia ágil 85-95 rpm."
+  },
+  {
+    "date": "2026-10-09",
+    "sport": "Run",
+    "title": "Carrera Aeróbica Z2 (Semana 2)",
+    "duration_minutes": 44,
+    "tss": 30,
+    "description": "[Base 1 (Post-COVID & Acondicionamiento)] 44' Carrera aeróbica suave en Z2 (FC <145 ppm, ritmo cómodo)."
+  },
+  {
+    "date": "2026-10-10",
+    "sport": "Bike",
+    "title": "Rodaje Ciclismo Fondo (Semana 2)",
+    "duration_minutes": 66,
+    "tss": 39,
+    "description": "[Base 1 (Post-COVID & Acondicionamiento)] 66' Ciclismo de fondo en Z2 aeróbico. Desarrollo cómodo."
+  },
+  {
+    "date": "2026-10-11",
+    "sport": "Run",
+    "title": "Tirada Larga (Semana 2)",
+    "duration_minutes": 55,
+    "tss": 44,
+    "description": "[Base 1 (Post-COVID & Acondicionamiento)] 55' Tirada Larga Base Z2 (8-10 km). Control estricto de FC <145 ppm."
+  },
+  {
+    "date": "2026-10-13",
+    "sport": "Run",
+    "title": "Carrera Base Z2 (Semana 3)",
+    "duration_minutes": 40,
+    "tss": 30,
+    "description": "[Base 1 (Post-COVID & Acondicionamiento)] 10' Calentamiento + 20' Carrera Z2 constante + 10' Enfriamiento."
+  },
+  {
+    "date": "2026-10-14",
+    "sport": "Bike",
+    "title": "Ciclismo Z2 Cruzado (Semana 3)",
+    "duration_minutes": 65,
+    "tss": 42,
+    "description": "[Base 1 (Post-COVID & Acondicionamiento)] 65' Ciclismo aeróbico en Z2 (160W-185W), cadencia ágil 85-95 rpm."
+  },
+  {
+    "date": "2026-10-16",
+    "sport": "Run",
+    "title": "Carrera Aeróbica Z2 (Semana 3)",
+    "duration_minutes": 46,
+    "tss": 32,
+    "description": "[Base 1 (Post-COVID & Acondicionamiento)] 46' Carrera aeróbica suave en Z2 (FC <145 ppm, ritmo cómodo)."
+  },
+  {
+    "date": "2026-10-17",
+    "sport": "Bike",
+    "title": "Rodaje Ciclismo Fondo (Semana 3)",
+    "duration_minutes": 69,
+    "tss": 41,
+    "description": "[Base 1 (Post-COVID & Acondicionamiento)] 69' Ciclismo de fondo en Z2 aeróbico. Desarrollo cómodo."
+  },
+  {
+    "date": "2026-10-18",
+    "sport": "Run",
+    "title": "Tirada Larga (Semana 3)",
+    "duration_minutes": 60,
+    "tss": 48,
+    "description": "[Base 1 (Post-COVID & Acondicionamiento)] 60' Tirada Larga Base Z2 (8-10 km). Control estricto de FC <145 ppm."
+  },
+  {
+    "date": "2026-10-20",
+    "sport": "Run",
+    "title": "🧪 TEST 1: Test 5K Carrera (Evaluar VAM & Zonas)",
+    "duration_minutes": 50,
+    "tss": 60,
+    "description": "[Base 1 (Post-COVID & Acondicionamiento)] 🧪 TEST 1 (5K Carrera): 15' Calentamiento Z1/Z2 + 5 km A TOPE constante + 10' Enfriamiento. Sirve para calibrar VAM y Zonas de FC/Ritmo iniciales."
+  },
+  {
+    "date": "2026-10-21",
+    "sport": "Bike",
+    "title": "Ciclismo Z1 Suave (Semana 4)",
+    "duration_minutes": 45,
+    "tss": 30,
+    "description": "[Base 1 (Post-COVID & Acondicionamiento)] 45' Ciclismo muy suave Z1 soltando piernas."
+  },
+  {
+    "date": "2026-10-23",
+    "sport": "Run",
+    "title": "Carrera Aeróbica Z2 (Semana 4)",
+    "duration_minutes": 35,
+    "tss": 25,
+    "description": "[Base 1 (Post-COVID & Acondicionamiento)] 35' Rodaje muy suave Z1-Z2."
+  },
+  {
+    "date": "2026-10-24",
+    "sport": "Bike",
+    "title": "Rodaje Ciclismo Fondo (Semana 4)",
+    "duration_minutes": 60,
+    "tss": 36,
+    "description": "[Base 1 (Post-COVID & Acondicionamiento)] 60' Ciclismo de fondo en Z2 aeróbico. Desarrollo cómodo."
+  },
+  {
+    "date": "2026-10-25",
+    "sport": "Run",
+    "title": "Tirada Larga (Semana 4)",
+    "duration_minutes": 50,
+    "tss": 40,
+    "description": "[Base 1 (Post-COVID & Acondicionamiento)] 50' Tirada larga suave de descarga Z2."
+  },
+  {
+    "date": "2026-10-27",
+    "sport": "Run",
+    "title": "Fartlek Z3 Tempo (Semana 5)",
+    "duration_minutes": 45,
+    "tss": 45,
+    "description": "[Base 2 (Construcción de Volumen Aeróbico)] 10' Calentamiento + 5x(3' Z3 Temp / 2' Z1) + 10' Enfriamiento."
+  },
+  {
+    "date": "2026-10-28",
+    "sport": "Bike",
+    "title": "Ciclismo Z2 Cruzado (Semana 5)",
+    "duration_minutes": 70,
+    "tss": 45,
+    "description": "[Base 2 (Construcción de Volumen Aeróbico)] 70' Ciclismo aeróbico en Z2 (160W-185W), cadencia ágil 85-95 rpm."
+  },
+  {
+    "date": "2026-10-30",
+    "sport": "Run",
+    "title": "Carrera Aeróbica Z2 (Semana 5)",
+    "duration_minutes": 50,
+    "tss": 35,
+    "description": "[Base 2 (Construcción de Volumen Aeróbico)] 50' Carrera aeróbica suave en Z2 (FC <145 ppm, ritmo cómodo)."
+  },
+  {
+    "date": "2026-10-31",
+    "sport": "Bike",
+    "title": "Rodaje Ciclismo Fondo (Semana 5)",
+    "duration_minutes": 75,
+    "tss": 45,
+    "description": "[Base 2 (Construcción de Volumen Aeróbico)] 75' Ciclismo de fondo en Z2 aeróbico. Desarrollo cómodo."
+  },
+  {
+    "date": "2026-11-01",
+    "sport": "Run",
+    "title": "Tirada Larga (Semana 5)",
+    "duration_minutes": 64,
+    "tss": 54,
+    "description": "[Base 2 (Construcción de Volumen Aeróbico)] 64' Tirada Larga Progresiva Z2 (11-14 km)."
+  },
+  {
+    "date": "2026-11-03",
+    "sport": "Run",
+    "title": "Fartlek Z3 Tempo (Semana 6)",
+    "duration_minutes": 45,
+    "tss": 45,
+    "description": "[Base 2 (Construcción de Volumen Aeróbico)] 10' Calentamiento + 5x(3' Z3 Temp / 2' Z1) + 10' Enfriamiento."
+  },
+  {
+    "date": "2026-11-04",
+    "sport": "Bike",
+    "title": "Ciclismo Z2 Cruzado (Semana 6)",
+    "duration_minutes": 75,
+    "tss": 48,
+    "description": "[Base 2 (Construcción de Volumen Aeróbico)] 75' Ciclismo aeróbico en Z2 (160W-185W), cadencia ágil 85-95 rpm."
+  },
+  {
+    "date": "2026-11-06",
+    "sport": "Run",
+    "title": "Carrera Aeróbica Z2 (Semana 6)",
+    "duration_minutes": 52,
+    "tss": 36,
+    "description": "[Base 2 (Construcción de Volumen Aeróbico)] 52' Carrera aeróbica suave en Z2 (FC <145 ppm, ritmo cómodo)."
+  },
+  {
+    "date": "2026-11-07",
+    "sport": "Bike",
+    "title": "Rodaje Ciclismo Fondo (Semana 6)",
+    "duration_minutes": 78,
+    "tss": 46,
+    "description": "[Base 2 (Construcción de Volumen Aeróbico)] 78' Ciclismo de fondo en Z2 aeróbico. Desarrollo cómodo."
+  },
+  {
+    "date": "2026-11-08",
+    "sport": "Run",
+    "title": "Tirada Larga (Semana 6)",
+    "duration_minutes": 68,
+    "tss": 57,
+    "description": "[Base 2 (Construcción de Volumen Aeróbico)] 68' Tirada Larga Progresiva Z2 (11-14 km)."
+  },
+  {
+    "date": "2026-11-10",
+    "sport": "Run",
+    "title": "Fartlek Z3 Tempo (Semana 7)",
+    "duration_minutes": 45,
+    "tss": 45,
+    "description": "[Base 2 (Construcción de Volumen Aeróbico)] 10' Calentamiento + 5x(3' Z3 Temp / 2' Z1) + 10' Enfriamiento."
+  },
+  {
+    "date": "2026-11-11",
+    "sport": "Bike",
+    "title": "Ciclismo Z2 Cruzado (Semana 7)",
+    "duration_minutes": 75,
+    "tss": 48,
+    "description": "[Base 2 (Construcción de Volumen Aeróbico)] 75' Ciclismo aeróbico en Z2 (160W-185W), cadencia ágil 85-95 rpm."
+  },
+  {
+    "date": "2026-11-13",
+    "sport": "Run",
+    "title": "Carrera Aeróbica Z2 (Semana 7)",
+    "duration_minutes": 54,
+    "tss": 37,
+    "description": "[Base 2 (Construcción de Volumen Aeróbico)] 54' Carrera aeróbica suave en Z2 (FC <145 ppm, ritmo cómodo)."
+  },
+  {
+    "date": "2026-11-14",
+    "sport": "Bike",
+    "title": "Rodaje Ciclismo Fondo (Semana 7)",
+    "duration_minutes": 81,
+    "tss": 48,
+    "description": "[Base 2 (Construcción de Volumen Aeróbico)] 81' Ciclismo de fondo en Z2 aeróbico. Desarrollo cómodo."
+  },
+  {
+    "date": "2026-11-15",
+    "sport": "Run",
+    "title": "Tirada Larga (Semana 7)",
+    "duration_minutes": 72,
+    "tss": 61,
+    "description": "[Base 2 (Construcción de Volumen Aeróbico)] 72' Tirada Larga Progresiva Z2 (11-14 km)."
+  },
+  {
+    "date": "2026-11-17",
+    "sport": "Run",
+    "title": "Rodaje Regenerativo Z1-Z2 (Semana 8)",
+    "duration_minutes": 35,
+    "tss": 25,
+    "description": "[Base 2 (Construcción de Volumen Aeróbico)] 35' Rodaje regenerativo Z1-Z2 muy suave."
+  },
+  {
+    "date": "2026-11-18",
+    "sport": "Bike",
+    "title": "🧪 TEST 2: Test FTP 20 min Ciclismo (Actualizar Vatios)",
+    "duration_minutes": 60,
+    "tss": 65,
+    "description": "[Base 2 (Construcción de Volumen Aeróbico)] 🧪 TEST 2 (Test FTP 20 min Ciclismo): 20' Calentamiento progresivo con 3 aceleraciones + 20 MINUTOS A MÁXIMA POTENCIA SOSTENIDA + 20' Enfriamiento. Sirve para actualizar tus vatios FTP."
+  },
+  {
+    "date": "2026-11-20",
+    "sport": "Run",
+    "title": "Carrera Aeróbica Z2 (Semana 8)",
+    "duration_minutes": 35,
+    "tss": 25,
+    "description": "[Base 2 (Construcción de Volumen Aeróbico)] 35' Rodaje muy suave Z1-Z2."
+  },
+  {
+    "date": "2026-11-21",
+    "sport": "Bike",
+    "title": "Rodaje Ciclismo Fondo (Semana 8)",
+    "duration_minutes": 60,
+    "tss": 36,
+    "description": "[Base 2 (Construcción de Volumen Aeróbico)] 60' Ciclismo de fondo en Z2 aeróbico. Desarrollo cómodo."
+  },
+  {
+    "date": "2026-11-22",
+    "sport": "Run",
+    "title": "Tirada Larga (Semana 8)",
+    "duration_minutes": 50,
+    "tss": 40,
+    "description": "[Base 2 (Construcción de Volumen Aeróbico)] 50' Tirada larga suave de descarga Z2."
+  },
+  {
+    "date": "2026-11-24",
+    "sport": "Run",
+    "title": "Fartlek Z3 Tempo (Semana 9)",
+    "duration_minutes": 45,
+    "tss": 45,
+    "description": "[Base 3 (Fuerza-Resistencia & Ritmo)] 10' Calentamiento + 5x(3' Z3 Temp / 2' Z1) + 10' Enfriamiento."
+  },
+  {
+    "date": "2026-11-25",
+    "sport": "Bike",
+    "title": "Ciclismo Z2 Cruzado (Semana 9)",
+    "duration_minutes": 80,
+    "tss": 52,
+    "description": "[Base 3 (Fuerza-Resistencia & Ritmo)] 80' Ciclismo aeróbico en Z2 (160W-185W), cadencia ágil 85-95 rpm."
+  },
+  {
+    "date": "2026-11-27",
+    "sport": "Run",
+    "title": "Carrera Aeróbica Z2 (Semana 9)",
+    "duration_minutes": 58,
+    "tss": 40,
+    "description": "[Base 3 (Fuerza-Resistencia & Ritmo)] 58' Carrera aeróbica suave en Z2 (FC <145 ppm, ritmo cómodo)."
+  },
+  {
+    "date": "2026-11-28",
+    "sport": "Bike",
+    "title": "Rodaje Ciclismo Fondo (Semana 9)",
+    "duration_minutes": 87,
+    "tss": 52,
+    "description": "[Base 3 (Fuerza-Resistencia & Ritmo)] 87' Ciclismo de fondo en Z2 aeróbico. Desarrollo cómodo."
+  },
+  {
+    "date": "2026-11-29",
+    "sport": "Run",
+    "title": "Tirada Larga (Semana 9)",
+    "duration_minutes": 80,
+    "tss": 68,
+    "description": "[Base 3 (Fuerza-Resistencia & Ritmo)] 80' Tirada Larga Progresiva Z2 (11-14 km)."
+  },
+  {
+    "date": "2026-12-01",
+    "sport": "Run",
+    "title": "Fartlek Z3 Tempo (Semana 10)",
+    "duration_minutes": 45,
+    "tss": 45,
+    "description": "[Base 3 (Fuerza-Resistencia & Ritmo)] 10' Calentamiento + 5x(3' Z3 Temp / 2' Z1) + 10' Enfriamiento."
+  },
+  {
+    "date": "2026-12-02",
+    "sport": "Bike",
+    "title": "Ciclismo Z2 Cruzado (Semana 10)",
+    "duration_minutes": 85,
+    "tss": 55,
+    "description": "[Base 3 (Fuerza-Resistencia & Ritmo)] 85' Ciclismo aeróbico en Z2 (160W-185W), cadencia ágil 85-95 rpm."
+  },
+  {
+    "date": "2026-12-04",
+    "sport": "Run",
+    "title": "Carrera Aeróbica Z2 (Semana 10)",
+    "duration_minutes": 60,
+    "tss": 42,
+    "description": "[Base 3 (Fuerza-Resistencia & Ritmo)] 60' Carrera aeróbica suave en Z2 (FC <145 ppm, ritmo cómodo)."
+  },
+  {
+    "date": "2026-12-05",
+    "sport": "Bike",
+    "title": "Rodaje Ciclismo Fondo (Semana 10)",
+    "duration_minutes": 90,
+    "tss": 54,
+    "description": "[Base 3 (Fuerza-Resistencia & Ritmo)] 90' Ciclismo de fondo en Z2 aeróbico. Desarrollo cómodo."
+  },
+  {
+    "date": "2026-12-06",
+    "sport": "Run",
+    "title": "Tirada Larga (Semana 10)",
+    "duration_minutes": 84,
+    "tss": 71,
+    "description": "[Base 3 (Fuerza-Resistencia & Ritmo)] 84' Tirada Larga Progresiva Z2 (11-14 km)."
+  },
+  {
+    "date": "2026-12-08",
+    "sport": "Run",
+    "title": "Fartlek Z3 Tempo (Semana 11)",
+    "duration_minutes": 45,
+    "tss": 45,
+    "description": "[Base 3 (Fuerza-Resistencia & Ritmo)] 10' Calentamiento + 5x(3' Z3 Temp / 2' Z1) + 10' Enfriamiento."
+  },
+  {
+    "date": "2026-12-09",
+    "sport": "Bike",
+    "title": "Ciclismo Z2 Cruzado (Semana 11)",
+    "duration_minutes": 85,
+    "tss": 55,
+    "description": "[Base 3 (Fuerza-Resistencia & Ritmo)] 85' Ciclismo aeróbico en Z2 (160W-185W), cadencia ágil 85-95 rpm."
+  },
+  {
+    "date": "2026-12-11",
+    "sport": "Run",
+    "title": "Carrera Aeróbica Z2 (Semana 11)",
+    "duration_minutes": 60,
+    "tss": 42,
+    "description": "[Base 3 (Fuerza-Resistencia & Ritmo)] 60' Carrera aeróbica suave en Z2 (FC <145 ppm, ritmo cómodo)."
+  },
+  {
+    "date": "2026-12-12",
+    "sport": "Bike",
+    "title": "Rodaje Ciclismo Fondo (Semana 11)",
+    "duration_minutes": 93,
+    "tss": 55,
+    "description": "[Base 3 (Fuerza-Resistencia & Ritmo)] 93' Ciclismo de fondo en Z2 aeróbico. Desarrollo cómodo."
+  },
+  {
+    "date": "2026-12-13",
+    "sport": "Run",
+    "title": "Tirada Larga (Semana 11)",
+    "duration_minutes": 88,
+    "tss": 74,
+    "description": "[Base 3 (Fuerza-Resistencia & Ritmo)] 88' Tirada Larga Progresiva Z2 (11-14 km)."
+  },
+  {
+    "date": "2026-12-15",
+    "sport": "Run",
+    "title": "🧪 TEST 3: Test 10K Carrera (Umbral Anaeróbico)",
+    "duration_minutes": 60,
+    "tss": 70,
+    "description": "[Base 3 (Fuerza-Resistencia & Ritmo)] 🧪 TEST 3 (Test 10K Carrera): 15' Calentamiento Z1/Z2 + 10 km a ritmo de prueba de esfuerzo sostenida + 10' Enfriamiento. Sirve para ajustar el Umbral Anaeróbico antes del bloque específico."
+  },
+  {
+    "date": "2026-12-16",
+    "sport": "Bike",
+    "title": "Ciclismo Z1 Suave (Semana 12)",
+    "duration_minutes": 45,
+    "tss": 30,
+    "description": "[Base 3 (Fuerza-Resistencia & Ritmo)] 45' Ciclismo muy suave Z1 soltando piernas."
+  },
+  {
+    "date": "2026-12-18",
+    "sport": "Run",
+    "title": "Carrera Aeróbica Z2 (Semana 12)",
+    "duration_minutes": 35,
+    "tss": 25,
+    "description": "[Base 3 (Fuerza-Resistencia & Ritmo)] 35' Rodaje muy suave Z1-Z2."
+  },
+  {
+    "date": "2026-12-19",
+    "sport": "Bike",
+    "title": "Rodaje Ciclismo Fondo (Semana 12)",
+    "duration_minutes": 60,
+    "tss": 36,
+    "description": "[Base 3 (Fuerza-Resistencia & Ritmo)] 60' Ciclismo de fondo en Z2 aeróbico. Desarrollo cómodo."
+  },
+  {
+    "date": "2026-12-20",
+    "sport": "Run",
+    "title": "Tirada Larga (Semana 12)",
+    "duration_minutes": 50,
+    "tss": 40,
+    "description": "[Base 3 (Fuerza-Resistencia & Ritmo)] 50' Tirada larga suave de descarga Z2."
+  },
+  {
+    "date": "2026-12-22",
+    "sport": "Run",
+    "title": "Series Umbral RMM (Semana 13)",
+    "duration_minutes": 50,
+    "tss": 55,
+    "description": "[Específico Lisboa 1 (Umbral & Capacidad Aeróbica)] 10' Calentamiento + 3x(2000m a Ritmo Media Maratón RMM ~4:50-5:00 min/km con 2' rec) + 10' Enfriamiento."
+  },
+  {
+    "date": "2026-12-23",
+    "sport": "Bike",
+    "title": "Ciclismo Z2 Cruzado (Semana 13)",
+    "duration_minutes": 90,
+    "tss": 58,
+    "description": "[Específico Lisboa 1 (Umbral & Capacidad Aeróbica)] 90' Ciclismo aeróbico en Z2 (160W-185W), cadencia ágil 85-95 rpm."
+  },
+  {
+    "date": "2026-12-25",
+    "sport": "Run",
+    "title": "Carrera Aeróbica Z2 (Semana 13)",
+    "duration_minutes": 60,
+    "tss": 42,
+    "description": "[Específico Lisboa 1 (Umbral & Capacidad Aeróbica)] 60' Carrera aeróbica suave en Z2 (FC <145 ppm, ritmo cómodo)."
+  },
+  {
+    "date": "2026-12-26",
+    "sport": "Bike",
+    "title": "Rodaje Ciclismo Fondo (Semana 13)",
+    "duration_minutes": 99,
+    "tss": 59,
+    "description": "[Específico Lisboa 1 (Umbral & Capacidad Aeróbica)] 99' Ciclismo de fondo en Z2 aeróbico. Desarrollo cómodo."
+  },
+  {
+    "date": "2026-12-27",
+    "sport": "Run",
+    "title": "Tirada Larga (Semana 13)",
+    "duration_minutes": 83,
+    "tss": 74,
+    "description": "[Específico Lisboa 1 (Umbral & Capacidad Aeróbica)] 83' Tirada Larga Específica MM (15-18 km) con últimos 3 km a Ritmo Competición RMM."
+  },
+  {
+    "date": "2026-12-29",
+    "sport": "Run",
+    "title": "Series Umbral RMM (Semana 14)",
+    "duration_minutes": 50,
+    "tss": 55,
+    "description": "[Específico Lisboa 1 (Umbral & Capacidad Aeróbica)] 10' Calentamiento + 3x(2000m a Ritmo Media Maratón RMM ~4:50-5:00 min/km con 2' rec) + 10' Enfriamiento."
+  },
+  {
+    "date": "2026-12-30",
+    "sport": "Bike",
+    "title": "Ciclismo Z2 Cruzado (Semana 14)",
+    "duration_minutes": 90,
+    "tss": 58,
+    "description": "[Específico Lisboa 1 (Umbral & Capacidad Aeróbica)] 90' Ciclismo aeróbico en Z2 (160W-185W), cadencia ágil 85-95 rpm."
+  },
+  {
+    "date": "2027-01-01",
+    "sport": "Run",
+    "title": "Carrera Aeróbica Z2 (Semana 14)",
+    "duration_minutes": 60,
+    "tss": 42,
+    "description": "[Específico Lisboa 1 (Umbral & Capacidad Aeróbica)] 60' Carrera aeróbica suave en Z2 (FC <145 ppm, ritmo cómodo)."
+  },
+  {
+    "date": "2027-01-02",
+    "sport": "Bike",
+    "title": "Rodaje Ciclismo Fondo (Semana 14)",
+    "duration_minutes": 100,
+    "tss": 60,
+    "description": "[Específico Lisboa 1 (Umbral & Capacidad Aeróbica)] 100' Ciclismo de fondo en Z2 aeróbico. Desarrollo cómodo."
+  },
+  {
+    "date": "2027-01-03",
+    "sport": "Run",
+    "title": "Tirada Larga (Semana 14)",
+    "duration_minutes": 86,
+    "tss": 77,
+    "description": "[Específico Lisboa 1 (Umbral & Capacidad Aeróbica)] 86' Tirada Larga Específica MM (15-18 km) con últimos 3 km a Ritmo Competición RMM."
+  },
+  {
+    "date": "2027-01-05",
+    "sport": "Run",
+    "title": "Series Umbral RMM (Semana 15)",
+    "duration_minutes": 50,
+    "tss": 55,
+    "description": "[Específico Lisboa 1 (Umbral & Capacidad Aeróbica)] 10' Calentamiento + 3x(2000m a Ritmo Media Maratón RMM ~4:50-5:00 min/km con 2' rec) + 10' Enfriamiento."
+  },
+  {
+    "date": "2027-01-06",
+    "sport": "Bike",
+    "title": "Ciclismo Z2 Cruzado (Semana 15)",
+    "duration_minutes": 90,
+    "tss": 58,
+    "description": "[Específico Lisboa 1 (Umbral & Capacidad Aeróbica)] 90' Ciclismo aeróbico en Z2 (160W-185W), cadencia ágil 85-95 rpm."
+  },
+  {
+    "date": "2027-01-08",
+    "sport": "Run",
+    "title": "Carrera Aeróbica Z2 (Semana 15)",
+    "duration_minutes": 60,
+    "tss": 42,
+    "description": "[Específico Lisboa 1 (Umbral & Capacidad Aeróbica)] 60' Carrera aeróbica suave en Z2 (FC <145 ppm, ritmo cómodo)."
+  },
+  {
+    "date": "2027-01-09",
+    "sport": "Bike",
+    "title": "Rodaje Ciclismo Fondo (Semana 15)",
+    "duration_minutes": 100,
+    "tss": 60,
+    "description": "[Específico Lisboa 1 (Umbral & Capacidad Aeróbica)] 100' Ciclismo de fondo en Z2 aeróbico. Desarrollo cómodo."
+  },
+  {
+    "date": "2027-01-10",
+    "sport": "Run",
+    "title": "Tirada Larga (Semana 15)",
+    "duration_minutes": 89,
+    "tss": 80,
+    "description": "[Específico Lisboa 1 (Umbral & Capacidad Aeróbica)] 89' Tirada Larga Específica MM (15-18 km) con últimos 3 km a Ritmo Competición RMM."
+  },
+  {
+    "date": "2027-01-12",
+    "sport": "Run",
+    "title": "🧪 TEST 4: Test 3x3000m (Ritmo Específico MM)",
+    "duration_minutes": 55,
+    "tss": 65,
+    "description": "[Específico Lisboa 1 (Umbral & Capacidad Aeróbica)] 🧪 TEST 4 (Test 3x3000m RMM): 15' Calentamiento + 3x3000m a Ritmo Objetivo de Media Maratón (RMM) rec 2' caminando + 10' Enfriamiento. Sirve para verificar eficiencia y desacople cardiaco."
+  },
+  {
+    "date": "2027-01-13",
+    "sport": "Bike",
+    "title": "Ciclismo Z1 Suave (Semana 16)",
+    "duration_minutes": 45,
+    "tss": 30,
+    "description": "[Específico Lisboa 1 (Umbral & Capacidad Aeróbica)] 45' Ciclismo muy suave Z1 soltando piernas."
+  },
+  {
+    "date": "2027-01-15",
+    "sport": "Run",
+    "title": "Carrera Aeróbica Z2 (Semana 16)",
+    "duration_minutes": 35,
+    "tss": 25,
+    "description": "[Específico Lisboa 1 (Umbral & Capacidad Aeróbica)] 35' Rodaje muy suave Z1-Z2."
+  },
+  {
+    "date": "2027-01-16",
+    "sport": "Bike",
+    "title": "Rodaje Ciclismo Fondo (Semana 16)",
+    "duration_minutes": 60,
+    "tss": 36,
+    "description": "[Específico Lisboa 1 (Umbral & Capacidad Aeróbica)] 60' Ciclismo de fondo en Z2 aeróbico. Desarrollo cómodo."
+  },
+  {
+    "date": "2027-01-17",
+    "sport": "Run",
+    "title": "Tirada Larga (Semana 16)",
+    "duration_minutes": 50,
+    "tss": 40,
+    "description": "[Específico Lisboa 1 (Umbral & Capacidad Aeróbica)] 50' Tirada larga suave de descarga Z2."
+  },
+  {
+    "date": "2027-01-19",
+    "sport": "Run",
+    "title": "Series Umbral RMM (Semana 17)",
+    "duration_minutes": 50,
+    "tss": 55,
+    "description": "[Específico Lisboa 2 (Ritmo Media Maratón - RMM)] 10' Calentamiento + 3x(2000m a Ritmo Media Maratón RMM ~4:50-5:00 min/km con 2' rec) + 10' Enfriamiento."
+  },
+  {
+    "date": "2027-01-20",
+    "sport": "Bike",
+    "title": "Ciclismo Z2 Cruzado (Semana 17)",
+    "duration_minutes": 90,
+    "tss": 58,
+    "description": "[Específico Lisboa 2 (Ritmo Media Maratón - RMM)] 90' Ciclismo aeróbico en Z2 (160W-185W), cadencia ágil 85-95 rpm."
+  },
+  {
+    "date": "2027-01-22",
+    "sport": "Run",
+    "title": "Carrera Aeróbica Z2 (Semana 17)",
+    "duration_minutes": 60,
+    "tss": 42,
+    "description": "[Específico Lisboa 2 (Ritmo Media Maratón - RMM)] 60' Carrera aeróbica suave en Z2 (FC <145 ppm, ritmo cómodo)."
+  },
+  {
+    "date": "2027-01-23",
+    "sport": "Bike",
+    "title": "Rodaje Ciclismo Fondo (Semana 17)",
+    "duration_minutes": 100,
+    "tss": 60,
+    "description": "[Específico Lisboa 2 (Ritmo Media Maratón - RMM)] 100' Ciclismo de fondo en Z2 aeróbico. Desarrollo cómodo."
+  },
+  {
+    "date": "2027-01-24",
+    "sport": "Run",
+    "title": "Tirada Larga (Semana 17)",
+    "duration_minutes": 95,
+    "tss": 85,
+    "description": "[Específico Lisboa 2 (Ritmo Media Maratón - RMM)] 95' Tirada Larga Específica MM (15-18 km) con últimos 3 km a Ritmo Competición RMM."
+  },
+  {
+    "date": "2027-01-26",
+    "sport": "Run",
+    "title": "Series Umbral RMM (Semana 18)",
+    "duration_minutes": 50,
+    "tss": 55,
+    "description": "[Específico Lisboa 2 (Ritmo Media Maratón - RMM)] 10' Calentamiento + 3x(2000m a Ritmo Media Maratón RMM ~4:50-5:00 min/km con 2' rec) + 10' Enfriamiento."
+  },
+  {
+    "date": "2027-01-27",
+    "sport": "Bike",
+    "title": "Ciclismo Z2 Cruzado (Semana 18)",
+    "duration_minutes": 90,
+    "tss": 58,
+    "description": "[Específico Lisboa 2 (Ritmo Media Maratón - RMM)] 90' Ciclismo aeróbico en Z2 (160W-185W), cadencia ágil 85-95 rpm."
+  },
+  {
+    "date": "2027-01-29",
+    "sport": "Run",
+    "title": "Carrera Aeróbica Z2 (Semana 18)",
+    "duration_minutes": 60,
+    "tss": 42,
+    "description": "[Específico Lisboa 2 (Ritmo Media Maratón - RMM)] 60' Carrera aeróbica suave en Z2 (FC <145 ppm, ritmo cómodo)."
+  },
+  {
+    "date": "2027-01-30",
+    "sport": "Bike",
+    "title": "Rodaje Ciclismo Fondo (Semana 18)",
+    "duration_minutes": 100,
+    "tss": 60,
+    "description": "[Específico Lisboa 2 (Ritmo Media Maratón - RMM)] 100' Ciclismo de fondo en Z2 aeróbico. Desarrollo cómodo."
+  },
+  {
+    "date": "2027-01-31",
+    "sport": "Run",
+    "title": "Tirada Larga (Semana 18)",
+    "duration_minutes": 98,
+    "tss": 88,
+    "description": "[Específico Lisboa 2 (Ritmo Media Maratón - RMM)] 98' Tirada Larga Específica MM (15-18 km) con últimos 3 km a Ritmo Competición RMM."
+  },
+  {
+    "date": "2027-02-02",
+    "sport": "Run",
+    "title": "Series Umbral RMM (Semana 19)",
+    "duration_minutes": 50,
+    "tss": 55,
+    "description": "[Específico Lisboa 2 (Ritmo Media Maratón - RMM)] 10' Calentamiento + 3x(2000m a Ritmo Media Maratón RMM ~4:50-5:00 min/km con 2' rec) + 10' Enfriamiento."
+  },
+  {
+    "date": "2027-02-03",
+    "sport": "Bike",
+    "title": "Ciclismo Z2 Cruzado (Semana 19)",
+    "duration_minutes": 90,
+    "tss": 58,
+    "description": "[Específico Lisboa 2 (Ritmo Media Maratón - RMM)] 90' Ciclismo aeróbico en Z2 (160W-185W), cadencia ágil 85-95 rpm."
+  },
+  {
+    "date": "2027-02-05",
+    "sport": "Run",
+    "title": "Carrera Aeróbica Z2 (Semana 19)",
+    "duration_minutes": 60,
+    "tss": 42,
+    "description": "[Específico Lisboa 2 (Ritmo Media Maratón - RMM)] 60' Carrera aeróbica suave en Z2 (FC <145 ppm, ritmo cómodo)."
+  },
+  {
+    "date": "2027-02-06",
+    "sport": "Bike",
+    "title": "Rodaje Ciclismo Fondo (Semana 19)",
+    "duration_minutes": 100,
+    "tss": 60,
+    "description": "[Específico Lisboa 2 (Ritmo Media Maratón - RMM)] 100' Ciclismo de fondo en Z2 aeróbico. Desarrollo cómodo."
+  },
+  {
+    "date": "2027-02-07",
+    "sport": "Run",
+    "title": "Tirada Larga (Semana 19)",
+    "duration_minutes": 101,
+    "tss": 90,
+    "description": "[Específico Lisboa 2 (Ritmo Media Maratón - RMM)] 101' Tirada Larga Específica MM (15-18 km) con últimos 3 km a Ritmo Competición RMM."
+  },
+  {
+    "date": "2027-02-09",
+    "sport": "Run",
+    "title": "🧪 TEST 5: Test 5K Control Pre-Lisboa",
+    "duration_minutes": 50,
+    "tss": 60,
+    "description": "[Específico Lisboa 2 (Ritmo Media Maratón - RMM)] 🧪 TEST 5 (Test 5K Control Pre-Lisboa): 15' Calentamiento + 5 km a ritmo de competición objetivo + 10' Enfriamiento. Último ajuste fino de ritmo para la Media Maratón de Lisboa."
+  },
+  {
+    "date": "2027-02-10",
+    "sport": "Bike",
+    "title": "Ciclismo Z1 Suave (Semana 20)",
+    "duration_minutes": 45,
+    "tss": 30,
+    "description": "[Específico Lisboa 2 (Ritmo Media Maratón - RMM)] 45' Ciclismo muy suave Z1 soltando piernas."
+  },
+  {
+    "date": "2027-02-12",
+    "sport": "Run",
+    "title": "Carrera Aeróbica Z2 (Semana 20)",
+    "duration_minutes": 35,
+    "tss": 25,
+    "description": "[Específico Lisboa 2 (Ritmo Media Maratón - RMM)] 35' Rodaje muy suave Z1-Z2."
+  },
+  {
+    "date": "2027-02-13",
+    "sport": "Bike",
+    "title": "Rodaje Ciclismo Fondo (Semana 20)",
+    "duration_minutes": 60,
+    "tss": 36,
+    "description": "[Específico Lisboa 2 (Ritmo Media Maratón - RMM)] 60' Ciclismo de fondo en Z2 aeróbico. Desarrollo cómodo."
+  },
+  {
+    "date": "2027-02-14",
+    "sport": "Run",
+    "title": "Tirada Larga (Semana 20)",
+    "duration_minutes": 50,
+    "tss": 40,
+    "description": "[Específico Lisboa 2 (Ritmo Media Maratón - RMM)] 50' Tirada larga suave de descarga Z2."
+  },
+  {
+    "date": "2027-02-16",
+    "sport": "Run",
+    "title": "Series Umbral RMM (Semana 21)",
+    "duration_minutes": 50,
+    "tss": 55,
+    "description": "[Pico & Tirada Larga Máxima] 10' Calentamiento + 3x(2000m a Ritmo Media Maratón RMM ~4:50-5:00 min/km con 2' rec) + 10' Enfriamiento."
+  },
+  {
+    "date": "2027-02-17",
+    "sport": "Bike",
+    "title": "Ciclismo Z2 Cruzado (Semana 21)",
+    "duration_minutes": 90,
+    "tss": 58,
+    "description": "[Pico & Tirada Larga Máxima] 90' Ciclismo aeróbico en Z2 (160W-185W), cadencia ágil 85-95 rpm."
+  },
+  {
+    "date": "2027-02-19",
+    "sport": "Run",
+    "title": "Carrera Aeróbica Z2 (Semana 21)",
+    "duration_minutes": 60,
+    "tss": 42,
+    "description": "[Pico & Tirada Larga Máxima] 60' Carrera aeróbica suave en Z2 (FC <145 ppm, ritmo cómodo)."
+  },
+  {
+    "date": "2027-02-20",
+    "sport": "Bike",
+    "title": "Rodaje Ciclismo Fondo (Semana 21)",
+    "duration_minutes": 100,
+    "tss": 60,
+    "description": "[Pico & Tirada Larga Máxima] 100' Ciclismo de fondo en Z2 aeróbico. Desarrollo cómodo."
+  },
+  {
+    "date": "2027-02-21",
+    "sport": "Run",
+    "title": "Tirada Larga (Semana 21)",
+    "duration_minutes": 105,
+    "tss": 94,
+    "description": "[Pico & Tirada Larga Máxima] 105' Tirada Larga Específica MM (15-18 km) con últimos 3 km a Ritmo Competición RMM."
+  },
+  {
+    "date": "2027-02-23",
+    "sport": "Run",
+    "title": "Tapering - Activación Z2 (Semana 22)",
+    "duration_minutes": 35,
+    "tss": 25,
+    "description": "[Tapering & Competición Lisboa (7 Marzo)] 10' Calentamiento + 15' Z2 + 4x100m progresivos + 5' Enfriamiento."
+  },
+  {
+    "date": "2027-02-24",
+    "sport": "Bike",
+    "title": "Ciclismo Z2 Cruzado (Semana 22)",
+    "duration_minutes": 90,
+    "tss": 58,
+    "description": "[Tapering & Competición Lisboa (7 Marzo)] 90' Ciclismo aeróbico en Z2 (160W-185W), cadencia ágil 85-95 rpm."
+  },
+  {
+    "date": "2027-02-26",
+    "sport": "Run",
+    "title": "Carrera Aeróbica Z2 (Semana 22)",
+    "duration_minutes": 60,
+    "tss": 42,
+    "description": "[Tapering & Competición Lisboa (7 Marzo)] 60' Carrera aeróbica suave en Z2 (FC <145 ppm, ritmo cómodo)."
+  },
+  {
+    "date": "2027-02-27",
+    "sport": "Bike",
+    "title": "Rodaje Ciclismo Fondo (Semana 22)",
+    "duration_minutes": 100,
+    "tss": 60,
+    "description": "[Tapering & Competición Lisboa (7 Marzo)] 100' Ciclismo de fondo en Z2 aeróbico. Desarrollo cómodo."
+  },
+  {
+    "date": "2027-02-28",
+    "sport": "Run",
+    "title": "Tirada Larga (Semana 22)",
+    "duration_minutes": 45,
+    "tss": 30,
+    "description": "[Tapering & Competición Lisboa (7 Marzo)] 45' Rodaje suave con 3 aceleraciones. Mantener frescas las piernas."
+  },
+  {
+    "date": "2027-03-02",
+    "sport": "Run",
+    "title": "Tapering - Activación Z2 (Semana 23)",
+    "duration_minutes": 35,
+    "tss": 25,
+    "description": "[Tapering & Competición Lisboa (7 Marzo)] 10' Calentamiento + 15' Z2 + 4x100m progresivos + 5' Enfriamiento."
+  },
+  {
+    "date": "2027-03-03",
+    "sport": "Bike",
+    "title": "Ciclismo Z2 Cruzado (Semana 23)",
+    "duration_minutes": 90,
+    "tss": 58,
+    "description": "[Tapering & Competición Lisboa (7 Marzo)] 90' Ciclismo aeróbico en Z2 (160W-185W), cadencia ágil 85-95 rpm."
+  },
+  {
+    "date": "2027-03-05",
+    "sport": "Run",
+    "title": "Carrera Aeróbica Z2 (Semana 23)",
+    "duration_minutes": 60,
+    "tss": 42,
+    "description": "[Tapering & Competición Lisboa (7 Marzo)] 60' Carrera aeróbica suave en Z2 (FC <145 ppm, ritmo cómodo)."
+  },
+  {
+    "date": "2027-03-06",
+    "sport": "Bike",
+    "title": "Rodaje Ciclismo Fondo (Semana 23)",
+    "duration_minutes": 100,
+    "tss": 60,
+    "description": "[Tapering & Competición Lisboa (7 Marzo)] 100' Ciclismo de fondo en Z2 aeróbico. Desarrollo cómodo."
+  },
+  {
+    "date": "2027-03-07",
+    "sport": "Run",
+    "title": "🏆 MEDIA MARATÓN DE LISBOA",
+    "duration_minutes": 110,
+    "tss": 130,
+    "description": "¡Día de Competición! Media Maratón de Lisboa. Ritmo objetivo según sensaciones y estrategia."
+  },
+  {
+    "date": "2027-03-09",
+    "sport": "Run",
+    "title": "Rodaje Regenerativo Z1-Z2 (Semana 24)",
+    "duration_minutes": 35,
+    "tss": 25,
+    "description": "[Recuperación Post-Lisboa] 35' Rodaje regenerativo Z1-Z2 muy suave."
+  },
+  {
+    "date": "2027-03-10",
+    "sport": "Bike",
+    "title": "Ciclismo Z1 Suave (Semana 24)",
+    "duration_minutes": 45,
+    "tss": 30,
+    "description": "[Recuperación Post-Lisboa] 45' Ciclismo muy suave Z1 soltando piernas."
+  },
+  {
+    "date": "2027-03-12",
+    "sport": "Run",
+    "title": "Carrera Aeróbica Z2 (Semana 24)",
+    "duration_minutes": 35,
+    "tss": 25,
+    "description": "[Recuperación Post-Lisboa] 35' Rodaje muy suave Z1-Z2."
+  },
+  {
+    "date": "2027-03-13",
+    "sport": "Bike",
+    "title": "Rodaje Ciclismo Fondo (Semana 24)",
+    "duration_minutes": 60,
+    "tss": 36,
+    "description": "[Recuperación Post-Lisboa] 60' Ciclismo de fondo en Z2 aeróbico. Desarrollo cómodo."
+  },
+  {
+    "date": "2027-03-14",
+    "sport": "Run",
+    "title": "Tirada Larga (Semana 24)",
+    "duration_minutes": 50,
+    "tss": 40,
+    "description": "[Recuperación Post-Lisboa] 50' Tirada larga suave de descarga Z2."
+  },
+  {
+    "date": "2027-03-16",
+    "sport": "Run",
+    "title": "🧪 TEST 6: Test 3K Reactivación Post-Lisboa",
+    "duration_minutes": 45,
+    "tss": 50,
+    "description": "[Tapering & Competición 2ª Media Maratón (4 Abril)] 🧪 TEST 6 (Test 3K Reactivación): 15' Calentamiento + 3 km a ritmo ágil sub-umbral + 10' Enfriamiento. Evaluación de frescura post-Lisboa antes de la 2ª MM."
+  },
+  {
+    "date": "2027-03-17",
+    "sport": "Bike",
+    "title": "Ciclismo Z2 Cruzado (Semana 25)",
+    "duration_minutes": 90,
+    "tss": 58,
+    "description": "[Tapering & Competición 2ª Media Maratón (4 Abril)] 90' Ciclismo aeróbico en Z2 (160W-185W), cadencia ágil 85-95 rpm."
+  },
+  {
+    "date": "2027-03-19",
+    "sport": "Run",
+    "title": "Carrera Aeróbica Z2 (Semana 25)",
+    "duration_minutes": 60,
+    "tss": 42,
+    "description": "[Tapering & Competición 2ª Media Maratón (4 Abril)] 60' Carrera aeróbica suave en Z2 (FC <145 ppm, ritmo cómodo)."
+  },
+  {
+    "date": "2027-03-20",
+    "sport": "Bike",
+    "title": "Rodaje Ciclismo Fondo (Semana 25)",
+    "duration_minutes": 100,
+    "tss": 60,
+    "description": "[Tapering & Competición 2ª Media Maratón (4 Abril)] 100' Ciclismo de fondo en Z2 aeróbico. Desarrollo cómodo."
+  },
+  {
+    "date": "2027-03-21",
+    "sport": "Run",
+    "title": "Tirada Larga (Semana 25)",
+    "duration_minutes": 50,
+    "tss": 35,
+    "description": "[Tapering & Competición 2ª Media Maratón (4 Abril)] 50' Rodaje suave de mantenimiento previa a la 2ª MM."
+  },
+  {
+    "date": "2027-03-23",
+    "sport": "Run",
+    "title": "Tapering 2ª MM - Activación",
+    "duration_minutes": 35,
+    "tss": 25,
+    "description": "[Tapering & Competición 2ª Media Maratón (4 Abril)] 10' Calentamiento + 15' Z2 con progresiones suaves + 5' Enfriamiento."
+  },
+  {
+    "date": "2027-03-24",
+    "sport": "Bike",
+    "title": "Ciclismo Z2 Cruzado (Semana 26)",
+    "duration_minutes": 90,
+    "tss": 58,
+    "description": "[Tapering & Competición 2ª Media Maratón (4 Abril)] 90' Ciclismo aeróbico en Z2 (160W-185W), cadencia ágil 85-95 rpm."
+  },
+  {
+    "date": "2027-03-26",
+    "sport": "Run",
+    "title": "Carrera Aeróbica Z2 (Semana 26)",
+    "duration_minutes": 60,
+    "tss": 42,
+    "description": "[Tapering & Competición 2ª Media Maratón (4 Abril)] 60' Carrera aeróbica suave en Z2 (FC <145 ppm, ritmo cómodo)."
+  },
+  {
+    "date": "2027-03-27",
+    "sport": "Bike",
+    "title": "Rodaje Ciclismo Fondo (Semana 26)",
+    "duration_minutes": 100,
+    "tss": 60,
+    "description": "[Tapering & Competición 2ª Media Maratón (4 Abril)] 100' Ciclismo de fondo en Z2 aeróbico. Desarrollo cómodo."
+  },
+  {
+    "date": "2027-03-28",
+    "sport": "Run",
+    "title": "Tirada Larga (Semana 26)",
+    "duration_minutes": 50,
+    "tss": 35,
+    "description": "[Tapering & Competición 2ª Media Maratón (4 Abril)] 50' Rodaje suave de mantenimiento previa a la 2ª MM."
+  },
+  {
+    "date": "2027-03-30",
+    "sport": "Run",
+    "title": "Tapering 2ª MM - Activación",
+    "duration_minutes": 35,
+    "tss": 25,
+    "description": "[Tapering & Competición 2ª Media Maratón (4 Abril)] 10' Calentamiento + 15' Z2 con progresiones suaves + 5' Enfriamiento."
+  },
+  {
+    "date": "2027-03-31",
+    "sport": "Bike",
+    "title": "Ciclismo Z2 Cruzado (Semana 27)",
+    "duration_minutes": 90,
+    "tss": 58,
+    "description": "[Tapering & Competición 2ª Media Maratón (4 Abril)] 90' Ciclismo aeróbico en Z2 (160W-185W), cadencia ágil 85-95 rpm."
+  },
+  {
+    "date": "2027-04-02",
+    "sport": "Run",
+    "title": "Carrera Aeróbica Z2 (Semana 27)",
+    "duration_minutes": 60,
+    "tss": 42,
+    "description": "[Tapering & Competición 2ª Media Maratón (4 Abril)] 60' Carrera aeróbica suave en Z2 (FC <145 ppm, ritmo cómodo)."
+  },
+  {
+    "date": "2027-04-03",
+    "sport": "Bike",
+    "title": "Rodaje Ciclismo Fondo (Semana 27)",
+    "duration_minutes": 100,
+    "tss": 60,
+    "description": "[Tapering & Competición 2ª Media Maratón (4 Abril)] 100' Ciclismo de fondo en Z2 aeróbico. Desarrollo cómodo."
+  },
+  {
+    "date": "2027-04-04",
+    "sport": "Run",
+    "title": "🏆 2ª MEDIA MARATÓN 2027",
+    "duration_minutes": 110,
+    "tss": 130,
+    "description": "¡Día de Competición! Segunda Media Maratón. A por la marca objetivo."
+  }
+]
