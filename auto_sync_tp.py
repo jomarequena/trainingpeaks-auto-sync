@@ -9,8 +9,7 @@ Flujo de autenticación correcto (extraído del código fuente de tp_mcp):
 Secrets necesarios en GitHub Actions:
   - TP_AUTH_COOKIE : el VALOR de la cookie Production_tpAuth
                      (solo el valor, no "Production_tpAuth=...")
-  - TP_ATHLETE_ID  : tu athlete ID (2018806) — opcional pero recomendado
-                     para evitar una llamada extra a la API
+  - TP_ATHLETE_ID  : tu athlete ID, configurado como secret de GitHub Actions
 """
 
 import json
@@ -260,7 +259,7 @@ def sync() -> None:
         athlete_id = int(api_athlete_id)
         print(f"✅ Athlete ID from token response: {athlete_id}")
     else:
-        print("❌ Could not determine athlete ID. Add TP_ATHLETE_ID=2018806 as a GitHub secret.")
+        print("❌ Could not determine athlete ID. Add your athlete ID as the TP_ATHLETE_ID GitHub Actions secret.")
         sys.exit(1)
 
     # ── Paso 3: Sincronizar workouts ──────────────────────────────────────
