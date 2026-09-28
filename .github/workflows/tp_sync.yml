@@ -30,6 +30,7 @@ jobs:
       - name: Run TrainingPeaks Sync
         env:
           TP_AUTH_COOKIE: ${{ secrets.TP_AUTH_COOKIE }}
+          TP_ATHLETE_ID: ${{ secrets.TP_ATHLETE_ID }}
         run: |
           python auto_sync_tp.py
 

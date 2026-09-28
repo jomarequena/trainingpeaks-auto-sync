@@ -23,12 +23,14 @@ Este repositorio sincroniza automáticamente tu plan de entrenamiento de Media M
    git push -u origin main
    ```
 
-3. **Añadir el Secret `TP_AUTH_COOKIE` en GitHub:**
+3. **Añadir los Secrets necesarios en GitHub:**
    - En tu repositorio de GitHub, ve a **Settings** > **Secrets and variables** > **Actions**.
    - Haz clic en **New repository secret**.
    - **Name:** `TP_AUTH_COOKIE`
    - **Secret:** *(Copia y pega la clave de autenticación que te ha generado el asistente)*.
-   - Haz clic en **Add secret**.
+   - Haz clic en **Add secret** y repite el proceso para el segundo secret:
+   - **Name:** `TP_ATHLETE_ID`
+   - **Secret:** el ID numérico de atleta de tu cuenta TrainingPeaks.
 
 ¡Listo! A partir de ese momento, **GitHub Actions ejecutará la sincronización todos los días a las 10:00 AM en sus servidores de forma 100% independiente de tu ordenador**.
 # trainingpeaks-auto-sync
