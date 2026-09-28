@@ -1,6 +1,6 @@
 # 🚀 TrainingPeaks Auto Sync (GitHub Actions)
 
-Este repositorio sincroniza automáticamente tu plan de entrenamiento de Media Maratón (Lisboa 2027 y 2ª MM) con tu cuenta Básica de TrainingPeaks todos los días a las 10:00 AM (08:00 UTC).
+Este repositorio sincroniza automáticamente tu plan de entrenamiento de Media Maratón (Lisboa 2027 y 2ª MM) con tu cuenta Básica de TrainingPeaks todos los días a las 05:00 UTC. En España peninsular, esto corresponde a las 06:00 en horario de invierno (CET) y a las 07:00 en horario de verano (CEST); GitHub Actions programa el horario en UTC y no lo ajusta al cambio de hora local.
 
 ## 📋 Pasos para publicar en tu GitHub:
 
@@ -32,7 +32,7 @@ Este repositorio sincroniza automáticamente tu plan de entrenamiento de Media M
    - **Name:** `TP_ATHLETE_ID`
    - **Secret:** el ID numérico de atleta de tu cuenta TrainingPeaks.
 
-¡Listo! A partir de ese momento, **GitHub Actions ejecutará la sincronización todos los días a las 10:00 AM en sus servidores de forma 100% independiente de tu ordenador**.
+¡Listo! A partir de ese momento, **GitHub Actions programará la sincronización todos los días a las 05:00 UTC en sus servidores, de forma independiente de tu ordenador**. La hora local en España peninsular será las 06:00 en invierno (CET) y las 07:00 en verano (CEST); GitHub Actions no ajusta el horario UTC al cambio de hora local.
 
 ## Prevención de duplicados
 
