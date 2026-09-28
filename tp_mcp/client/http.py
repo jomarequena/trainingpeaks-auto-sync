@@ -149,7 +149,10 @@ class TPClient:
     async def _ensure_client(self) -> None:
         """Ensure the HTTP client is initialized."""
         if self._client is None:
-            self._client = httpx.AsyncClient(timeout=self.timeout)
+            headers = {
+                "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+            }
+            self._client = httpx.AsyncClient(timeout=self.timeout, headers=headers)
 
     async def _throttle(self) -> None:
         """Enforce minimum interval between requests to avoid rate limiting."""
@@ -174,6 +177,7 @@ class TPClient:
             "Authorization": f"Bearer {self._token_cache.access_token}",
             "Accept": "application/json",
             "Content-Type": "application/json",
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
         }
 
     def _get_cookie_headers(self, cookie: str) -> dict[str, str]:
@@ -189,6 +193,7 @@ class TPClient:
             "Cookie": f"Production_tpAuth={cookie}",
             "Accept": "application/json",
             "Content-Type": "application/json",
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
         }
 
     async def _exchange_cookie_for_token(self) -> APIResponse:

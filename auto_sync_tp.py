@@ -47,9 +47,11 @@ async def sync():
     plan = load_plan()
     sync_log = load_sync_log()
 
+    cookie_val = os.environ.get("TP_AUTH_COOKIE", "")
     print(f"==================================================")
     print(f"--- TP GitHub Actions Sync [{datetime.now().isoformat()}] ---")
     print(f"Target Dates (2-day window): {target_dates}")
+    print(f"DEBUG: TP_AUTH_COOKIE present: {bool(cookie_val)}, length: {len(cookie_val)}")
     print(f"==================================================")
 
     for item in plan:
