@@ -9,5 +9,11 @@
     "title": "Rodaje Ciclismo Z1-Z2",
     "sport": "Bike",
     "synced_at": "2026-09-25T10:24:44.054334"
+  },
+  "2026-09-29": {
+    "workout_id": "3975494709",
+    "title": "Carrera Base Z2 (Semana 1)",
+    "sport": "Run",
+    "synced_at": "2026-09-28T08:46:53.094029"
   }
 }
