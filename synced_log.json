@@ -21,5 +21,11 @@
     "title": "Ciclismo Z2 Cruzado (Semana 1)",
     "sport": "Bike",
     "synced_at": "2026-09-29T07:13:28.123708"
+  },
+  "2026-10-02": {
+    "workout_id": "3981058144",
+    "title": "Carrera Aeróbica Z2 (Semana 1)",
+    "sport": "Run",
+    "synced_at": "2026-10-01T11:16:01.359989"
   }
 }
