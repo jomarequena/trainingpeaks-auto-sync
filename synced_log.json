@@ -57,5 +57,11 @@
     "title": "Carrera Aeróbica Z2 (Semana 2)",
     "sport": "Run",
     "synced_at": "2026-10-08T11:41:48.557537"
+  },
+  "2026-10-10": {
+    "workout_id": "3995268827",
+    "title": "Rodaje Ciclismo Fondo (Semana 2)",
+    "sport": "Bike",
+    "synced_at": "2026-10-09T11:35:11.391615"
   }
 }
