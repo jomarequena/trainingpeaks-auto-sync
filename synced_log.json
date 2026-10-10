@@ -63,5 +63,11 @@
     "title": "Rodaje Ciclismo Fondo (Semana 2)",
     "sport": "Bike",
     "synced_at": "2026-10-09T11:35:11.391615"
+  },
+  "2026-10-11": {
+    "workout_id": "3996732094",
+    "title": "Tirada Larga (Semana 2)",
+    "sport": "Run",
+    "synced_at": "2026-10-10T10:53:07.415182"
   }
 }
