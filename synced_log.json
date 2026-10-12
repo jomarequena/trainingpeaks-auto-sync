@@ -69,5 +69,11 @@
     "title": "Tirada Larga (Semana 2)",
     "sport": "Run",
     "synced_at": "2026-10-10T10:53:07.415182"
+  },
+  "2026-10-13": {
+    "workout_id": "4000731594",
+    "title": "Carrera Base Z2 (Semana 3)",
+    "sport": "Run",
+    "synced_at": "2026-10-12T12:35:51.343103"
   }
 }
