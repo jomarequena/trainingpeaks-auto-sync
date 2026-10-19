@@ -99,5 +99,11 @@
     "title": "Tirada Larga (Semana 3)",
     "sport": "Run",
     "synced_at": "2026-10-17T08:56:10.966406"
+  },
+  "2026-10-20": {
+    "workout_id": "4013007977",
+    "title": "🧪 TEST 1: Test 5K Carrera (Evaluar VAM & Zonas)",
+    "sport": "Run",
+    "synced_at": "2026-10-19T10:24:32.845122"
   }
 }
