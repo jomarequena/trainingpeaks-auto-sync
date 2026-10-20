@@ -105,5 +105,11 @@
     "title": "🧪 TEST 1: Test 5K Carrera (Evaluar VAM & Zonas)",
     "sport": "Run",
     "synced_at": "2026-10-19T10:24:32.845122"
+  },
+  "2026-10-21": {
+    "workout_id": "4014923470",
+    "title": "Ciclismo Z1 Suave (Semana 4)",
+    "sport": "Bike",
+    "synced_at": "2026-10-20T09:43:54.188165"
   }
 }
