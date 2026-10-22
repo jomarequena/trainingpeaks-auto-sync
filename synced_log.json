@@ -111,5 +111,11 @@
     "title": "Ciclismo Z1 Suave (Semana 4)",
     "sport": "Bike",
     "synced_at": "2026-10-20T09:43:54.188165"
+  },
+  "2026-10-23": {
+    "workout_id": "4018242083",
+    "title": "Carrera Aeróbica Z2 (Semana 4)",
+    "sport": "Run",
+    "synced_at": "2026-10-22T09:44:57.192816"
   }
 }
