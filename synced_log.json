@@ -129,5 +129,11 @@
     "title": "Tirada Larga (Semana 4)",
     "sport": "Run",
     "synced_at": "2026-10-24T09:13:15.842082"
+  },
+  "2026-10-27": {
+    "workout_id": "4025267099",
+    "title": "Fartlek Z3 Tempo (Semana 5)",
+    "sport": "Run",
+    "synced_at": "2026-10-26T10:39:40.198510"
   }
 }
