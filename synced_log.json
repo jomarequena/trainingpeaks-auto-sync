@@ -135,5 +135,11 @@
     "title": "Fartlek Z3 Tempo (Semana 5)",
     "sport": "Run",
     "synced_at": "2026-10-26T10:39:40.198510"
+  },
+  "2026-10-28": {
+    "workout_id": "4027137823",
+    "title": "Ciclismo Z2 Cruzado (Semana 5)",
+    "sport": "Bike",
+    "synced_at": "2026-10-27T10:07:55.390790"
   }
 }
