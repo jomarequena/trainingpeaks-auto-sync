@@ -160,7 +160,7 @@ def create_workout(
     }
 
     if duration_minutes is not None:
-        payload["totalTimePlanned"] = int(duration_minutes * 60)  # en segundos
+        payload["totalTimePlanned"] = duration_minutes / 60.0  # TrainingPeaks API expects hours
 
     if tss_planned is not None:
         payload["tssPlanned"] = float(tss_planned)

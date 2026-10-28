@@ -127,7 +127,7 @@ class StructuredWorkoutCreationTests(unittest.TestCase):
         self.assertEqual(result["workout_id"], 456)
         payload = post.call_args.kwargs["json"]
         wire = json.loads(payload["structure"])
-        self.assertEqual(payload["totalTimePlanned"], 1200)
+        self.assertAlmostEqual(payload["totalTimePlanned"], 20 / 60)
         self.assertEqual(wire["primaryIntensityMetric"], "percentOfThresholdPace")
         self.assertEqual([block["begin"] for block in wire["structure"]], [0, 300, 900])
         self.assertEqual([block["end"] for block in wire["structure"]], [300, 900, 1200])
