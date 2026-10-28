@@ -1,4 +1,5 @@
 import json
+import re
 import unittest
 from collections import Counter, defaultdict
 from datetime import date, timedelta
@@ -71,10 +72,13 @@ class TrainingPlanTests(unittest.TestCase):
         target_race = by_date[date(2027, 4, 4)]
 
         self.assertIn("test controlado", preparation_race["title"].lower())
+        self.assertIn("duración prevista 150 min", preparation_race["description"].lower())
         self.assertIn("no competición", preparation_race["description"].lower())
         self.assertIn("no correr a tope", preparation_race["description"].lower())
         self.assertIn("1h45 aspiracional", target_race["title"].lower())
+        self.assertIn("duración orientativa 105 min", target_race["description"].lower())
         self.assertIn("no garantizada", target_race["description"].lower())
+        self.assertIn("4:59 min/km", target_race["description"])
 
     def test_base_build_deloads_and_tapers_are_reflected(self):
         weeks = defaultdict(list)
@@ -158,6 +162,39 @@ class TrainingPlanTests(unittest.TestCase):
         }
         self.assertGreaterEqual(max(long_runs.values()), 100)
         self.assertEqual(long_runs[date(2027, 2, 8)], 105)
+
+    def test_running_workout_descriptions_match_duration_and_include_pace_guidance(self):
+        races = {"2027-03-07", "2027-04-04"}
+        for entry in self.plan:
+            if entry["sport"] != "Run" or entry["date"] in races:
+                continue
+
+            duration = entry["duration_minutes"]
+            description = entry["description"]
+            self.assertIn(f"= {duration} min.", description, entry["date"])
+            self.assertIn("Ritmo medio orientativo", description, entry["date"])
+            self.assertRegex(description, r"\d:\d{2}-\d:\d{2} min/km")
+
+            if "strides" in entry["title"].lower():
+                easy_minutes = duration - 29.5
+                if easy_minutes.is_integer():
+                    easy_text = f"{int(easy_minutes)} min"
+                else:
+                    easy_text = f"{int(easy_minutes)} min 30 s"
+                expected_structure = (
+                    f"Estructura exacta: 10 min suaves + {easy_text} aeróbicos + "
+                    "6 x 20 s (2 min) + 5 x 90 s recuperación (7 min 30 s) + "
+                    f"10 min suaves = {duration} min."
+                )
+                self.assertIn(expected_structure, description, entry["date"])
+                self.assertIn("RPE 6/10, no sprintar", description)
+            else:
+                main_minutes = duration - 10
+                expected_structure = (
+                    f"Estructura exacta: 5 min caminando + {main_minutes} min de "
+                    f"bloque principal + 5 min caminando = {duration} min."
+                )
+                self.assertIn(expected_structure, description, entry["date"])
 
 
 if __name__ == "__main__":
