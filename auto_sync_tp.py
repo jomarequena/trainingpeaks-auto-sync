@@ -141,6 +141,7 @@ def create_workout(
     duration_minutes: int | None = None,
     tss_planned: float | None = None,
     description: str | None = None,
+    structure: dict | None = None,
 ) -> dict:
     """
     Crea un workout planificado en TrainingPeaks.
@@ -163,6 +164,26 @@ def create_workout(
 
     if tss_planned is not None:
         payload["tssPlanned"] = float(tss_planned)
+
+    if structure is not None:
+        try:
+            wire_structure, total_seconds = build_wire_structure(structure)
+        except (KeyError, TypeError, ValueError) as e:
+            return {
+                "success": False,
+                "workout_id": None,
+                "message": f"Invalid workout structure: {e}",
+            }
+        if duration_minutes is not None and total_seconds != duration_minutes * 60:
+            return {
+                "success": False,
+                "workout_id": None,
+                "message": (
+                    "Workout structure duration does not match duration_minutes "
+                    f"({total_seconds} seconds != {duration_minutes * 60} seconds)."
+                ),
+            }
+        payload["structure"] = json.dumps(wire_structure)
 
     url = f"{TP_API_BASE}/fitness/v6/athletes/{athlete_id}/workouts"
 
@@ -189,6 +210,108 @@ def create_workout(
             }
     except Exception as e:
         return {"success": False, "workout_id": None, "message": str(e)}
+
+
+def build_wire_structure(structure: dict) -> tuple[dict, int]:
+        """Convert plan intervals to the native TrainingPeaks wire format."""
+        metric = structure.get("primaryIntensityMetric")
+        if metric not in {"percentOfFtp", "percentOfThresholdHr", "percentOfThresholdPace"}:
+            raise ValueError(f"unsupported primary intensity metric: {metric!r}")
+
+        steps = structure.get("steps")
+        if not isinstance(steps, list) or not steps:
+            raise ValueError("steps must be a non-empty list")
+
+        wire_blocks = []
+        polyline = []
+        elapsed = 0
+        flattened_steps = []
+        for step in steps:
+            if not isinstance(step, dict):
+                raise ValueError("each workout step must be an object")
+            name = step.get("name")
+            duration = step.get("duration_seconds")
+            low = step.get("intensity_min")
+            high = step.get("intensity_max")
+            intensity_class = step.get("intensityClass", "active")
+            if not isinstance(name, str) or not name.strip():
+                raise ValueError("each workout step needs a name")
+            if not isinstance(duration, int) or isinstance(duration, bool) or duration <= 0:
+                raise ValueError(f"step {name!r} needs a positive integer duration")
+            if (
+                not isinstance(low, (int, float))
+                or isinstance(low, bool)
+                or not isinstance(high, (int, float))
+                or isinstance(high, bool)
+                or low < 0
+                or high > 300
+                or low > high
+            ):
+                raise ValueError(f"step {name!r} has an invalid intensity range")
+            if intensity_class not in {"warmUp", "active", "rest", "coolDown", "other"}:
+                raise ValueError(f"step {name!r} has an invalid intensity class")
+            flattened_steps.append(
+                {
+                    "name": name,
+                    "duration": duration,
+                    "intensity_min": low,
+                    "intensity_max": high,
+                    "intensity_class": intensity_class,
+                }
+            )
+
+        total_seconds = sum(step["duration"] for step in flattened_steps)
+        if total_seconds <= 0:
+            raise ValueError("workout structure duration must be positive")
+
+        for step in flattened_steps:
+            begin = elapsed
+            elapsed += step["duration"]
+            wire_blocks.append(
+                {
+                    "type": "step",
+                    "length": {"value": 1, "unit": "repetition"},
+                    "steps": [
+                        {
+                            "name": step["name"],
+                            "type": "step",
+                            "length": {"value": step["duration"], "unit": "second"},
+                            "targets": [
+                                {
+                                    "minValue": step["intensity_min"],
+                                    "maxValue": step["intensity_max"],
+                                }
+                            ],
+                            "intensityClass": step["intensity_class"],
+                            "openDuration": False,
+                        }
+                    ],
+                    "begin": begin,
+                    "end": elapsed,
+                }
+            )
+            start_fraction = begin / total_seconds
+            end_fraction = elapsed / total_seconds
+            intensity = step["intensity_max"] / 100.0
+            polyline.extend(
+                [
+                    [round(start_fraction, 4), 0],
+                    [round(start_fraction, 4), round(intensity, 4)],
+                    [round(end_fraction, 4), round(intensity, 4)],
+                    [round(end_fraction, 4), 0],
+                ]
+            )
+
+        return (
+            {
+                "structure": wire_blocks,
+                "polyline": polyline,
+                "primaryLengthMetric": "duration",
+                "primaryIntensityMetric": metric,
+                "primaryIntensityTargetOrRange": "range",
+            },
+            total_seconds,
+        )
 
 
 def get_workouts_for_date(bearer_token: str, athlete_id: int, date_str: str) -> dict:
@@ -373,6 +496,7 @@ def sync() -> None:
             duration_minutes=item.get("duration_minutes"),
             tss_planned=item.get("tss"),
             description=item.get("description"),
+            structure=item.get("structure"),
         )
 
         if res["success"]:

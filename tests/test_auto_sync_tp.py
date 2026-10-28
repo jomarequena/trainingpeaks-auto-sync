@@ -80,6 +80,85 @@ class WorkoutLookupTests(unittest.TestCase):
         self.assertIsNone(auto_sync_tp.normalize_workout_date("not-a-date"))
 
 
+class StructuredWorkoutCreationTests(unittest.TestCase):
+    @patch("auto_sync_tp.get_api_headers", return_value={"Authorization": "token"})
+    @patch("auto_sync_tp.requests.post")
+    def test_posts_wire_structure_and_matching_planned_duration(self, post, _headers):
+        response = post.return_value
+        response.status_code = 201
+        response.json.return_value = {"workoutId": 456}
+        structure = {
+            "primaryIntensityMetric": "percentOfThresholdPace",
+            "steps": [
+                {
+                    "name": "Warm up",
+                    "duration_seconds": 300,
+                    "intensity_min": 40,
+                    "intensity_max": 55,
+                    "intensityClass": "warmUp",
+                },
+                {
+                    "name": "Easy run",
+                    "duration_seconds": 600,
+                    "intensity_min": 70,
+                    "intensity_max": 85,
+                },
+                {
+                    "name": "Cool down",
+                    "duration_seconds": 300,
+                    "intensity_min": 40,
+                    "intensity_max": 55,
+                    "intensityClass": "coolDown",
+                },
+            ],
+        }
+
+        result = auto_sync_tp.create_workout(
+            bearer_token="token",
+            athlete_id=42,
+            date_str="2030-01-01",
+            sport="Run",
+            title="Structured easy run",
+            duration_minutes=20,
+            structure=structure,
+        )
+
+        self.assertTrue(result["success"])
+        self.assertEqual(result["workout_id"], 456)
+        payload = post.call_args.kwargs["json"]
+        wire = json.loads(payload["structure"])
+        self.assertEqual(payload["totalTimePlanned"], 1200)
+        self.assertEqual(wire["primaryIntensityMetric"], "percentOfThresholdPace")
+        self.assertEqual([block["begin"] for block in wire["structure"]], [0, 300, 900])
+        self.assertEqual([block["end"] for block in wire["structure"]], [300, 900, 1200])
+
+    @patch("auto_sync_tp.requests.post")
+    def test_rejects_duration_mismatch_before_api_call(self, post):
+        result = auto_sync_tp.create_workout(
+            bearer_token="token",
+            athlete_id=42,
+            date_str="2030-01-01",
+            sport="Run",
+            title="Mismatched workout",
+            duration_minutes=20,
+            structure={
+                "primaryIntensityMetric": "percentOfThresholdPace",
+                "steps": [
+                    {
+                        "name": "Easy run",
+                        "duration_seconds": 600,
+                        "intensity_min": 70,
+                        "intensity_max": 85,
+                    }
+                ],
+            },
+        )
+
+        self.assertFalse(result["success"])
+        self.assertIn("does not match duration_minutes", result["message"])
+        post.assert_not_called()
+
+
 class SyncDuplicatePreventionTests(unittest.TestCase):
     def _run_sync(self, plan_date="2030-01-01T00:00:00", log=None):
         temp_dir = tempfile.TemporaryDirectory()

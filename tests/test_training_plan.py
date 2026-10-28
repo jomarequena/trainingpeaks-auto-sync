@@ -5,6 +5,8 @@ from collections import Counter, defaultdict
 from datetime import date, timedelta
 from pathlib import Path
 
+import auto_sync_tp
+
 
 PLAN_FILE = Path(__file__).parents[1] / "plan_lisboa_2027.json"
 RACE_DATES = {date(2027, 3, 7), date(2027, 4, 4)}
@@ -27,7 +29,10 @@ class TrainingPlanTests(unittest.TestCase):
         }
         dates = []
         for entry in self.plan:
-            self.assertEqual(set(entry), expected_keys)
+            expected_entry_keys = set(expected_keys)
+            if entry["date"] not in {"2027-03-07", "2027-04-04"}:
+                expected_entry_keys.add("structure")
+            self.assertEqual(set(entry), expected_entry_keys)
             dates.append(date.fromisoformat(entry["date"]))
             self.assertIn(entry["sport"], {"Run", "Bike"})
             self.assertIsInstance(entry["duration_minutes"], int)
@@ -35,6 +40,8 @@ class TrainingPlanTests(unittest.TestCase):
             self.assertIsInstance(entry["tss"], (int, float))
             self.assertIsInstance(entry["description"], str)
             self.assertTrue(entry["description"])
+            if "structure" in entry:
+                self.assertIsInstance(entry["structure"], dict)
 
         self.assertEqual(dates, sorted(dates))
         self.assertEqual(len(dates), len(set(dates)))
@@ -195,6 +202,27 @@ class TrainingPlanTests(unittest.TestCase):
                     f"bloque principal + 5 min caminando = {duration} min."
                 )
                 self.assertIn(expected_structure, description, entry["date"])
+
+    def test_native_structures_match_each_planned_workout_duration(self):
+        races = {"2027-03-07", "2027-04-04"}
+        for entry in self.plan:
+            if entry["date"] in races:
+                self.assertNotIn("structure", entry)
+                continue
+
+            wire, total_seconds = auto_sync_tp.build_wire_structure(entry["structure"])
+            expected_seconds = entry["duration_minutes"] * 60
+            self.assertEqual(total_seconds, expected_seconds, entry["date"])
+            self.assertEqual(
+                sum(block["end"] - block["begin"] for block in wire["structure"]),
+                expected_seconds,
+                entry["date"],
+            )
+            self.assertEqual(wire["primaryLengthMetric"], "duration")
+            self.assertEqual(
+                wire["primaryIntensityMetric"],
+                "percentOfFtp" if entry["sport"] == "Bike" else "percentOfThresholdPace",
+            )
 
 
 if __name__ == "__main__":
