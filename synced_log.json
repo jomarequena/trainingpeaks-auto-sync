@@ -141,5 +141,11 @@
     "title": "Ciclismo Z2 Cruzado (Semana 5)",
     "sport": "Bike",
     "synced_at": "2026-10-27T10:07:55.390790"
+  },
+  "2026-10-29": {
+    "workout_id": "4029166658",
+    "title": "PRUEBA CACO estructurada — 20 min",
+    "sport": "Run",
+    "synced_at": "2026-10-28T14:49:06.661778"
   }
 }
