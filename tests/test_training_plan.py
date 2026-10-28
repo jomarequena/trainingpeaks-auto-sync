@@ -116,6 +116,49 @@ class TrainingPlanTests(unittest.TestCase):
             prior_week_running = run_minutes[prior_week_monday]
             self.assertLess(race_week_running, prior_week_running)
 
+    def test_run_walk_minutes_build_early_and_long_run_progresses_gradually(self):
+        weeks = defaultdict(list)
+        for entry in self.plan:
+            session_date = date.fromisoformat(entry["date"])
+            monday = session_date - timedelta(days=session_date.weekday())
+            weeks[monday].append((session_date, entry))
+
+        first_week = weeks[date(2026, 11, 2)]
+        first_week_runs = [entry for _day, entry in first_week if entry["sport"] == "Run"]
+        self.assertEqual(
+            [entry["duration_minutes"] for entry in first_week_runs],
+            [20, 20, 25],
+        )
+        self.assertTrue(
+            all(
+                "CACO" in entry["description"] and "trote muy fácil" in entry["description"]
+                for entry in first_week_runs
+            )
+        )
+
+        run_totals = {
+            monday: sum(
+                entry["duration_minutes"]
+                for _day, entry in sessions
+                if entry["sport"] == "Run"
+            )
+            for monday, sessions in weeks.items()
+        }
+        self.assertGreater(run_totals[date(2026, 11, 16)], run_totals[date(2026, 11, 2)])
+        self.assertGreaterEqual(run_totals[date(2027, 2, 8)], 180)
+
+        long_runs = {
+            monday: next(
+                entry["duration_minutes"]
+                for session_date, entry in sessions
+                if entry["sport"] == "Run" and session_date.weekday() == 5
+            )
+            for monday, sessions in weeks.items()
+            if monday < date(2027, 3, 1)
+        }
+        self.assertGreaterEqual(max(long_runs.values()), 100)
+        self.assertEqual(long_runs[date(2027, 2, 8)], 105)
+
 
 if __name__ == "__main__":
     unittest.main()

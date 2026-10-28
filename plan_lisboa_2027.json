@@ -2,10 +2,10 @@
   {
     "date": "2026-11-03",
     "sport": "Run",
-    "title": "Run-walk inicial — semana 1",
+    "title": "Run-walk CACO — semana 1",
     "duration_minutes": 20,
     "tss": 12,
-    "description": "Base desde cero. RPE 2-3/10; alterna 1-2 min de trote fácil y 1 min caminando desde el inicio. Sin ritmo objetivo. Duración total 20 min, incluye calentamiento y vuelta a la calma caminando."
+    "description": "Inicio CACO desde cero. RPE 2-3/10; alterna 1-2 min de trote muy fácil con 1 min caminando desde el inicio. Duración total 20 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2026-11-04",
@@ -18,10 +18,10 @@
   {
     "date": "2026-11-05",
     "sport": "Run",
-    "title": "Run-walk inicial — semana 1",
+    "title": "Run-walk CACO — semana 1",
     "duration_minutes": 20,
     "tss": 12,
-    "description": "Base desde cero. RPE 2-3/10; alterna 1-2 min de trote fácil y 1 min caminando desde el inicio. Sin ritmo objetivo. Duración total 20 min, incluye calentamiento y vuelta a la calma caminando."
+    "description": "Inicio CACO desde cero. RPE 2-3/10; alterna 1-2 min de trote muy fácil con 1 min caminando desde el inicio. Duración total 20 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2026-11-07",
@@ -29,15 +29,15 @@
     "title": "Fondo fácil / run-walk — semana 1",
     "duration_minutes": 25,
     "tss": 18,
-    "description": "Base desde cero. RPE 2-3/10; alterna 1-2 min de trote fácil y 1 min caminando desde el inicio. Sin ritmo objetivo. Duración total 25 min, incluye calentamiento y vuelta a la calma caminando."
+    "description": "Inicio CACO desde cero. RPE 2-3/10; alterna 1-2 min de trote muy fácil con 1 min caminando desde el inicio. Duración total 25 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2026-11-10",
     "sport": "Run",
-    "title": "Run-walk inicial — semana 2",
-    "duration_minutes": 22,
-    "tss": 14,
-    "description": "Base desde cero. RPE 2-3/10; alterna 1-2 min de trote fácil y 1 min caminando desde el inicio. Sin ritmo objetivo. Duración total 22 min, incluye calentamiento y vuelta a la calma caminando."
+    "title": "Run-walk CACO — semana 2",
+    "duration_minutes": 25,
+    "tss": 16,
+    "description": "Inicio CACO desde cero. RPE 2-3/10; alterna 1-2 min de trote muy fácil con 1 min caminando desde el inicio. Duración total 25 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2026-11-11",
@@ -50,26 +50,26 @@
   {
     "date": "2026-11-12",
     "sport": "Run",
-    "title": "Run-walk inicial — semana 2",
-    "duration_minutes": 22,
-    "tss": 14,
-    "description": "Base desde cero. RPE 2-3/10; alterna 1-2 min de trote fácil y 1 min caminando desde el inicio. Sin ritmo objetivo. Duración total 22 min, incluye calentamiento y vuelta a la calma caminando."
+    "title": "Run-walk CACO — semana 2",
+    "duration_minutes": 25,
+    "tss": 16,
+    "description": "Inicio CACO desde cero. RPE 2-3/10; alterna 1-2 min de trote muy fácil con 1 min caminando desde el inicio. Duración total 25 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2026-11-14",
     "sport": "Run",
     "title": "Fondo fácil / run-walk — semana 2",
-    "duration_minutes": 30,
-    "tss": 22,
-    "description": "Base desde cero. RPE 2-3/10; alterna 1-2 min de trote fácil y 1 min caminando desde el inicio. Sin ritmo objetivo. Duración total 30 min, incluye calentamiento y vuelta a la calma caminando."
+    "duration_minutes": 35,
+    "tss": 25,
+    "description": "Inicio CACO desde cero. RPE 2-3/10; alterna 1-2 min de trote muy fácil con 1 min caminando desde el inicio. Duración total 35 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2026-11-17",
     "sport": "Run",
-    "title": "Run-walk inicial — semana 3",
-    "duration_minutes": 25,
-    "tss": 16,
-    "description": "Base desde cero. RPE 2-3/10; alterna 1-2 min de trote fácil y 1 min caminando desde el inicio. Sin ritmo objetivo. Duración total 25 min, incluye calentamiento y vuelta a la calma caminando."
+    "title": "Run-walk CACO — semana 3",
+    "duration_minutes": 30,
+    "tss": 19,
+    "description": "Inicio CACO desde cero. RPE 2-3/10; alterna 1-2 min de trote muy fácil con 1 min caminando desde el inicio. Duración total 30 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2026-11-18",
@@ -82,26 +82,26 @@
   {
     "date": "2026-11-19",
     "sport": "Run",
-    "title": "Run-walk inicial — semana 3",
-    "duration_minutes": 25,
-    "tss": 16,
-    "description": "Base desde cero. RPE 2-3/10; alterna 1-2 min de trote fácil y 1 min caminando desde el inicio. Sin ritmo objetivo. Duración total 25 min, incluye calentamiento y vuelta a la calma caminando."
+    "title": "Run-walk CACO — semana 3",
+    "duration_minutes": 30,
+    "tss": 19,
+    "description": "Inicio CACO desde cero. RPE 2-3/10; alterna 1-2 min de trote muy fácil con 1 min caminando desde el inicio. Duración total 30 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2026-11-21",
     "sport": "Run",
     "title": "Fondo fácil / run-walk — semana 3",
-    "duration_minutes": 35,
-    "tss": 25,
-    "description": "Base desde cero. RPE 2-3/10; alterna 1-2 min de trote fácil y 1 min caminando desde el inicio. Sin ritmo objetivo. Duración total 35 min, incluye calentamiento y vuelta a la calma caminando."
+    "duration_minutes": 40,
+    "tss": 29,
+    "description": "Inicio CACO desde cero. RPE 2-3/10; alterna 1-2 min de trote muy fácil con 1 min caminando desde el inicio. Duración total 40 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2026-11-24",
     "sport": "Run",
     "title": "Rodaje de descarga — semana 4",
-    "duration_minutes": 20,
-    "tss": 12,
-    "description": "Descarga 4. RPE 2-3/10; alterna 1-2 min de trote fácil y 1 min caminando desde el inicio. Sin ritmo objetivo. Duración total 20 min, incluye calentamiento y vuelta a la calma caminando."
+    "duration_minutes": 25,
+    "tss": 16,
+    "description": "Semana de descarga. RPE 2-3/10; alterna 1-2 min de trote muy fácil con 1 min caminando desde el inicio. Duración total 25 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2026-11-25",
@@ -115,25 +115,25 @@
     "date": "2026-11-26",
     "sport": "Run",
     "title": "Rodaje de descarga — semana 4",
-    "duration_minutes": 20,
-    "tss": 12,
-    "description": "Descarga 4. RPE 2-3/10; alterna 1-2 min de trote fácil y 1 min caminando desde el inicio. Sin ritmo objetivo. Duración total 20 min, incluye calentamiento y vuelta a la calma caminando."
+    "duration_minutes": 25,
+    "tss": 16,
+    "description": "Semana de descarga. RPE 2-3/10; alterna 1-2 min de trote muy fácil con 1 min caminando desde el inicio. Duración total 25 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2026-11-28",
     "sport": "Run",
     "title": "Fondo fácil / run-walk — semana 4",
-    "duration_minutes": 28,
-    "tss": 20,
-    "description": "Descarga 4. RPE 2-3/10; alterna 1-2 min de trote fácil y 1 min caminando desde el inicio. Sin ritmo objetivo. Duración total 28 min, incluye calentamiento y vuelta a la calma caminando."
+    "duration_minutes": 35,
+    "tss": 25,
+    "description": "Semana de descarga. RPE 2-3/10; alterna 1-2 min de trote muy fácil con 1 min caminando desde el inicio. Duración total 35 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2026-12-01",
     "sport": "Run",
-    "title": "Carrera aeróbica fácil — semana 5",
-    "duration_minutes": 25,
-    "tss": 16,
-    "description": "Base desde cero. RPE 2-3/10, ritmo conversacional; trote-caminata si hace falta. Termina con sensación de poder continuar. Duración total 25 min, incluye calentamiento y vuelta a la calma caminando."
+    "title": "Run-walk progresivo — semana 5",
+    "duration_minutes": 30,
+    "tss": 19,
+    "description": "Progresión CACO. RPE 2-3/10; aumenta poco a poco los minutos de trote entre pausas caminando, sin eliminar las pausas si aún las necesitas. Duración total 30 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2026-12-02",
@@ -146,26 +146,26 @@
   {
     "date": "2026-12-03",
     "sport": "Run",
-    "title": "Carrera aeróbica fácil — semana 5",
-    "duration_minutes": 25,
-    "tss": 16,
-    "description": "Base desde cero. RPE 2-3/10, ritmo conversacional; trote-caminata si hace falta. Termina con sensación de poder continuar. Duración total 25 min, incluye calentamiento y vuelta a la calma caminando."
+    "title": "Run-walk progresivo — semana 5",
+    "duration_minutes": 30,
+    "tss": 19,
+    "description": "Progresión CACO. RPE 2-3/10; aumenta poco a poco los minutos de trote entre pausas caminando, sin eliminar las pausas si aún las necesitas. Duración total 30 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2026-12-05",
     "sport": "Run",
     "title": "Fondo fácil / run-walk — semana 5",
-    "duration_minutes": 40,
-    "tss": 29,
-    "description": "Base desde cero. RPE 2-3/10, ritmo conversacional; trote-caminata si hace falta. Termina con sensación de poder continuar. Duración total 40 min, incluye calentamiento y vuelta a la calma caminando."
+    "duration_minutes": 45,
+    "tss": 32,
+    "description": "Progresión CACO. RPE 2-3/10; aumenta poco a poco los minutos de trote entre pausas caminando, sin eliminar las pausas si aún las necesitas. Duración total 45 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2026-12-08",
     "sport": "Run",
-    "title": "Carrera aeróbica fácil — semana 6",
-    "duration_minutes": 28,
-    "tss": 17,
-    "description": "Base desde cero. RPE 2-3/10, ritmo conversacional; trote-caminata si hace falta. Termina con sensación de poder continuar. Duración total 28 min, incluye calentamiento y vuelta a la calma caminando."
+    "title": "Run-walk progresivo — semana 6",
+    "duration_minutes": 35,
+    "tss": 22,
+    "description": "Progresión CACO. RPE 2-3/10; aumenta poco a poco los minutos de trote entre pausas caminando, sin eliminar las pausas si aún las necesitas. Duración total 35 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2026-12-09",
@@ -178,26 +178,26 @@
   {
     "date": "2026-12-10",
     "sport": "Run",
-    "title": "Carrera aeróbica fácil — semana 6",
-    "duration_minutes": 28,
-    "tss": 17,
-    "description": "Base desde cero. RPE 2-3/10, ritmo conversacional; trote-caminata si hace falta. Termina con sensación de poder continuar. Duración total 28 min, incluye calentamiento y vuelta a la calma caminando."
+    "title": "Run-walk progresivo — semana 6",
+    "duration_minutes": 30,
+    "tss": 19,
+    "description": "Progresión CACO. RPE 2-3/10; aumenta poco a poco los minutos de trote entre pausas caminando, sin eliminar las pausas si aún las necesitas. Duración total 30 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2026-12-12",
     "sport": "Run",
     "title": "Fondo fácil / run-walk — semana 6",
-    "duration_minutes": 45,
-    "tss": 32,
-    "description": "Base desde cero. RPE 2-3/10, ritmo conversacional; trote-caminata si hace falta. Termina con sensación de poder continuar. Duración total 45 min, incluye calentamiento y vuelta a la calma caminando."
+    "duration_minutes": 50,
+    "tss": 36,
+    "description": "Progresión CACO. RPE 2-3/10; aumenta poco a poco los minutos de trote entre pausas caminando, sin eliminar las pausas si aún las necesitas. Duración total 50 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2026-12-15",
     "sport": "Run",
-    "title": "Carrera aeróbica fácil — semana 7",
-    "duration_minutes": 30,
-    "tss": 19,
-    "description": "Base desde cero. RPE 2-3/10, ritmo conversacional; trote-caminata si hace falta. Termina con sensación de poder continuar. Duración total 30 min, incluye calentamiento y vuelta a la calma caminando."
+    "title": "Run-walk progresivo — semana 7",
+    "duration_minutes": 35,
+    "tss": 22,
+    "description": "Progresión CACO. RPE 2-3/10; aumenta poco a poco los minutos de trote entre pausas caminando, sin eliminar las pausas si aún las necesitas. Duración total 35 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2026-12-16",
@@ -210,26 +210,26 @@
   {
     "date": "2026-12-17",
     "sport": "Run",
-    "title": "Carrera aeróbica fácil — semana 7",
-    "duration_minutes": 30,
-    "tss": 19,
-    "description": "Base desde cero. RPE 2-3/10, ritmo conversacional; trote-caminata si hace falta. Termina con sensación de poder continuar. Duración total 30 min, incluye calentamiento y vuelta a la calma caminando."
+    "title": "Run-walk progresivo — semana 7",
+    "duration_minutes": 35,
+    "tss": 22,
+    "description": "Progresión CACO. RPE 2-3/10; aumenta poco a poco los minutos de trote entre pausas caminando, sin eliminar las pausas si aún las necesitas. Duración total 35 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2026-12-19",
     "sport": "Run",
     "title": "Fondo fácil / run-walk — semana 7",
-    "duration_minutes": 50,
-    "tss": 36,
-    "description": "Base desde cero. RPE 2-3/10, ritmo conversacional; trote-caminata si hace falta. Termina con sensación de poder continuar. Duración total 50 min, incluye calentamiento y vuelta a la calma caminando."
+    "duration_minutes": 60,
+    "tss": 43,
+    "description": "Progresión CACO. RPE 2-3/10; aumenta poco a poco los minutos de trote entre pausas caminando, sin eliminar las pausas si aún las necesitas. Duración total 60 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2026-12-22",
     "sport": "Run",
     "title": "Rodaje de descarga — semana 8",
-    "duration_minutes": 22,
-    "tss": 14,
-    "description": "Descarga 8. RPE 2-3/10, ritmo conversacional; trote-caminata si hace falta. Termina con sensación de poder continuar. Duración total 22 min, incluye calentamiento y vuelta a la calma caminando."
+    "duration_minutes": 30,
+    "tss": 19,
+    "description": "Semana de descarga. RPE 2-3/10; aumenta poco a poco los minutos de trote entre pausas caminando, sin eliminar las pausas si aún las necesitas. Duración total 30 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2026-12-23",
@@ -243,25 +243,25 @@
     "date": "2026-12-24",
     "sport": "Run",
     "title": "Rodaje de descarga — semana 8",
-    "duration_minutes": 22,
-    "tss": 14,
-    "description": "Descarga 8. RPE 2-3/10, ritmo conversacional; trote-caminata si hace falta. Termina con sensación de poder continuar. Duración total 22 min, incluye calentamiento y vuelta a la calma caminando."
+    "duration_minutes": 30,
+    "tss": 19,
+    "description": "Semana de descarga. RPE 2-3/10; aumenta poco a poco los minutos de trote entre pausas caminando, sin eliminar las pausas si aún las necesitas. Duración total 30 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2026-12-26",
     "sport": "Run",
     "title": "Fondo fácil / run-walk — semana 8",
-    "duration_minutes": 38,
-    "tss": 27,
-    "description": "Descarga 8. RPE 2-3/10, ritmo conversacional; trote-caminata si hace falta. Termina con sensación de poder continuar. Duración total 38 min, incluye calentamiento y vuelta a la calma caminando."
+    "duration_minutes": 45,
+    "tss": 32,
+    "description": "Semana de descarga. RPE 2-3/10; aumenta poco a poco los minutos de trote entre pausas caminando, sin eliminar las pausas si aún las necesitas. Duración total 45 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2026-12-29",
     "sport": "Run",
     "title": "Carrera aeróbica fácil — semana 9",
-    "duration_minutes": 30,
-    "tss": 19,
-    "description": "Base desde cero. RPE 2-3/10, ritmo conversacional; trote-caminata si hace falta. Termina con sensación de poder continuar. Duración total 30 min, incluye calentamiento y vuelta a la calma caminando."
+    "duration_minutes": 35,
+    "tss": 22,
+    "description": "Construcción aeróbica. RPE 2-3/10 y ritmo conversacional; trote-caminata cuando convenga, sin perseguir ritmos. Duración total 35 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2026-12-30",
@@ -275,25 +275,25 @@
     "date": "2026-12-31",
     "sport": "Run",
     "title": "Carrera aeróbica fácil — semana 9",
-    "duration_minutes": 30,
-    "tss": 19,
-    "description": "Base desde cero. RPE 2-3/10, ritmo conversacional; trote-caminata si hace falta. Termina con sensación de poder continuar. Duración total 30 min, incluye calentamiento y vuelta a la calma caminando."
+    "duration_minutes": 35,
+    "tss": 22,
+    "description": "Construcción aeróbica. RPE 2-3/10 y ritmo conversacional; trote-caminata cuando convenga, sin perseguir ritmos. Duración total 35 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2027-01-02",
     "sport": "Run",
     "title": "Fondo fácil / run-walk — semana 9",
-    "duration_minutes": 55,
-    "tss": 40,
-    "description": "Base desde cero. RPE 2-3/10, ritmo conversacional; trote-caminata si hace falta. Termina con sensación de poder continuar. Duración total 55 min, incluye calentamiento y vuelta a la calma caminando."
+    "duration_minutes": 65,
+    "tss": 47,
+    "description": "Construcción aeróbica. RPE 2-3/10 y ritmo conversacional; trote-caminata cuando convenga, sin perseguir ritmos. Duración total 65 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2027-01-05",
     "sport": "Run",
     "title": "Carrera aeróbica fácil — semana 10",
-    "duration_minutes": 32,
-    "tss": 20,
-    "description": "Base desde cero. RPE 2-3/10, ritmo conversacional; trote-caminata si hace falta. Termina con sensación de poder continuar. Duración total 32 min, incluye calentamiento y vuelta a la calma caminando."
+    "duration_minutes": 40,
+    "tss": 25,
+    "description": "Construcción aeróbica. RPE 2-3/10 y ritmo conversacional; trote-caminata cuando convenga, sin perseguir ritmos. Duración total 40 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2027-01-06",
@@ -307,25 +307,25 @@
     "date": "2027-01-07",
     "sport": "Run",
     "title": "Carrera aeróbica fácil — semana 10",
-    "duration_minutes": 32,
-    "tss": 20,
-    "description": "Base desde cero. RPE 2-3/10, ritmo conversacional; trote-caminata si hace falta. Termina con sensación de poder continuar. Duración total 32 min, incluye calentamiento y vuelta a la calma caminando."
+    "duration_minutes": 35,
+    "tss": 22,
+    "description": "Construcción aeróbica. RPE 2-3/10 y ritmo conversacional; trote-caminata cuando convenga, sin perseguir ritmos. Duración total 35 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2027-01-09",
     "sport": "Run",
     "title": "Fondo fácil / run-walk — semana 10",
-    "duration_minutes": 60,
-    "tss": 43,
-    "description": "Base desde cero. RPE 2-3/10, ritmo conversacional; trote-caminata si hace falta. Termina con sensación de poder continuar. Duración total 60 min, incluye calentamiento y vuelta a la calma caminando."
+    "duration_minutes": 75,
+    "tss": 54,
+    "description": "Construcción aeróbica. RPE 2-3/10 y ritmo conversacional; trote-caminata cuando convenga, sin perseguir ritmos. Duración total 75 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2027-01-12",
     "sport": "Run",
     "title": "Carrera aeróbica fácil — semana 11",
-    "duration_minutes": 35,
-    "tss": 22,
-    "description": "Base desde cero. RPE 2-3/10, ritmo conversacional; trote-caminata si hace falta. Termina con sensación de poder continuar. Duración total 35 min, incluye calentamiento y vuelta a la calma caminando."
+    "duration_minutes": 40,
+    "tss": 25,
+    "description": "Construcción aeróbica. RPE 2-3/10 y ritmo conversacional; trote-caminata cuando convenga, sin perseguir ritmos. Duración total 40 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2027-01-13",
@@ -339,25 +339,25 @@
     "date": "2027-01-14",
     "sport": "Run",
     "title": "Carrera aeróbica fácil — semana 11",
-    "duration_minutes": 35,
-    "tss": 22,
-    "description": "Base desde cero. RPE 2-3/10, ritmo conversacional; trote-caminata si hace falta. Termina con sensación de poder continuar. Duración total 35 min, incluye calentamiento y vuelta a la calma caminando."
+    "duration_minutes": 40,
+    "tss": 25,
+    "description": "Construcción aeróbica. RPE 2-3/10 y ritmo conversacional; trote-caminata cuando convenga, sin perseguir ritmos. Duración total 40 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2027-01-16",
     "sport": "Run",
     "title": "Fondo fácil / run-walk — semana 11",
-    "duration_minutes": 65,
-    "tss": 47,
-    "description": "Base desde cero. RPE 2-3/10, ritmo conversacional; trote-caminata si hace falta. Termina con sensación de poder continuar. Duración total 65 min, incluye calentamiento y vuelta a la calma caminando."
+    "duration_minutes": 85,
+    "tss": 61,
+    "description": "Construcción aeróbica. RPE 2-3/10 y ritmo conversacional; trote-caminata cuando convenga, sin perseguir ritmos. Duración total 85 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2027-01-19",
     "sport": "Run",
     "title": "Rodaje de descarga — semana 12",
-    "duration_minutes": 28,
-    "tss": 17,
-    "description": "Descarga 12. RPE 2-3/10, ritmo conversacional; trote-caminata si hace falta. Termina con sensación de poder continuar. Duración total 28 min, incluye calentamiento y vuelta a la calma caminando."
+    "duration_minutes": 35,
+    "tss": 22,
+    "description": "Semana de descarga. RPE 2-3/10 y ritmo conversacional; trote-caminata cuando convenga, sin perseguir ritmos. Duración total 35 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2027-01-20",
@@ -371,25 +371,25 @@
     "date": "2027-01-21",
     "sport": "Run",
     "title": "Rodaje de descarga — semana 12",
-    "duration_minutes": 28,
-    "tss": 17,
-    "description": "Descarga 12. RPE 2-3/10, ritmo conversacional; trote-caminata si hace falta. Termina con sensación de poder continuar. Duración total 28 min, incluye calentamiento y vuelta a la calma caminando."
+    "duration_minutes": 35,
+    "tss": 22,
+    "description": "Semana de descarga. RPE 2-3/10 y ritmo conversacional; trote-caminata cuando convenga, sin perseguir ritmos. Duración total 35 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2027-01-23",
     "sport": "Run",
     "title": "Fondo fácil / run-walk — semana 12",
-    "duration_minutes": 50,
-    "tss": 36,
-    "description": "Descarga 12. RPE 2-3/10, ritmo conversacional; trote-caminata si hace falta. Termina con sensación de poder continuar. Duración total 50 min, incluye calentamiento y vuelta a la calma caminando."
+    "duration_minutes": 65,
+    "tss": 47,
+    "description": "Semana de descarga. RPE 2-3/10 y ritmo conversacional; trote-caminata cuando convenga, sin perseguir ritmos. Duración total 65 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2027-01-26",
     "sport": "Run",
     "title": "Carrera aeróbica y strides opcionales — semana 13",
-    "duration_minutes": 35,
-    "tss": 22,
-    "description": "Base y fuerza específica. RPE 2-3/10 y conversacional. Solo el martes, si llevas 2 semanas sin dolor, añade 4-6 x 15-20 s alegres con recuperación completa; si no, todo fácil. Duración total 35 min, incluye calentamiento y vuelta a la calma caminando."
+    "duration_minutes": 40,
+    "tss": 25,
+    "description": "Construcción aeróbica. RPE 2-3/10 y conversacional. Solo el martes, si llevas 2 semanas sin dolor, puedes añadir 4-6 x 15-20 s alegres con recuperación completa; si no, todo fácil. Duración total 40 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2027-01-27",
@@ -403,25 +403,25 @@
     "date": "2027-01-28",
     "sport": "Run",
     "title": "Carrera aeróbica fácil — semana 13",
-    "duration_minutes": 35,
-    "tss": 22,
-    "description": "Base y fuerza específica. RPE 2-3/10 y conversacional. Solo el martes, si llevas 2 semanas sin dolor, añade 4-6 x 15-20 s alegres con recuperación completa; si no, todo fácil. Duración total 35 min, incluye calentamiento y vuelta a la calma caminando."
+    "duration_minutes": 40,
+    "tss": 25,
+    "description": "Construcción aeróbica. RPE 2-3/10 y conversacional. Solo el martes, si llevas 2 semanas sin dolor, puedes añadir 4-6 x 15-20 s alegres con recuperación completa; si no, todo fácil. Duración total 40 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2027-01-30",
     "sport": "Run",
     "title": "Fondo fácil / run-walk — semana 13",
-    "duration_minutes": 70,
-    "tss": 50,
-    "description": "Base y fuerza específica. RPE 2-3/10 y conversacional. Solo el martes, si llevas 2 semanas sin dolor, añade 4-6 x 15-20 s alegres con recuperación completa; si no, todo fácil. Duración total 70 min, incluye calentamiento y vuelta a la calma caminando."
+    "duration_minutes": 85,
+    "tss": 61,
+    "description": "Construcción aeróbica. RPE 2-3/10 y conversacional. Solo el martes, si llevas 2 semanas sin dolor, puedes añadir 4-6 x 15-20 s alegres con recuperación completa; si no, todo fácil. Duración total 85 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2027-02-02",
     "sport": "Run",
     "title": "Carrera aeróbica y strides opcionales — semana 14",
-    "duration_minutes": 38,
-    "tss": 24,
-    "description": "Base y fuerza específica. RPE 2-3/10 y conversacional. Solo el martes, si llevas 2 semanas sin dolor, añade 4-6 x 15-20 s alegres con recuperación completa; si no, todo fácil. Duración total 38 min, incluye calentamiento y vuelta a la calma caminando."
+    "duration_minutes": 45,
+    "tss": 28,
+    "description": "Construcción aeróbica. RPE 2-3/10 y conversacional. Solo el martes, si llevas 2 semanas sin dolor, puedes añadir 4-6 x 15-20 s alegres con recuperación completa; si no, todo fácil. Duración total 45 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2027-02-03",
@@ -435,25 +435,25 @@
     "date": "2027-02-04",
     "sport": "Run",
     "title": "Carrera aeróbica fácil — semana 14",
-    "duration_minutes": 38,
-    "tss": 24,
-    "description": "Base y fuerza específica. RPE 2-3/10 y conversacional. Solo el martes, si llevas 2 semanas sin dolor, añade 4-6 x 15-20 s alegres con recuperación completa; si no, todo fácil. Duración total 38 min, incluye calentamiento y vuelta a la calma caminando."
+    "duration_minutes": 40,
+    "tss": 25,
+    "description": "Construcción aeróbica. RPE 2-3/10 y conversacional. Solo el martes, si llevas 2 semanas sin dolor, puedes añadir 4-6 x 15-20 s alegres con recuperación completa; si no, todo fácil. Duración total 40 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2027-02-06",
     "sport": "Run",
     "title": "Fondo fácil / run-walk — semana 14",
-    "duration_minutes": 80,
-    "tss": 58,
-    "description": "Base y fuerza específica. RPE 2-3/10 y conversacional. Solo el martes, si llevas 2 semanas sin dolor, añade 4-6 x 15-20 s alegres con recuperación completa; si no, todo fácil. Duración total 80 min, incluye calentamiento y vuelta a la calma caminando."
+    "duration_minutes": 95,
+    "tss": 68,
+    "description": "Construcción aeróbica. RPE 2-3/10 y conversacional. Solo el martes, si llevas 2 semanas sin dolor, puedes añadir 4-6 x 15-20 s alegres con recuperación completa; si no, todo fácil. Duración total 95 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2027-02-09",
     "sport": "Run",
     "title": "Carrera aeróbica y strides opcionales — semana 15",
-    "duration_minutes": 40,
-    "tss": 25,
-    "description": "Base y fuerza específica. RPE 2-3/10 y conversacional. Solo el martes, si llevas 2 semanas sin dolor, añade 4-6 x 15-20 s alegres con recuperación completa; si no, todo fácil. Duración total 40 min, incluye calentamiento y vuelta a la calma caminando."
+    "duration_minutes": 45,
+    "tss": 28,
+    "description": "Construcción aeróbica. RPE 2-3/10 y conversacional. Solo el martes, si llevas 2 semanas sin dolor, puedes añadir 4-6 x 15-20 s alegres con recuperación completa; si no, todo fácil. Duración total 45 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2027-02-10",
@@ -467,25 +467,25 @@
     "date": "2027-02-11",
     "sport": "Run",
     "title": "Carrera aeróbica fácil — semana 15",
-    "duration_minutes": 40,
-    "tss": 25,
-    "description": "Base y fuerza específica. RPE 2-3/10 y conversacional. Solo el martes, si llevas 2 semanas sin dolor, añade 4-6 x 15-20 s alegres con recuperación completa; si no, todo fácil. Duración total 40 min, incluye calentamiento y vuelta a la calma caminando."
+    "duration_minutes": 45,
+    "tss": 28,
+    "description": "Construcción aeróbica. RPE 2-3/10 y conversacional. Solo el martes, si llevas 2 semanas sin dolor, puedes añadir 4-6 x 15-20 s alegres con recuperación completa; si no, todo fácil. Duración total 45 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2027-02-13",
     "sport": "Run",
     "title": "Fondo fácil / run-walk — semana 15",
-    "duration_minutes": 90,
-    "tss": 65,
-    "description": "Base y fuerza específica. RPE 2-3/10 y conversacional. Solo el martes, si llevas 2 semanas sin dolor, añade 4-6 x 15-20 s alegres con recuperación completa; si no, todo fácil. Duración total 90 min, incluye calentamiento y vuelta a la calma caminando."
+    "duration_minutes": 105,
+    "tss": 76,
+    "description": "Construcción aeróbica. RPE 2-3/10 y conversacional. Solo el martes, si llevas 2 semanas sin dolor, puedes añadir 4-6 x 15-20 s alegres con recuperación completa; si no, todo fácil. Duración total 105 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2027-02-16",
     "sport": "Run",
     "title": "Rodaje de descarga — semana 16",
-    "duration_minutes": 32,
-    "tss": 20,
-    "description": "Descarga 16. RPE 2-3/10, fácil y conversacional; sin calidad. Trote-caminata si hace falta y termina con sensación de poder continuar. Duración total 32 min, incluye calentamiento y vuelta a la calma caminando."
+    "duration_minutes": 35,
+    "tss": 22,
+    "description": "Semana de descarga. RPE 2-3/10 y conversacional. Solo el martes, si llevas 2 semanas sin dolor, puedes añadir 4-6 x 15-20 s alegres con recuperación completa; si no, todo fácil. Duración total 35 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2027-02-17",
@@ -499,25 +499,25 @@
     "date": "2027-02-18",
     "sport": "Run",
     "title": "Rodaje de descarga — semana 16",
-    "duration_minutes": 32,
-    "tss": 20,
-    "description": "Descarga 16. RPE 2-3/10, fácil y conversacional; sin calidad. Trote-caminata si hace falta y termina con sensación de poder continuar. Duración total 32 min, incluye calentamiento y vuelta a la calma caminando."
+    "duration_minutes": 35,
+    "tss": 22,
+    "description": "Semana de descarga. RPE 2-3/10 y conversacional. Solo el martes, si llevas 2 semanas sin dolor, puedes añadir 4-6 x 15-20 s alegres con recuperación completa; si no, todo fácil. Duración total 35 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2027-02-20",
     "sport": "Run",
     "title": "Fondo fácil / run-walk — semana 16",
-    "duration_minutes": 65,
-    "tss": 47,
-    "description": "Descarga 16. RPE 2-3/10, fácil y conversacional; sin calidad. Trote-caminata si hace falta y termina con sensación de poder continuar. Duración total 65 min, incluye calentamiento y vuelta a la calma caminando."
+    "duration_minutes": 75,
+    "tss": 54,
+    "description": "Semana de descarga. RPE 2-3/10 y conversacional. Solo el martes, si llevas 2 semanas sin dolor, puedes añadir 4-6 x 15-20 s alegres con recuperación completa; si no, todo fácil. Duración total 75 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2027-02-23",
     "sport": "Run",
-    "title": "Rodaje suave pre-test — semana 17",
-    "duration_minutes": 30,
-    "tss": 19,
-    "description": "Taper para el test. RPE 2-3/10, muy fácil y conversacional; sin intervalos ni strides. Reduce o descansa ante dolor o fatiga inusual. Duración total 30 min, incluye calentamiento y vuelta a la calma caminando."
+    "title": "Carrera aeróbica y strides opcionales — semana 17",
+    "duration_minutes": 45,
+    "tss": 28,
+    "description": "Construcción aeróbica. RPE 2-3/10 y conversacional. Solo el martes, si llevas 2 semanas sin dolor, puedes añadir 4-6 x 15-20 s alegres con recuperación completa; si no, todo fácil. Duración total 45 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2027-02-24",
@@ -531,25 +531,25 @@
     "date": "2027-02-25",
     "sport": "Run",
     "title": "Carrera aeróbica fácil — semana 17",
-    "duration_minutes": 25,
-    "tss": 16,
-    "description": "Taper para el test. RPE 2-3/10, muy fácil y conversacional; sin intervalos ni strides. Reduce o descansa ante dolor o fatiga inusual. Duración total 25 min, incluye calentamiento y vuelta a la calma caminando."
+    "duration_minutes": 40,
+    "tss": 25,
+    "description": "Construcción aeróbica. RPE 2-3/10 y conversacional. Solo el martes, si llevas 2 semanas sin dolor, puedes añadir 4-6 x 15-20 s alegres con recuperación completa; si no, todo fácil. Duración total 40 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2027-02-27",
     "sport": "Run",
     "title": "Fondo fácil / run-walk — semana 17",
-    "duration_minutes": 55,
-    "tss": 40,
-    "description": "Fondo corto de taper, RPE 2-3/10 y sin ritmo objetivo. Trote-caminata si lo necesitas; termina fresco y no intentes compensar entrenamiento perdido."
+    "duration_minutes": 90,
+    "tss": 65,
+    "description": "Construcción aeróbica. RPE 2-3/10 y conversacional. Solo el martes, si llevas 2 semanas sin dolor, puedes añadir 4-6 x 15-20 s alegres con recuperación completa; si no, todo fácil. Duración total 90 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2027-03-02",
     "sport": "Run",
-    "title": "Rodaje fácil pre-test — semana 18",
+    "title": "Carrera aeróbica y strides opcionales — semana 18",
     "duration_minutes": 25,
     "tss": 16,
-    "description": "Taper del test. RPE 2-3/10, muy fácil y sin buscar ritmo; reduce o descansa ante dolor, fatiga inusual o recuperación incompleta. Duración total 25 min, incluye calentamiento y vuelta a la calma caminando."
+    "description": "Retomar progresivamente tras el test. RPE 2-3/10, fácil y sin buscar ritmo; reduce o descansa ante dolor, fatiga inusual o recuperación incompleta. Duración total 25 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2027-03-03",
@@ -565,7 +565,7 @@
     "title": "Carrera aeróbica fácil — semana 18",
     "duration_minutes": 20,
     "tss": 12,
-    "description": "Taper del test. RPE 2-3/10, muy fácil y sin buscar ritmo; reduce o descansa ante dolor, fatiga inusual o recuperación incompleta. Duración total 20 min, incluye calentamiento y vuelta a la calma caminando."
+    "description": "Retomar progresivamente tras el test. RPE 2-3/10, fácil y sin buscar ritmo; reduce o descansa ante dolor, fatiga inusual o recuperación incompleta. Duración total 20 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2027-03-07",
@@ -581,7 +581,7 @@
     "title": "Rodaje de recuperación post-test",
     "duration_minutes": 20,
     "tss": 12,
-    "description": "Recuperación tras el test. Recuperación: RPE 1-2/10 y caminar/trotar. Hazlo solo si estás recuperado y sin dolor; si no, descansa. Duración total 20 min, incluye calentamiento y vuelta a la calma caminando."
+    "description": "Recuperación tras el test. RPE 1-2/10 de recuperación, caminar/trotar solo si estás recuperado y sin dolor; si no, descansa. Duración total 20 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2027-03-10",
@@ -595,9 +595,9 @@
     "date": "2027-03-11",
     "sport": "Run",
     "title": "Rodaje de recuperación post-test",
-    "duration_minutes": 20,
-    "tss": 12,
-    "description": "Recuperación tras el test. Recuperación: RPE 1-2/10 y caminar/trotar. Hazlo solo si estás recuperado y sin dolor; si no, descansa. Duración total 20 min, incluye calentamiento y vuelta a la calma caminando."
+    "duration_minutes": 25,
+    "tss": 16,
+    "description": "Recuperación tras el test. RPE 1-2/10 de recuperación, caminar/trotar solo si estás recuperado y sin dolor; si no, descansa. Duración total 25 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2027-03-13",
@@ -605,15 +605,15 @@
     "title": "Fondo fácil / run-walk — semana 19",
     "duration_minutes": 30,
     "tss": 22,
-    "description": "Recuperación tras el test. Recuperación: RPE 1-2/10 y caminar/trotar. Hazlo solo si estás recuperado y sin dolor; si no, descansa. Duración total 30 min, incluye calentamiento y vuelta a la calma caminando."
+    "description": "Recuperación tras el test. RPE 1-2/10 de recuperación, caminar/trotar solo si estás recuperado y sin dolor; si no, descansa. Duración total 30 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2027-03-16",
     "sport": "Run",
-    "title": "Carrera aeróbica fácil post-test — semana 20",
-    "duration_minutes": 25,
-    "tss": 16,
-    "description": "Base y fuerza específica. RPE 2-3/10, muy fácil y sin buscar ritmo; reduce o descansa ante dolor, fatiga inusual o recuperación incompleta. Duración total 25 min, incluye calentamiento y vuelta a la calma caminando."
+    "title": "Retomar carrera suavemente — semana 20",
+    "duration_minutes": 30,
+    "tss": 19,
+    "description": "Retomar progresivamente tras el test. RPE 2-3/10, fácil y sin buscar ritmo; reduce o descansa ante dolor, fatiga inusual o recuperación incompleta. Duración total 30 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2027-03-17",
@@ -626,18 +626,18 @@
   {
     "date": "2027-03-18",
     "sport": "Run",
-    "title": "Carrera aeróbica fácil — semana 20",
-    "duration_minutes": 25,
+    "title": "Retomar carrera suavemente — semana 20",
+    "duration_minutes": 30,
     "tss": 19,
-    "description": "Base y fuerza específica. RPE 2-3/10, muy fácil y sin buscar ritmo; reduce o descansa ante dolor, fatiga inusual o recuperación incompleta. Duración total 25 min, incluye calentamiento y vuelta a la calma caminando."
+    "description": "Retomar progresivamente tras el test. RPE 2-3/10, fácil y sin buscar ritmo; reduce o descansa ante dolor, fatiga inusual o recuperación incompleta. Duración total 30 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2027-03-20",
     "sport": "Run",
     "title": "Fondo fácil / run-walk — semana 20",
-    "duration_minutes": 50,
-    "tss": 36,
-    "description": "Base y fuerza específica. RPE 2-3/10, muy fácil y sin buscar ritmo; reduce o descansa ante dolor, fatiga inusual o recuperación incompleta. Duración total 50 min, incluye calentamiento y vuelta a la calma caminando."
+    "duration_minutes": 60,
+    "tss": 43,
+    "description": "Retomar progresivamente tras el test. RPE 2-3/10, fácil y sin buscar ritmo; reduce o descansa ante dolor, fatiga inusual o recuperación incompleta. Duración total 60 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2027-03-23",
@@ -645,7 +645,7 @@
     "title": "Activación suave de taper — semana 21",
     "duration_minutes": 30,
     "tss": 19,
-    "description": "Taper de la carrera A. RPE 2-3/10, muy fácil y sin buscar ritmo; reduce o descansa ante dolor, fatiga inusual o recuperación incompleta. Duración total 30 min, incluye calentamiento y vuelta a la calma caminando."
+    "description": "Taper de la carrera A. RPE 2-3/10, fácil y sin buscar ritmo; reduce o descansa ante dolor, fatiga inusual o recuperación incompleta. Duración total 30 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2027-03-24",
@@ -659,17 +659,17 @@
     "date": "2027-03-25",
     "sport": "Run",
     "title": "Activación suave de taper — semana 21",
-    "duration_minutes": 20,
-    "tss": 12,
-    "description": "Taper. RPE 2-3/10, muy fácil y sin buscar ritmo; reduce o descansa ante dolor, fatiga inusual o recuperación incompleta. Duración total 20 min, incluye calentamiento y vuelta a la calma caminando."
+    "duration_minutes": 25,
+    "tss": 16,
+    "description": "Taper de la carrera A. RPE 2-3/10, fácil y sin buscar ritmo; reduce o descansa ante dolor, fatiga inusual o recuperación incompleta. Duración total 25 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2027-03-27",
     "sport": "Run",
     "title": "Fondo fácil / run-walk — semana 21",
-    "duration_minutes": 35,
-    "tss": 25,
-    "description": "Taper de la carrera A. Fondo corto y muy fácil, RPE 2-3/10, sin ritmo objetivo. Trote-caminata si hace falta; termina fresco."
+    "duration_minutes": 45,
+    "tss": 32,
+    "description": "Taper de la carrera A. RPE 2-3/10, fácil y sin buscar ritmo; reduce o descansa ante dolor, fatiga inusual o recuperación incompleta. Duración total 45 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2027-03-30",
@@ -677,7 +677,7 @@
     "title": "Activación suave de taper — semana 22",
     "duration_minutes": 20,
     "tss": 12,
-    "description": "Taper. RPE 2-3/10, muy fácil y sin buscar ritmo; reduce o descansa ante dolor, fatiga inusual o recuperación incompleta. Duración total 20 min, incluye calentamiento y vuelta a la calma caminando."
+    "description": "Taper de la carrera A. RPE 2-3/10, fácil y sin buscar ritmo; reduce o descansa ante dolor, fatiga inusual o recuperación incompleta. Duración total 20 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2027-03-31",
@@ -693,13 +693,13 @@
     "title": "Activación suave de taper — semana 22",
     "duration_minutes": 15,
     "tss": 9,
-    "description": "Taper de la carrera A. RPE 2-3/10, muy fácil y sin buscar ritmo; reduce o descansa ante dolor, fatiga inusual o recuperación incompleta. Duración total 15 min, incluye calentamiento y vuelta a la calma caminando."
+    "description": "Taper de la carrera A. RPE 2-3/10, fácil y sin buscar ritmo; reduce o descansa ante dolor, fatiga inusual o recuperación incompleta. Duración total 15 min, incluye calentamiento y vuelta a la calma caminando. Mantén al menos un día sin correr entre sesiones; no recuperes minutos perdidos."
   },
   {
     "date": "2027-04-04",
     "sport": "Run",
     "title": "Media maratón objetivo — A race (1h45 aspiracional)",
-    "duration_minutes": 120,
+    "duration_minutes": 105,
     "tss": 140,
     "description": "Carrera A. Objetivo 1h45 (4:59/km) solo como meta aspiracional, no garantizada: partir por esfuerzo sostenible, ajustar al estado del día y no forzar el ritmo si la preparación no lo respalda. Llegar sano es prioritario; caminar o abandonar si aparece dolor o malestar."
   }
