@@ -39,3 +39,7 @@ Este repositorio sincroniza automáticamente tu plan de entrenamiento de Media M
 Antes de crear un workout para un día del plan, la sincronización consulta TrainingPeaks. Si ya existe cualquier workout ese día —planificado o completado—, lo omite y lo registra en `synced_log.json`. Si no puede consultar TrainingPeaks o interpretar la respuesta, no crea el workout y la ejecución termina con error para que el problema sea visible.
 
 # trainingpeaks-auto-sync
+
+## Plan de entrenamiento 2026–2027
+
+El calendario empieza desde cero el martes 3 de noviembre de 2026 con CACO (20–25 minutos por sesión, alternando trote fácil y caminata). Los minutos crecen pronto y de forma gradual: tres carreras los martes, jueves y sábados, bicicleta fácil los miércoles, semanas de descarga y un fondo máximo de 105 minutos antes del test. La media maratón del 7 de marzo de 2027 está programada como test controlado, no a tope, seguida de recuperación; la carrera A es el 4 de abril. El objetivo de 1h45 es aspiracional y no está garantizado, especialmente al retomar desde cero; la progresión prioriza llegar sano y debe ajustarse si aparece dolor o fatiga inusual.
