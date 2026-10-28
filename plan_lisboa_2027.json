@@ -1,5 +1,116 @@
 [
   {
+    "date": "2026-10-29",
+    "sport": "Run",
+    "title": "PRUEBA CACO estructurada — 20 min",
+    "duration_minutes": 20,
+    "tss": 10,
+    "description": "Entrenamiento de prueba para comprobar los intervalos estructurados en TrainingPeaks. Duración exacta: 4 min caminando + 6 repeticiones de 1 min de trote muy fácil / 1 min caminando (12 min) + 4 min caminando = 20 min. Mantén RPE 2-3/10 en el trote, RPE 1-2/10 caminando; sin buscar ritmo. Cancela o camina si aparece dolor.",
+    "structure": {
+      "primaryIntensityMetric": "percentOfThresholdPace",
+      "steps": [
+        {
+          "name": "Calentamiento caminando",
+          "duration_seconds": 240,
+          "intensity_min": 40,
+          "intensity_max": 55,
+          "intensityClass": "warmUp"
+        },
+        {
+          "name": "Trote CACO fácil 1",
+          "duration_seconds": 60,
+          "intensity_min": 70,
+          "intensity_max": 85,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Caminata CACO 1",
+          "duration_seconds": 60,
+          "intensity_min": 40,
+          "intensity_max": 55,
+          "intensityClass": "rest"
+        },
+        {
+          "name": "Trote CACO fácil 2",
+          "duration_seconds": 60,
+          "intensity_min": 70,
+          "intensity_max": 85,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Caminata CACO 2",
+          "duration_seconds": 60,
+          "intensity_min": 40,
+          "intensity_max": 55,
+          "intensityClass": "rest"
+        },
+        {
+          "name": "Trote CACO fácil 3",
+          "duration_seconds": 60,
+          "intensity_min": 70,
+          "intensity_max": 85,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Caminata CACO 3",
+          "duration_seconds": 60,
+          "intensity_min": 40,
+          "intensity_max": 55,
+          "intensityClass": "rest"
+        },
+        {
+          "name": "Trote CACO fácil 4",
+          "duration_seconds": 60,
+          "intensity_min": 70,
+          "intensity_max": 85,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Caminata CACO 4",
+          "duration_seconds": 60,
+          "intensity_min": 40,
+          "intensity_max": 55,
+          "intensityClass": "rest"
+        },
+        {
+          "name": "Trote CACO fácil 5",
+          "duration_seconds": 60,
+          "intensity_min": 70,
+          "intensity_max": 85,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Caminata CACO 5",
+          "duration_seconds": 60,
+          "intensity_min": 40,
+          "intensity_max": 55,
+          "intensityClass": "rest"
+        },
+        {
+          "name": "Trote CACO fácil 6",
+          "duration_seconds": 60,
+          "intensity_min": 70,
+          "intensity_max": 85,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Caminata CACO 6",
+          "duration_seconds": 60,
+          "intensity_min": 40,
+          "intensity_max": 55,
+          "intensityClass": "rest"
+        },
+        {
+          "name": "Vuelta a la calma caminando",
+          "duration_seconds": 240,
+          "intensity_min": 40,
+          "intensity_max": 55,
+          "intensityClass": "coolDown"
+        }
+      ]
+    }
+  },
+  {
     "date": "2026-11-03",
     "sport": "Run",
     "title": "Run-walk CACO — semana 1",
