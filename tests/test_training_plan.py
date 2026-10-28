@@ -5,6 +5,8 @@ from collections import Counter, defaultdict
 from datetime import date, timedelta
 from pathlib import Path
 
+import auto_sync_tp
+
 
 PLAN_FILE = Path(__file__).parents[1] / "plan_lisboa_2027.json"
 RACE_DATES = {date(2027, 3, 7), date(2027, 4, 4)}
@@ -27,7 +29,10 @@ class TrainingPlanTests(unittest.TestCase):
         }
         dates = []
         for entry in self.plan:
-            self.assertEqual(set(entry), expected_keys)
+            expected_entry_keys = set(expected_keys)
+            if entry["date"] not in {"2027-03-07", "2027-04-04"}:
+                expected_entry_keys.add("structure")
+            self.assertEqual(set(entry), expected_entry_keys)
             dates.append(date.fromisoformat(entry["date"]))
             self.assertIn(entry["sport"], {"Run", "Bike"})
             self.assertIsInstance(entry["duration_minutes"], int)
@@ -35,10 +40,13 @@ class TrainingPlanTests(unittest.TestCase):
             self.assertIsInstance(entry["tss"], (int, float))
             self.assertIsInstance(entry["description"], str)
             self.assertTrue(entry["description"])
+            if "structure" in entry:
+                self.assertIsInstance(entry["structure"], dict)
 
         self.assertEqual(dates, sorted(dates))
         self.assertEqual(len(dates), len(set(dates)))
-        self.assertEqual(dates[0], date(2026, 11, 3))
+        self.assertEqual(dates[0], date(2026, 10, 29))
+        self.assertIn(date(2026, 11, 3), dates)
         self.assertEqual(dates[-1], date(2027, 4, 4))
 
     def test_sessions_follow_weekly_schedule_and_race_exceptions(self):
@@ -50,6 +58,9 @@ class TrainingPlanTests(unittest.TestCase):
 
         race_dates = set()
         for sessions in weeks.values():
+            if any(session_date == date(2026, 10, 29) for session_date, _entry in sessions):
+                self.assertEqual(len(sessions), 1)
+                continue
             dates = [session_date for session_date, _entry in sessions]
             sports = Counter(entry["sport"] for _session_date, entry in sessions)
             self.assertEqual(sports, {"Run": 3, "Bike": 1})
@@ -65,6 +76,17 @@ class TrainingPlanTests(unittest.TestCase):
                     self.assertIn(weekday, {1, 3, 5})
 
         self.assertEqual(race_dates, RACE_DATES)
+
+    def test_one_off_caco_structure_smoke_test_is_exactly_20_minutes(self):
+        test_workout = next(
+            entry for entry in self.plan if entry["date"] == "2026-10-29"
+        )
+        self.assertEqual(test_workout["title"], "PRUEBA CACO estructurada — 20 min")
+        self.assertIn("6 repeticiones de 1 min", test_workout["description"])
+        _wire, duration_seconds = auto_sync_tp.build_wire_structure(
+            test_workout["structure"]
+        )
+        self.assertEqual(duration_seconds, 20 * 60)
 
     def test_preparation_test_and_target_race_are_clearly_identified(self):
         by_date = {date.fromisoformat(entry["date"]): entry for entry in self.plan}
@@ -159,6 +181,10 @@ class TrainingPlanTests(unittest.TestCase):
             )
             for monday, sessions in weeks.items()
             if monday < date(2027, 3, 1)
+            and any(
+                entry["sport"] == "Run" and session_date.weekday() == 5
+                for session_date, entry in sessions
+            )
         }
         self.assertGreaterEqual(max(long_runs.values()), 100)
         self.assertEqual(long_runs[date(2027, 2, 8)], 105)
@@ -166,7 +192,7 @@ class TrainingPlanTests(unittest.TestCase):
     def test_running_workout_descriptions_match_duration_and_include_pace_guidance(self):
         races = {"2027-03-07", "2027-04-04"}
         for entry in self.plan:
-            if entry["sport"] != "Run" or entry["date"] in races:
+            if entry["sport"] != "Run" or entry["date"] in races | {"2026-10-29"}:
                 continue
 
             duration = entry["duration_minutes"]
@@ -195,6 +221,27 @@ class TrainingPlanTests(unittest.TestCase):
                     f"bloque principal + 5 min caminando = {duration} min."
                 )
                 self.assertIn(expected_structure, description, entry["date"])
+
+    def test_native_structures_match_each_planned_workout_duration(self):
+        races = {"2027-03-07", "2027-04-04"}
+        for entry in self.plan:
+            if entry["date"] in races:
+                self.assertNotIn("structure", entry)
+                continue
+
+            wire, total_seconds = auto_sync_tp.build_wire_structure(entry["structure"])
+            expected_seconds = entry["duration_minutes"] * 60
+            self.assertEqual(total_seconds, expected_seconds, entry["date"])
+            self.assertEqual(
+                sum(block["end"] - block["begin"] for block in wire["structure"]),
+                expected_seconds,
+                entry["date"],
+            )
+            self.assertEqual(wire["primaryLengthMetric"], "duration")
+            self.assertEqual(
+                wire["primaryIntensityMetric"],
+                "percentOfFtp" if entry["sport"] == "Bike" else "percentOfThresholdPace",
+            )
 
 
 if __name__ == "__main__":
