@@ -128,8 +128,12 @@ class TrainingPlanTests(unittest.TestCase):
 
         for entry in self.plan:
             session_date = date.fromisoformat(entry["date"])
-            if entry["sport"] == "Run" and session_date < date(2027, 1, 26):
-                self.assertNotIn("strides", entry["description"].lower())
+            if entry["sport"] == "Run" and date(2026, 11, 3) <= session_date <= date(2026, 11, 14):
+                self.assertIn("CACO", entry["title"])
+                self.assertLessEqual(
+                    max(step["intensity_max"] for step in entry["structure"]["steps"]),
+                    85,
+                )
 
         for race_date in RACE_DATES:
             race_monday = race_date - timedelta(days=race_date.weekday())
@@ -157,10 +161,17 @@ class TrainingPlanTests(unittest.TestCase):
         )
         self.assertTrue(
             all(
-                "CACO" in entry["description"] and "trote muy fácil" in entry["description"]
+                "CACO" in entry["description"] and "trote" in entry["description"]
                 for entry in first_week_runs
             )
         )
+        second_week_runs = [
+            entry
+            for _day, entry in weeks[date(2026, 11, 9)]
+            if entry["sport"] == "Run"
+        ]
+        self.assertEqual(len(second_week_runs), 3)
+        self.assertTrue(all("CACO" in entry["title"] for entry in second_week_runs))
 
         run_totals = {
             monday: sum(
@@ -171,7 +182,7 @@ class TrainingPlanTests(unittest.TestCase):
             for monday, sessions in weeks.items()
         }
         self.assertGreater(run_totals[date(2026, 11, 16)], run_totals[date(2026, 11, 2)])
-        self.assertGreaterEqual(run_totals[date(2027, 2, 8)], 180)
+        self.assertGreaterEqual(run_totals[date(2027, 2, 8)], 170)
 
         long_runs = {
             monday: next(
@@ -186,8 +197,10 @@ class TrainingPlanTests(unittest.TestCase):
                 for session_date, entry in sessions
             )
         }
-        self.assertGreaterEqual(max(long_runs.values()), 100)
-        self.assertEqual(long_runs[date(2027, 2, 8)], 105)
+        self.assertGreaterEqual(max(long_runs.values()), 90)
+        self.assertEqual(max(long_runs.values()), 95)
+        self.assertEqual(long_runs[date(2027, 2, 8)], 85)
+        self.assertEqual(long_runs[date(2027, 2, 15)], 75)
 
     def test_running_workout_descriptions_match_duration_and_include_pace_guidance(self):
         races = {"2027-03-07", "2027-04-04"}
@@ -198,29 +211,78 @@ class TrainingPlanTests(unittest.TestCase):
             duration = entry["duration_minutes"]
             description = entry["description"]
             self.assertIn(f"= {duration} min.", description, entry["date"])
-            self.assertIn("Ritmo medio orientativo", description, entry["date"])
-            self.assertRegex(description, r"\d:\d{2}-\d:\d{2} min/km")
+            if (
+                "CACO" not in entry["title"]
+                and "progresivos" not in entry["title"]
+                and "cuesta" not in entry["title"].lower()
+                and "test de ritmo controlado" not in entry["title"].lower()
+                and "Sin ritmo objetivo" not in description
+            ):
+                self.assertRegex(description, r"\d:\d{2}-\d:\d{2} min/km")
 
-            if "strides" in entry["title"].lower():
-                easy_minutes = duration - 29.5
-                if easy_minutes.is_integer():
-                    easy_text = f"{int(easy_minutes)} min"
-                else:
-                    easy_text = f"{int(easy_minutes)} min 30 s"
-                expected_structure = (
-                    f"Estructura exacta: 10 min suaves + {easy_text} aeróbicos + "
-                    "6 x 20 s (2 min) + 5 x 90 s recuperación (7 min 30 s) + "
-                    f"10 min suaves = {duration} min."
-                )
-                self.assertIn(expected_structure, description, entry["date"])
-                self.assertIn("RPE 6/10, no sprintar", description)
-            else:
-                main_minutes = duration - 10
-                expected_structure = (
-                    f"Estructura exacta: 5 min caminando + {main_minutes} min de "
-                    f"bloque principal + 5 min caminando = {duration} min."
-                )
-                self.assertIn(expected_structure, description, entry["date"])
+    def test_quality_varies_and_target_paces_progress_toward_goal_pace(self):
+        workouts_by_week = {}
+        for entry in self.plan:
+            if entry["sport"] != "Run" or entry["date"] < "2026-11-03":
+                continue
+            session_date = date.fromisoformat(entry["date"])
+            week = (session_date - date(2026, 11, 2)).days // 7 + 1
+            workouts_by_week.setdefault(week, []).append(entry)
+
+        quality_titles = [
+            next(
+                entry["title"]
+                for entry in workouts_by_week[week]
+                if date.fromisoformat(entry["date"]).weekday() == 1
+            )
+            for week in (5, 6, 7, 9, 10, 13, 14, 17)
+        ]
+        self.assertTrue(any("Fartlek" in title for title in quality_titles))
+        self.assertTrue(any("cuesta" in title.lower() for title in quality_titles))
+        self.assertTrue(any("Tempo" in title for title in quality_titles))
+
+        planned_paces = []
+        for week in (5, 6, 9, 10, 13, 14, 17, 20, 21):
+            quality_entry = next(
+                entry
+                for entry in workouts_by_week[week]
+                if "min/km" in entry["description"]
+                and "Ritmo guía para los tramos vivos" in entry["description"]
+            )
+            match = re.search(
+                r"tramos vivos: (\d+:\d{2})-(\d+:\d{2}) min/km",
+                quality_entry["description"],
+            )
+            self.assertIsNotNone(match, quality_entry["date"])
+            planned_paces.append(
+                (int(match.group(1).split(":")[0]) * 60 + int(match.group(1).split(":")[1]),
+                 int(match.group(2).split(":")[0]) * 60 + int(match.group(2).split(":")[1]))
+            )
+
+        self.assertEqual(planned_paces, sorted(planned_paces, reverse=True))
+        self.assertIn(
+            "4:59-5:05",
+            next(
+                entry["description"]
+                for entry in workouts_by_week[21]
+                if "Ritmo guía para los tramos vivos" in entry["description"]
+            ),
+        )
+
+    def test_intermediate_pace_tests_are_scheduled_before_later_series(self):
+        tests = [
+            entry for entry in self.plan
+            if entry["sport"] == "Run" and entry["title"].startswith("Test de ritmo controlado")
+        ]
+        self.assertEqual([entry["date"] for entry in tests], ["2027-01-12", "2027-02-09"])
+        for entry in tests:
+            self.assertIn("20 min", entry["title"])
+            self.assertIn("ritmo medio GPS", entry["description"])
+            self.assertIn("actualiza el ritmo umbral", entry["description"])
+            self.assertEqual(
+                sum(step["duration_seconds"] for step in entry["structure"]["steps"]),
+                entry["duration_minutes"] * 60,
+            )
 
     def test_native_structures_match_each_planned_workout_duration(self):
         races = {"2027-03-07", "2027-04-04"}
