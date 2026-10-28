@@ -83,6 +83,26 @@ class WorkoutLookupTests(unittest.TestCase):
 class StructuredWorkoutCreationTests(unittest.TestCase):
     @patch("auto_sync_tp.get_api_headers", return_value={"Authorization": "token"})
     @patch("auto_sync_tp.requests.post")
+    def test_planned_duration_uses_hours_for_future_session_lengths(self, post, _headers):
+        response = post.return_value
+        response.status_code = 201
+        response.json.return_value = {"workoutId": 789}
+
+        result = auto_sync_tp.create_workout(
+            bearer_token="token",
+            athlete_id=42,
+            date_str="2030-01-02",
+            sport="Run",
+            title="Long run",
+            duration_minutes=75,
+        )
+
+        self.assertTrue(result["success"])
+        payload = post.call_args.kwargs["json"]
+        self.assertEqual(payload["totalTimePlanned"], 1.25)
+
+    @patch("auto_sync_tp.get_api_headers", return_value={"Authorization": "token"})
+    @patch("auto_sync_tp.requests.post")
     def test_posts_wire_structure_and_matching_planned_duration(self, post, _headers):
         response = post.return_value
         response.status_code = 201
@@ -127,7 +147,7 @@ class StructuredWorkoutCreationTests(unittest.TestCase):
         self.assertEqual(result["workout_id"], 456)
         payload = post.call_args.kwargs["json"]
         wire = json.loads(payload["structure"])
-        self.assertEqual(payload["totalTimePlanned"], 1200)
+        self.assertAlmostEqual(payload["totalTimePlanned"], 20 / 60)
         self.assertEqual(wire["primaryIntensityMetric"], "percentOfThresholdPace")
         self.assertEqual([block["begin"] for block in wire["structure"]], [0, 300, 900])
         self.assertEqual([block["end"] for block in wire["structure"]], [300, 900, 1200])
