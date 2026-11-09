@@ -2466,37 +2466,11 @@
   },
   {
     "date": "2027-01-23",
-    "sport": "Run",
-    "title": "Rodaje de descarga — semana 12",
-    "duration_minutes": 65,
-    "tss": 47,
-    "description": "65 min exactos: 5 min de calentamiento + 55 min fáciles + 5 min de vuelta a la calma = 65 min. Semana de descarga: todo fácil, sin series. Ritmo fácil orientativo 6:55-7:55 min/km, guiado por el test y RPE 2-3/10; no aceleres para cumplirlo.",
-    "structure": {
-      "primaryIntensityMetric": "percentOfThresholdPace",
-      "steps": [
-        {
-          "name": "Calentamiento caminando",
-          "duration_seconds": 300,
-          "intensity_min": 40,
-          "intensity_max": 55,
-          "intensityClass": "warmUp"
-        },
-        {
-          "name": "Carrera fácil conversacional",
-          "duration_seconds": 3300,
-          "intensity_min": 70,
-          "intensity_max": 85,
-          "intensityClass": "active"
-        },
-        {
-          "name": "Vuelta a la calma caminando",
-          "duration_seconds": 300,
-          "intensity_min": 40,
-          "intensity_max": 55,
-          "intensityClass": "coolDown"
-        }
-      ]
-    }
+    "sport": "Race",
+    "title": "10K Santa Pola — carrera de fondo",
+    "duration_minutes": 55,
+    "tss": 60,
+    "description": "Carrera 10K Santa Pola. Salida a las 17:00. Objetivo: ganar fondo y calibrar ritmos. Usa la carrera como test de ritmo sostenido; no como marca personal a cualquier precio. Observa a qué pace llegas cómodo en los primeros 5K y si puedes mantenerlo o acelerar en la segunda mitad. Anota sensaciones, FC media y ritmo para ajustar los entrenamientos siguientes."
   },
   {
     "date": "2027-01-26",
@@ -3088,10 +3062,10 @@
   {
     "date": "2027-02-20",
     "sport": "Run",
-    "title": "Rodaje de descarga — semana 16",
-    "duration_minutes": 75,
-    "tss": 54,
-    "description": "75 min exactos: 5 min de calentamiento + 65 min fáciles + 5 min de vuelta a la calma = 75 min. Semana de descarga: todo fácil, sin series. Ritmo fácil orientativo 6:40-7:40 min/km, guiado por el test y RPE 2-3/10; no aceleres para cumplirlo.",
+    "title": "Activación ligera pre-carrera — semana 16",
+    "duration_minutes": 25,
+    "tss": 15,
+    "description": "25 min muy suaves: 5 min caminando + 15 min trote muy fácil conversacional + 5 min caminando. Víspera del 10K Aguas de Alicante: solo activar piernas sin cansarlas. RPE máximo 2-3/10. No hagas series ni esfuerzos.",
     "structure": {
       "primaryIntensityMetric": "percentOfThresholdPace",
       "steps": [
@@ -3103,10 +3077,10 @@
           "intensityClass": "warmUp"
         },
         {
-          "name": "Carrera fácil conversacional",
-          "duration_seconds": 3900,
-          "intensity_min": 70,
-          "intensity_max": 85,
+          "name": "Trote muy suave de activación",
+          "duration_seconds": 900,
+          "intensity_min": 65,
+          "intensity_max": 80,
           "intensityClass": "active"
         },
         {
@@ -3118,6 +3092,14 @@
         }
       ]
     }
+  },
+  {
+    "date": "2027-02-21",
+    "sport": "Race",
+    "title": "10K Aguas de Alicante — carrera de fondo",
+    "duration_minutes": 55,
+    "tss": 60,
+    "description": "Carrera 10K Aguas de Alicante. Salida a las 09:30. Objetivo: ganar fondo y calibrar ritmos. Tras Santa Pola ya tienes una referencia de pace; intenta confirmarla o mejorar levemente. Observa FC, sensaciones y ritmo por kilómetros para seguir ajustando el plan hacia Lisboa."
   },
   {
     "date": "2027-02-23",
