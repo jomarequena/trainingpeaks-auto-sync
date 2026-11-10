@@ -177,5 +177,11 @@
     "title": "CACO fácil — semana 2",
     "sport": "Run",
     "synced_at": "2026-11-09T13:29:28.363902"
+  },
+  "2026-11-11": {
+    "workout_id": "4051892611",
+    "title": "Bicicleta fácil — semana 2",
+    "sport": "Bike",
+    "synced_at": "2026-11-10T13:08:46.318161"
   }
 }
