@@ -743,9 +743,9 @@
     "date": "2026-11-17",
     "sport": "Run",
     "title": "Rodaje fácil + progresivos — semana 3",
-    "duration_minutes": 30,
-    "tss": 19,
-    "description": "30 min: 7 min suaves + 6 min 30 s fáciles + 6 x 20 s progresivos relajados (no sprint) con 5 x 90 s muy suaves entre ellos + 7 min suaves = 30 min. Sin ritmo objetivo para los progresivos: hazlos por sensación, RPE 6/10, y el resto a conversación cómoda.",
+    "duration_minutes": 35,
+    "tss": 22,
+    "description": "35 min: 7 min suaves + 11 min 30 s fáciles + 6 x 20 s progresivos relajados (no sprint) con 5 x 90 s muy suaves entre ellos + 7 min suaves = 35 min. Sin ritmo objetivo para los progresivos: hazlos por sensación, RPE 6/10, y el resto a conversación cómoda.",
     "structure": {
       "primaryIntensityMetric": "percentOfThresholdPace",
       "steps": [
@@ -758,7 +758,7 @@
         },
         {
           "name": "Rodaje fácil",
-          "duration_seconds": 390,
+          "duration_seconds": 690,
           "intensity_min": 70,
           "intensity_max": 85,
           "intensityClass": "active"
@@ -874,9 +874,9 @@
     "date": "2026-11-19",
     "sport": "Run",
     "title": "Rodaje aeróbico fácil — semana 3",
-    "duration_minutes": 30,
-    "tss": 19,
-    "description": "30 min exactos: 5 min de calentamiento + 20 min fáciles + 5 min de vuelta a la calma = 30 min. Todo a esfuerzo conversacional. Sin ritmo objetivo: RPE 2-3/10 y conversación fácil.",
+    "duration_minutes": 35,
+    "tss": 22,
+    "description": "35 min exactos: 5 min de calentamiento + 25 min fáciles + 5 min de vuelta a la calma = 35 min. Todo a esfuerzo conversacional. Sin ritmo objetivo: RPE 2-3/10 y conversación fácil.",
     "structure": {
       "primaryIntensityMetric": "percentOfThresholdPace",
       "steps": [
@@ -889,7 +889,7 @@
         },
         {
           "name": "Carrera fácil conversacional",
-          "duration_seconds": 1200,
+          "duration_seconds": 1500,
           "intensity_min": 70,
           "intensity_max": 85,
           "intensityClass": "active"
@@ -1061,12 +1061,46 @@
     }
   },
   {
+    "date": "2026-11-30",
+    "sport": "Run",
+    "title": "Rodaje corto regenerativo — semana 5",
+    "duration_minutes": 20,
+    "tss": 12,
+    "description": "20 min exactos: 3 min caminando + 15 min de trote muy fácil + 2 min caminando = 20 min. 4º día corto para sumar tiempo de carrera sin fatiga: más suave que el jueves, RPE 2/10, conversación completa. Sin ritmo objetivo. Si estás cansado o has dormido poco, sáltalo sin problema.",
+    "structure": {
+      "primaryIntensityMetric": "percentOfThresholdPace",
+      "steps": [
+        {
+          "name": "Calentamiento caminando",
+          "duration_seconds": 180,
+          "intensity_min": 40,
+          "intensity_max": 55,
+          "intensityClass": "warmUp"
+        },
+        {
+          "name": "Trote muy fácil",
+          "duration_seconds": 900,
+          "intensity_min": 68,
+          "intensity_max": 82,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Vuelta a la calma caminando",
+          "duration_seconds": 120,
+          "intensity_min": 40,
+          "intensity_max": 55,
+          "intensityClass": "coolDown"
+        }
+      ]
+    }
+  },
+  {
     "date": "2026-12-01",
     "sport": "Run",
     "title": "Fartlek 6 x 1 min — semana 5",
-    "duration_minutes": 30,
-    "tss": 19,
-    "description": "30 min exactos: 7 min calentamiento + 4 min trote fácil + 12 min de bloques (6 x (1 min vivo + 1 min muy suave), incluyendo la recuperación tras el último tramo) + 7 min vuelta a la calma = 30 min. Ritmo guía para los tramos vivos: 6:30-6:45 min/km; es una progresión orientativa hacia el objetivo de 4:59 min/km, no una obligación. Usa ese rango solo si el último test y la sensación (RPE 6-7/10) lo respaldan; si no, repite el ritmo actual calibrado y no fuerces.",
+    "duration_minutes": 35,
+    "tss": 22,
+    "description": "35 min exactos: 7 min calentamiento + 9 min trote fácil + 12 min de bloques (6 x (1 min vivo + 1 min muy suave), incluyendo la recuperación tras el último tramo) + 7 min vuelta a la calma = 35 min. Ritmo guía para los tramos vivos: 6:30-6:45 min/km; es una progresión orientativa hacia el objetivo de 4:59 min/km, no una obligación. Usa ese rango solo si el último test y la sensación (RPE 6-7/10) lo respaldan; si no, repite el ritmo actual calibrado y no fuerces.",
     "structure": {
       "primaryIntensityMetric": "percentOfThresholdPace",
       "steps": [
@@ -1163,7 +1197,7 @@
         },
         {
           "name": "Trote fácil previo a la vuelta a la calma",
-          "duration_seconds": 240,
+          "duration_seconds": 540,
           "intensity_min": 70,
           "intensity_max": 85,
           "intensityClass": "active"
@@ -1201,10 +1235,10 @@
   {
     "date": "2026-12-03",
     "sport": "Run",
-    "title": "Rodaje aeróbico fácil — semana 5",
-    "duration_minutes": 30,
-    "tss": 19,
-    "description": "30 min exactos: 5 min de calentamiento + 20 min fáciles + 5 min de vuelta a la calma = 30 min. Todo a esfuerzo conversacional. Ritmo fácil orientativo 7:00-8:00 min/km, guiado por el test y RPE 2-3/10; no aceleres para cumplirlo.",
+    "title": "Rodaje aeróbico fácil + progresivos — semana 5",
+    "duration_minutes": 35,
+    "tss": 22,
+    "description": "35 min exactos: 5 min de calentamiento + 21 min fáciles + 4 x (20 s progresivo relajado + 40 s muy suave) + 5 min de vuelta a la calma = 35 min. Todo a esfuerzo conversacional. Ritmo fácil orientativo 7:00-8:00 min/km, guiado por el test y RPE 2-3/10; no aceleres para cumplirlo. Progresivos por sensación (RPE 6/10, sin sprint), solo para soltar zancada.",
     "structure": {
       "primaryIntensityMetric": "percentOfThresholdPace",
       "steps": [
@@ -1217,10 +1251,66 @@
         },
         {
           "name": "Carrera fácil conversacional",
-          "duration_seconds": 1200,
+          "duration_seconds": 1260,
           "intensity_min": 70,
           "intensity_max": 85,
           "intensityClass": "active"
+        },
+        {
+          "name": "Progresivo relajado 1/4",
+          "duration_seconds": 20,
+          "intensity_min": 100,
+          "intensity_max": 110,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Suave tras progresivo 1/4",
+          "duration_seconds": 40,
+          "intensity_min": 55,
+          "intensity_max": 70,
+          "intensityClass": "rest"
+        },
+        {
+          "name": "Progresivo relajado 2/4",
+          "duration_seconds": 20,
+          "intensity_min": 100,
+          "intensity_max": 110,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Suave tras progresivo 2/4",
+          "duration_seconds": 40,
+          "intensity_min": 55,
+          "intensity_max": 70,
+          "intensityClass": "rest"
+        },
+        {
+          "name": "Progresivo relajado 3/4",
+          "duration_seconds": 20,
+          "intensity_min": 100,
+          "intensity_max": 110,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Suave tras progresivo 3/4",
+          "duration_seconds": 40,
+          "intensity_min": 55,
+          "intensity_max": 70,
+          "intensityClass": "rest"
+        },
+        {
+          "name": "Progresivo relajado 4/4",
+          "duration_seconds": 20,
+          "intensity_min": 100,
+          "intensity_max": 110,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Suave tras progresivo 4/4",
+          "duration_seconds": 40,
+          "intensity_min": 55,
+          "intensity_max": 70,
+          "intensityClass": "rest"
         },
         {
           "name": "Vuelta a la calma caminando",
@@ -1267,12 +1357,46 @@
     }
   },
   {
+    "date": "2026-12-07",
+    "sport": "Run",
+    "title": "Rodaje corto regenerativo — semana 6",
+    "duration_minutes": 20,
+    "tss": 12,
+    "description": "20 min exactos: 3 min caminando + 15 min de trote muy fácil + 2 min caminando = 20 min. 4º día corto para sumar tiempo de carrera sin fatiga: más suave que el jueves, RPE 2/10, conversación completa. Sin ritmo objetivo. Si estás cansado o has dormido poco, sáltalo sin problema.",
+    "structure": {
+      "primaryIntensityMetric": "percentOfThresholdPace",
+      "steps": [
+        {
+          "name": "Calentamiento caminando",
+          "duration_seconds": 180,
+          "intensity_min": 40,
+          "intensity_max": 55,
+          "intensityClass": "warmUp"
+        },
+        {
+          "name": "Trote muy fácil",
+          "duration_seconds": 900,
+          "intensity_min": 68,
+          "intensity_max": 82,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Vuelta a la calma caminando",
+          "duration_seconds": 120,
+          "intensity_min": 40,
+          "intensity_max": 55,
+          "intensityClass": "coolDown"
+        }
+      ]
+    }
+  },
+  {
     "date": "2026-12-08",
     "sport": "Run",
-    "title": "Fartlek 8 x 1 min — semana 6",
-    "duration_minutes": 35,
-    "tss": 22,
-    "description": "35 min exactos: 7 min calentamiento + 5 min trote fácil + 16 min de bloques (8 x (1 min vivo + 1 min muy suave), incluyendo la recuperación tras el último tramo) + 7 min vuelta a la calma = 35 min. Ritmo guía para los tramos vivos: 6:15-6:30 min/km; es una progresión orientativa hacia el objetivo de 4:59 min/km, no una obligación. Usa ese rango solo si el último test y la sensación (RPE 6-7/10) lo respaldan; si no, repite el ritmo actual calibrado y no fuerces.",
+    "title": "Fartlek 10 x 1 min — semana 6",
+    "duration_minutes": 40,
+    "tss": 25,
+    "description": "40 min exactos: 7 min calentamiento + 6 min trote fácil + 20 min de bloques (10 x (1 min vivo + 1 min muy suave), incluyendo la recuperación tras el último tramo) + 7 min vuelta a la calma = 40 min. Ritmo guía para los tramos vivos: 6:15-6:30 min/km; es una progresión orientativa hacia el objetivo de 4:59 min/km, no una obligación. Usa ese rango solo si el último test y la sensación (RPE 6-7/10) lo respaldan; si no, repite el ritmo actual calibrado y no fuerces.",
     "structure": {
       "primaryIntensityMetric": "percentOfThresholdPace",
       "steps": [
@@ -1284,112 +1408,140 @@
           "intensityClass": "warmUp"
         },
         {
-          "name": "Bloque vivo 1/8",
+          "name": "Bloque vivo 1/10",
           "duration_seconds": 60,
           "intensity_min": 92,
           "intensity_max": 102,
           "intensityClass": "active"
         },
         {
-          "name": "Recuperación 1/8",
+          "name": "Recuperación 1/10",
           "duration_seconds": 60,
           "intensity_min": 55,
           "intensity_max": 70,
           "intensityClass": "rest"
         },
         {
-          "name": "Bloque vivo 2/8",
+          "name": "Bloque vivo 2/10",
           "duration_seconds": 60,
           "intensity_min": 92,
           "intensity_max": 102,
           "intensityClass": "active"
         },
         {
-          "name": "Recuperación 2/8",
+          "name": "Recuperación 2/10",
           "duration_seconds": 60,
           "intensity_min": 55,
           "intensity_max": 70,
           "intensityClass": "rest"
         },
         {
-          "name": "Bloque vivo 3/8",
+          "name": "Bloque vivo 3/10",
           "duration_seconds": 60,
           "intensity_min": 92,
           "intensity_max": 102,
           "intensityClass": "active"
         },
         {
-          "name": "Recuperación 3/8",
+          "name": "Recuperación 3/10",
           "duration_seconds": 60,
           "intensity_min": 55,
           "intensity_max": 70,
           "intensityClass": "rest"
         },
         {
-          "name": "Bloque vivo 4/8",
+          "name": "Bloque vivo 4/10",
           "duration_seconds": 60,
           "intensity_min": 92,
           "intensity_max": 102,
           "intensityClass": "active"
         },
         {
-          "name": "Recuperación 4/8",
+          "name": "Recuperación 4/10",
           "duration_seconds": 60,
           "intensity_min": 55,
           "intensity_max": 70,
           "intensityClass": "rest"
         },
         {
-          "name": "Bloque vivo 5/8",
+          "name": "Bloque vivo 5/10",
           "duration_seconds": 60,
           "intensity_min": 92,
           "intensity_max": 102,
           "intensityClass": "active"
         },
         {
-          "name": "Recuperación 5/8",
+          "name": "Recuperación 5/10",
           "duration_seconds": 60,
           "intensity_min": 55,
           "intensity_max": 70,
           "intensityClass": "rest"
         },
         {
-          "name": "Bloque vivo 6/8",
+          "name": "Bloque vivo 6/10",
           "duration_seconds": 60,
           "intensity_min": 92,
           "intensity_max": 102,
           "intensityClass": "active"
         },
         {
-          "name": "Recuperación 6/8",
+          "name": "Recuperación 6/10",
           "duration_seconds": 60,
           "intensity_min": 55,
           "intensity_max": 70,
           "intensityClass": "rest"
         },
         {
-          "name": "Bloque vivo 7/8",
+          "name": "Bloque vivo 7/10",
           "duration_seconds": 60,
           "intensity_min": 92,
           "intensity_max": 102,
           "intensityClass": "active"
         },
         {
-          "name": "Recuperación 7/8",
+          "name": "Recuperación 7/10",
           "duration_seconds": 60,
           "intensity_min": 55,
           "intensity_max": 70,
           "intensityClass": "rest"
         },
         {
-          "name": "Bloque vivo 8/8",
+          "name": "Bloque vivo 8/10",
           "duration_seconds": 60,
           "intensity_min": 92,
           "intensity_max": 102,
           "intensityClass": "active"
         },
         {
-          "name": "Recuperación 8/8",
+          "name": "Recuperación 8/10",
+          "duration_seconds": 60,
+          "intensity_min": 55,
+          "intensity_max": 70,
+          "intensityClass": "rest"
+        },
+        {
+          "name": "Bloque vivo 9/10",
+          "duration_seconds": 60,
+          "intensity_min": 92,
+          "intensity_max": 102,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Recuperación 9/10",
+          "duration_seconds": 60,
+          "intensity_min": 55,
+          "intensity_max": 70,
+          "intensityClass": "rest"
+        },
+        {
+          "name": "Bloque vivo 10/10",
+          "duration_seconds": 60,
+          "intensity_min": 92,
+          "intensity_max": 102,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Recuperación 10/10",
           "duration_seconds": 60,
           "intensity_min": 55,
           "intensity_max": 70,
@@ -1397,7 +1549,7 @@
         },
         {
           "name": "Trote fácil previo a la vuelta a la calma",
-          "duration_seconds": 300,
+          "duration_seconds": 360,
           "intensity_min": 70,
           "intensity_max": 85,
           "intensityClass": "active"
@@ -1435,10 +1587,10 @@
   {
     "date": "2026-12-10",
     "sport": "Run",
-    "title": "Rodaje aeróbico fácil — semana 6",
-    "duration_minutes": 30,
-    "tss": 19,
-    "description": "30 min exactos: 5 min de calentamiento + 20 min fáciles + 5 min de vuelta a la calma = 30 min. Todo a esfuerzo conversacional. Ritmo fácil orientativo 7:00-8:00 min/km, guiado por el test y RPE 2-3/10; no aceleres para cumplirlo.",
+    "title": "Rodaje aeróbico fácil + progresivos — semana 6",
+    "duration_minutes": 35,
+    "tss": 22,
+    "description": "35 min exactos: 5 min de calentamiento + 21 min fáciles + 4 x (20 s progresivo relajado + 40 s muy suave) + 5 min de vuelta a la calma = 35 min. Todo a esfuerzo conversacional. Ritmo fácil orientativo 7:00-8:00 min/km, guiado por el test y RPE 2-3/10; no aceleres para cumplirlo. Progresivos por sensación (RPE 6/10, sin sprint), solo para soltar zancada.",
     "structure": {
       "primaryIntensityMetric": "percentOfThresholdPace",
       "steps": [
@@ -1451,10 +1603,66 @@
         },
         {
           "name": "Carrera fácil conversacional",
-          "duration_seconds": 1200,
+          "duration_seconds": 1260,
           "intensity_min": 70,
           "intensity_max": 85,
           "intensityClass": "active"
+        },
+        {
+          "name": "Progresivo relajado 1/4",
+          "duration_seconds": 20,
+          "intensity_min": 100,
+          "intensity_max": 110,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Suave tras progresivo 1/4",
+          "duration_seconds": 40,
+          "intensity_min": 55,
+          "intensity_max": 70,
+          "intensityClass": "rest"
+        },
+        {
+          "name": "Progresivo relajado 2/4",
+          "duration_seconds": 20,
+          "intensity_min": 100,
+          "intensity_max": 110,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Suave tras progresivo 2/4",
+          "duration_seconds": 40,
+          "intensity_min": 55,
+          "intensity_max": 70,
+          "intensityClass": "rest"
+        },
+        {
+          "name": "Progresivo relajado 3/4",
+          "duration_seconds": 20,
+          "intensity_min": 100,
+          "intensity_max": 110,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Suave tras progresivo 3/4",
+          "duration_seconds": 40,
+          "intensity_min": 55,
+          "intensity_max": 70,
+          "intensityClass": "rest"
+        },
+        {
+          "name": "Progresivo relajado 4/4",
+          "duration_seconds": 20,
+          "intensity_min": 100,
+          "intensity_max": 110,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Suave tras progresivo 4/4",
+          "duration_seconds": 40,
+          "intensity_min": 55,
+          "intensity_max": 70,
+          "intensityClass": "rest"
         },
         {
           "name": "Vuelta a la calma caminando",
@@ -1501,12 +1709,46 @@
     }
   },
   {
+    "date": "2026-12-14",
+    "sport": "Run",
+    "title": "Rodaje corto regenerativo — semana 7",
+    "duration_minutes": 20,
+    "tss": 12,
+    "description": "20 min exactos: 3 min caminando + 15 min de trote muy fácil + 2 min caminando = 20 min. 4º día corto para sumar tiempo de carrera sin fatiga: más suave que el jueves, RPE 2/10, conversación completa. Sin ritmo objetivo. Si estás cansado o has dormido poco, sáltalo sin problema.",
+    "structure": {
+      "primaryIntensityMetric": "percentOfThresholdPace",
+      "steps": [
+        {
+          "name": "Calentamiento caminando",
+          "duration_seconds": 180,
+          "intensity_min": 40,
+          "intensity_max": 55,
+          "intensityClass": "warmUp"
+        },
+        {
+          "name": "Trote muy fácil",
+          "duration_seconds": 900,
+          "intensity_min": 68,
+          "intensity_max": 82,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Vuelta a la calma caminando",
+          "duration_seconds": 120,
+          "intensity_min": 40,
+          "intensity_max": 55,
+          "intensityClass": "coolDown"
+        }
+      ]
+    }
+  },
+  {
     "date": "2026-12-15",
     "sport": "Run",
-    "title": "Series en cuesta 8 x 30 s — semana 7",
-    "duration_minutes": 35,
-    "tss": 22,
-    "description": "35 min exactos: 7 min calentamiento + 5 min trote fácil + 16 min de bloques (8 x 30 s cuesta arriba + 90 s bajando muy suave tras cada repetición) + 7 min vuelta a la calma = 35 min. En cuesta no persigas min/km: céntrate en RPE 6-7/10 y técnica estable; reduce si se deteriora la forma.",
+    "title": "Series en cuesta 10 x 30 s — semana 7",
+    "duration_minutes": 40,
+    "tss": 25,
+    "description": "40 min exactos: 7 min calentamiento + 6 min trote fácil + 20 min de bloques (10 x 30 s cuesta arriba + 90 s bajando muy suave tras cada repetición) + 7 min vuelta a la calma = 40 min. En cuesta no persigas min/km: céntrate en RPE 6-7/10 y técnica estable; reduce si se deteriora la forma.",
     "structure": {
       "primaryIntensityMetric": "percentOfThresholdPace",
       "steps": [
@@ -1518,112 +1760,140 @@
           "intensityClass": "warmUp"
         },
         {
-          "name": "Cuesta viva 1/8",
+          "name": "Cuesta viva 1/10",
           "duration_seconds": 30,
           "intensity_min": 95,
           "intensity_max": 105,
           "intensityClass": "active"
         },
         {
-          "name": "Recuperación bajando 1/8",
+          "name": "Recuperación bajando 1/10",
           "duration_seconds": 90,
           "intensity_min": 45,
           "intensity_max": 65,
           "intensityClass": "rest"
         },
         {
-          "name": "Cuesta viva 2/8",
+          "name": "Cuesta viva 2/10",
           "duration_seconds": 30,
           "intensity_min": 95,
           "intensity_max": 105,
           "intensityClass": "active"
         },
         {
-          "name": "Recuperación bajando 2/8",
+          "name": "Recuperación bajando 2/10",
           "duration_seconds": 90,
           "intensity_min": 45,
           "intensity_max": 65,
           "intensityClass": "rest"
         },
         {
-          "name": "Cuesta viva 3/8",
+          "name": "Cuesta viva 3/10",
           "duration_seconds": 30,
           "intensity_min": 95,
           "intensity_max": 105,
           "intensityClass": "active"
         },
         {
-          "name": "Recuperación bajando 3/8",
+          "name": "Recuperación bajando 3/10",
           "duration_seconds": 90,
           "intensity_min": 45,
           "intensity_max": 65,
           "intensityClass": "rest"
         },
         {
-          "name": "Cuesta viva 4/8",
+          "name": "Cuesta viva 4/10",
           "duration_seconds": 30,
           "intensity_min": 95,
           "intensity_max": 105,
           "intensityClass": "active"
         },
         {
-          "name": "Recuperación bajando 4/8",
+          "name": "Recuperación bajando 4/10",
           "duration_seconds": 90,
           "intensity_min": 45,
           "intensity_max": 65,
           "intensityClass": "rest"
         },
         {
-          "name": "Cuesta viva 5/8",
+          "name": "Cuesta viva 5/10",
           "duration_seconds": 30,
           "intensity_min": 95,
           "intensity_max": 105,
           "intensityClass": "active"
         },
         {
-          "name": "Recuperación bajando 5/8",
+          "name": "Recuperación bajando 5/10",
           "duration_seconds": 90,
           "intensity_min": 45,
           "intensity_max": 65,
           "intensityClass": "rest"
         },
         {
-          "name": "Cuesta viva 6/8",
+          "name": "Cuesta viva 6/10",
           "duration_seconds": 30,
           "intensity_min": 95,
           "intensity_max": 105,
           "intensityClass": "active"
         },
         {
-          "name": "Recuperación bajando 6/8",
+          "name": "Recuperación bajando 6/10",
           "duration_seconds": 90,
           "intensity_min": 45,
           "intensity_max": 65,
           "intensityClass": "rest"
         },
         {
-          "name": "Cuesta viva 7/8",
+          "name": "Cuesta viva 7/10",
           "duration_seconds": 30,
           "intensity_min": 95,
           "intensity_max": 105,
           "intensityClass": "active"
         },
         {
-          "name": "Recuperación bajando 7/8",
+          "name": "Recuperación bajando 7/10",
           "duration_seconds": 90,
           "intensity_min": 45,
           "intensity_max": 65,
           "intensityClass": "rest"
         },
         {
-          "name": "Cuesta viva 8/8",
+          "name": "Cuesta viva 8/10",
           "duration_seconds": 30,
           "intensity_min": 95,
           "intensity_max": 105,
           "intensityClass": "active"
         },
         {
-          "name": "Recuperación bajando 8/8",
+          "name": "Recuperación bajando 8/10",
+          "duration_seconds": 90,
+          "intensity_min": 45,
+          "intensity_max": 65,
+          "intensityClass": "rest"
+        },
+        {
+          "name": "Cuesta viva 9/10",
+          "duration_seconds": 30,
+          "intensity_min": 95,
+          "intensity_max": 105,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Recuperación bajando 9/10",
+          "duration_seconds": 90,
+          "intensity_min": 45,
+          "intensity_max": 65,
+          "intensityClass": "rest"
+        },
+        {
+          "name": "Cuesta viva 10/10",
+          "duration_seconds": 30,
+          "intensity_min": 95,
+          "intensity_max": 105,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Recuperación bajando 10/10",
           "duration_seconds": 90,
           "intensity_min": 45,
           "intensity_max": 65,
@@ -1631,7 +1901,7 @@
         },
         {
           "name": "Trote fácil previo a la vuelta a la calma",
-          "duration_seconds": 300,
+          "duration_seconds": 360,
           "intensity_min": 70,
           "intensity_max": 85,
           "intensityClass": "active"
@@ -1669,10 +1939,10 @@
   {
     "date": "2026-12-17",
     "sport": "Run",
-    "title": "Rodaje aeróbico fácil — semana 7",
-    "duration_minutes": 35,
-    "tss": 22,
-    "description": "35 min exactos: 5 min de calentamiento + 25 min fáciles + 5 min de vuelta a la calma = 35 min. Todo a esfuerzo conversacional. Ritmo fácil orientativo 7:00-8:00 min/km, guiado por el test y RPE 2-3/10; no aceleres para cumplirlo.",
+    "title": "Rodaje aeróbico fácil + progresivos — semana 7",
+    "duration_minutes": 40,
+    "tss": 25,
+    "description": "40 min exactos: 5 min de calentamiento + 26 min fáciles + 4 x (20 s progresivo relajado + 40 s muy suave) + 5 min de vuelta a la calma = 40 min. Todo a esfuerzo conversacional. Ritmo fácil orientativo 7:00-8:00 min/km, guiado por el test y RPE 2-3/10; no aceleres para cumplirlo. Progresivos por sensación (RPE 6/10, sin sprint), solo para soltar zancada.",
     "structure": {
       "primaryIntensityMetric": "percentOfThresholdPace",
       "steps": [
@@ -1685,10 +1955,66 @@
         },
         {
           "name": "Carrera fácil conversacional",
-          "duration_seconds": 1500,
+          "duration_seconds": 1560,
           "intensity_min": 70,
           "intensity_max": 85,
           "intensityClass": "active"
+        },
+        {
+          "name": "Progresivo relajado 1/4",
+          "duration_seconds": 20,
+          "intensity_min": 100,
+          "intensity_max": 110,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Suave tras progresivo 1/4",
+          "duration_seconds": 40,
+          "intensity_min": 55,
+          "intensity_max": 70,
+          "intensityClass": "rest"
+        },
+        {
+          "name": "Progresivo relajado 2/4",
+          "duration_seconds": 20,
+          "intensity_min": 100,
+          "intensity_max": 110,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Suave tras progresivo 2/4",
+          "duration_seconds": 40,
+          "intensity_min": 55,
+          "intensity_max": 70,
+          "intensityClass": "rest"
+        },
+        {
+          "name": "Progresivo relajado 3/4",
+          "duration_seconds": 20,
+          "intensity_min": 100,
+          "intensity_max": 110,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Suave tras progresivo 3/4",
+          "duration_seconds": 40,
+          "intensity_min": 55,
+          "intensity_max": 70,
+          "intensityClass": "rest"
+        },
+        {
+          "name": "Progresivo relajado 4/4",
+          "duration_seconds": 20,
+          "intensity_min": 100,
+          "intensity_max": 110,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Suave tras progresivo 4/4",
+          "duration_seconds": 40,
+          "intensity_min": 55,
+          "intensity_max": 70,
+          "intensityClass": "rest"
         },
         {
           "name": "Vuelta a la calma caminando",
@@ -1864,12 +2190,46 @@
     }
   },
   {
+    "date": "2026-12-28",
+    "sport": "Run",
+    "title": "Rodaje corto regenerativo — semana 9",
+    "duration_minutes": 25,
+    "tss": 15,
+    "description": "25 min exactos: 3 min caminando + 20 min de trote muy fácil + 2 min caminando = 25 min. 4º día corto para sumar tiempo de carrera sin fatiga: más suave que el jueves, RPE 2/10, conversación completa. Sin ritmo objetivo. Si estás cansado o has dormido poco, sáltalo sin problema.",
+    "structure": {
+      "primaryIntensityMetric": "percentOfThresholdPace",
+      "steps": [
+        {
+          "name": "Calentamiento caminando",
+          "duration_seconds": 180,
+          "intensity_min": 40,
+          "intensity_max": 55,
+          "intensityClass": "warmUp"
+        },
+        {
+          "name": "Trote muy fácil",
+          "duration_seconds": 1200,
+          "intensity_min": 68,
+          "intensity_max": 82,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Vuelta a la calma caminando",
+          "duration_seconds": 120,
+          "intensity_min": 40,
+          "intensity_max": 55,
+          "intensityClass": "coolDown"
+        }
+      ]
+    }
+  },
+  {
     "date": "2026-12-29",
     "sport": "Run",
     "title": "Fartlek pirámide 1-2-3-2-1 min — semana 9",
-    "duration_minutes": 35,
-    "tss": 22,
-    "description": "35 min exactos: 7 min calentamiento + 3 min trote fácil + 18 min de bloques (1-2-3-2-1 min vivo + recuperación al trote igual a cada tramo, también tras el último) + 7 min vuelta a la calma = 35 min. Ritmo guía para los tramos vivos: 6:00-6:15 min/km; es una progresión orientativa hacia el objetivo de 4:59 min/km, no una obligación. Usa ese rango solo si el último test y la sensación (RPE 6-7/10) lo respaldan; si no, repite el ritmo actual calibrado y no fuerces.",
+    "duration_minutes": 40,
+    "tss": 25,
+    "description": "40 min exactos: 7 min calentamiento + 8 min trote fácil + 18 min de bloques (1-2-3-2-1 min vivo + recuperación al trote igual a cada tramo, también tras el último) + 7 min vuelta a la calma = 40 min. Ritmo guía para los tramos vivos: 6:00-6:15 min/km; es una progresión orientativa hacia el objetivo de 4:59 min/km, no una obligación. Usa ese rango solo si el último test y la sensación (RPE 6-7/10) lo respaldan; si no, repite el ritmo actual calibrado y no fuerces.",
     "structure": {
       "primaryIntensityMetric": "percentOfThresholdPace",
       "steps": [
@@ -1952,7 +2312,7 @@
         },
         {
           "name": "Trote fácil previo a la vuelta a la calma",
-          "duration_seconds": 180,
+          "duration_seconds": 480,
           "intensity_min": 70,
           "intensity_max": 85,
           "intensityClass": "active"
@@ -1990,10 +2350,10 @@
   {
     "date": "2026-12-31",
     "sport": "Run",
-    "title": "Rodaje aeróbico fácil — semana 9",
-    "duration_minutes": 35,
-    "tss": 22,
-    "description": "35 min exactos: 5 min de calentamiento + 25 min fáciles + 5 min de vuelta a la calma = 35 min. Todo a esfuerzo conversacional. Ritmo fácil orientativo 6:45-7:45 min/km, guiado por el test y RPE 2-3/10; no aceleres para cumplirlo.",
+    "title": "Rodaje aeróbico fácil + progresivos — semana 9",
+    "duration_minutes": 40,
+    "tss": 25,
+    "description": "40 min exactos: 5 min de calentamiento + 26 min fáciles + 4 x (20 s progresivo relajado + 40 s muy suave) + 5 min de vuelta a la calma = 40 min. Todo a esfuerzo conversacional. Ritmo fácil orientativo 6:45-7:45 min/km, guiado por el test y RPE 2-3/10; no aceleres para cumplirlo. Progresivos por sensación (RPE 6/10, sin sprint), solo para soltar zancada.",
     "structure": {
       "primaryIntensityMetric": "percentOfThresholdPace",
       "steps": [
@@ -2006,10 +2366,66 @@
         },
         {
           "name": "Carrera fácil conversacional",
-          "duration_seconds": 1500,
+          "duration_seconds": 1560,
           "intensity_min": 70,
           "intensity_max": 85,
           "intensityClass": "active"
+        },
+        {
+          "name": "Progresivo relajado 1/4",
+          "duration_seconds": 20,
+          "intensity_min": 100,
+          "intensity_max": 110,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Suave tras progresivo 1/4",
+          "duration_seconds": 40,
+          "intensity_min": 55,
+          "intensity_max": 70,
+          "intensityClass": "rest"
+        },
+        {
+          "name": "Progresivo relajado 2/4",
+          "duration_seconds": 20,
+          "intensity_min": 100,
+          "intensity_max": 110,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Suave tras progresivo 2/4",
+          "duration_seconds": 40,
+          "intensity_min": 55,
+          "intensity_max": 70,
+          "intensityClass": "rest"
+        },
+        {
+          "name": "Progresivo relajado 3/4",
+          "duration_seconds": 20,
+          "intensity_min": 100,
+          "intensity_max": 110,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Suave tras progresivo 3/4",
+          "duration_seconds": 40,
+          "intensity_min": 55,
+          "intensity_max": 70,
+          "intensityClass": "rest"
+        },
+        {
+          "name": "Progresivo relajado 4/4",
+          "duration_seconds": 20,
+          "intensity_min": 100,
+          "intensity_max": 110,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Suave tras progresivo 4/4",
+          "duration_seconds": 40,
+          "intensity_min": 55,
+          "intensity_max": 70,
+          "intensityClass": "rest"
         },
         {
           "name": "Vuelta a la calma caminando",
@@ -2056,12 +2472,46 @@
     }
   },
   {
+    "date": "2027-01-04",
+    "sport": "Run",
+    "title": "Rodaje corto regenerativo — semana 10",
+    "duration_minutes": 25,
+    "tss": 15,
+    "description": "25 min exactos: 3 min caminando + 20 min de trote muy fácil + 2 min caminando = 25 min. 4º día corto para sumar tiempo de carrera sin fatiga: más suave que el jueves, RPE 2/10, conversación completa. Sin ritmo objetivo. Si estás cansado o has dormido poco, sáltalo sin problema.",
+    "structure": {
+      "primaryIntensityMetric": "percentOfThresholdPace",
+      "steps": [
+        {
+          "name": "Calentamiento caminando",
+          "duration_seconds": 180,
+          "intensity_min": 40,
+          "intensity_max": 55,
+          "intensityClass": "warmUp"
+        },
+        {
+          "name": "Trote muy fácil",
+          "duration_seconds": 1200,
+          "intensity_min": 68,
+          "intensity_max": 82,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Vuelta a la calma caminando",
+          "duration_seconds": 120,
+          "intensity_min": 40,
+          "intensity_max": 55,
+          "intensityClass": "coolDown"
+        }
+      ]
+    }
+  },
+  {
     "date": "2027-01-05",
     "sport": "Run",
-    "title": "Series 5 x 3 min — semana 10",
-    "duration_minutes": 40,
-    "tss": 25,
-    "description": "40 min exactos: 7 min calentamiento + 1 min trote fácil + 25 min de bloques (5 x 3 min vivos + 2 min suaves tras cada repetición) + 7 min vuelta a la calma = 40 min. Ritmo guía para los tramos vivos: 5:45-6:00 min/km; es una progresión orientativa hacia el objetivo de 4:59 min/km, no una obligación. Usa ese rango solo si el último test y la sensación (RPE 6-7/10) lo respaldan; si no, repite el ritmo actual calibrado y no fuerces.",
+    "title": "Series 6 x 3 min — semana 10",
+    "duration_minutes": 45,
+    "tss": 29,
+    "description": "45 min exactos: 7 min calentamiento + 1 min trote fácil + 30 min de bloques (6 x 3 min vivos + 2 min suaves tras cada repetición) + 7 min vuelta a la calma = 45 min. Ritmo guía para los tramos vivos: 5:45-6:00 min/km; es una progresión orientativa hacia el objetivo de 4:59 min/km, no una obligación. Usa ese rango solo si el último test y la sensación (RPE 6-7/10) lo respaldan; si no, repite el ritmo actual calibrado y no fuerces.",
     "structure": {
       "primaryIntensityMetric": "percentOfThresholdPace",
       "steps": [
@@ -2073,70 +2523,84 @@
           "intensityClass": "warmUp"
         },
         {
-          "name": "Bloque vivo 1/5",
+          "name": "Bloque vivo 1/6",
           "duration_seconds": 180,
           "intensity_min": 96,
           "intensity_max": 106,
           "intensityClass": "active"
         },
         {
-          "name": "Recuperación 1/5",
+          "name": "Recuperación 1/6",
           "duration_seconds": 120,
           "intensity_min": 55,
           "intensity_max": 70,
           "intensityClass": "rest"
         },
         {
-          "name": "Bloque vivo 2/5",
+          "name": "Bloque vivo 2/6",
           "duration_seconds": 180,
           "intensity_min": 96,
           "intensity_max": 106,
           "intensityClass": "active"
         },
         {
-          "name": "Recuperación 2/5",
+          "name": "Recuperación 2/6",
           "duration_seconds": 120,
           "intensity_min": 55,
           "intensity_max": 70,
           "intensityClass": "rest"
         },
         {
-          "name": "Bloque vivo 3/5",
+          "name": "Bloque vivo 3/6",
           "duration_seconds": 180,
           "intensity_min": 96,
           "intensity_max": 106,
           "intensityClass": "active"
         },
         {
-          "name": "Recuperación 3/5",
+          "name": "Recuperación 3/6",
           "duration_seconds": 120,
           "intensity_min": 55,
           "intensity_max": 70,
           "intensityClass": "rest"
         },
         {
-          "name": "Bloque vivo 4/5",
+          "name": "Bloque vivo 4/6",
           "duration_seconds": 180,
           "intensity_min": 96,
           "intensity_max": 106,
           "intensityClass": "active"
         },
         {
-          "name": "Recuperación 4/5",
+          "name": "Recuperación 4/6",
           "duration_seconds": 120,
           "intensity_min": 55,
           "intensity_max": 70,
           "intensityClass": "rest"
         },
         {
-          "name": "Bloque vivo 5/5",
+          "name": "Bloque vivo 5/6",
           "duration_seconds": 180,
           "intensity_min": 96,
           "intensity_max": 106,
           "intensityClass": "active"
         },
         {
-          "name": "Recuperación 5/5",
+          "name": "Recuperación 5/6",
+          "duration_seconds": 120,
+          "intensity_min": 55,
+          "intensity_max": 70,
+          "intensityClass": "rest"
+        },
+        {
+          "name": "Bloque vivo 6/6",
+          "duration_seconds": 180,
+          "intensity_min": 96,
+          "intensity_max": 106,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Recuperación 6/6",
           "duration_seconds": 120,
           "intensity_min": 55,
           "intensity_max": 70,
@@ -2182,10 +2646,10 @@
   {
     "date": "2027-01-07",
     "sport": "Run",
-    "title": "Rodaje aeróbico fácil — semana 10",
-    "duration_minutes": 35,
-    "tss": 22,
-    "description": "35 min exactos: 5 min de calentamiento + 25 min fáciles + 5 min de vuelta a la calma = 35 min. Todo a esfuerzo conversacional. Ritmo fácil orientativo 6:45-7:45 min/km, guiado por el test y RPE 2-3/10; no aceleres para cumplirlo.",
+    "title": "Rodaje aeróbico fácil + progresivos — semana 10",
+    "duration_minutes": 40,
+    "tss": 25,
+    "description": "40 min exactos: 5 min de calentamiento + 26 min fáciles + 4 x (20 s progresivo relajado + 40 s muy suave) + 5 min de vuelta a la calma = 40 min. Todo a esfuerzo conversacional. Ritmo fácil orientativo 6:45-7:45 min/km, guiado por el test y RPE 2-3/10; no aceleres para cumplirlo. Progresivos por sensación (RPE 6/10, sin sprint), solo para soltar zancada.",
     "structure": {
       "primaryIntensityMetric": "percentOfThresholdPace",
       "steps": [
@@ -2198,10 +2662,66 @@
         },
         {
           "name": "Carrera fácil conversacional",
-          "duration_seconds": 1500,
+          "duration_seconds": 1560,
           "intensity_min": 70,
           "intensity_max": 85,
           "intensityClass": "active"
+        },
+        {
+          "name": "Progresivo relajado 1/4",
+          "duration_seconds": 20,
+          "intensity_min": 100,
+          "intensity_max": 110,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Suave tras progresivo 1/4",
+          "duration_seconds": 40,
+          "intensity_min": 55,
+          "intensity_max": 70,
+          "intensityClass": "rest"
+        },
+        {
+          "name": "Progresivo relajado 2/4",
+          "duration_seconds": 20,
+          "intensity_min": 100,
+          "intensity_max": 110,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Suave tras progresivo 2/4",
+          "duration_seconds": 40,
+          "intensity_min": 55,
+          "intensity_max": 70,
+          "intensityClass": "rest"
+        },
+        {
+          "name": "Progresivo relajado 3/4",
+          "duration_seconds": 20,
+          "intensity_min": 100,
+          "intensity_max": 110,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Suave tras progresivo 3/4",
+          "duration_seconds": 40,
+          "intensity_min": 55,
+          "intensity_max": 70,
+          "intensityClass": "rest"
+        },
+        {
+          "name": "Progresivo relajado 4/4",
+          "duration_seconds": 20,
+          "intensity_min": 100,
+          "intensity_max": 110,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Suave tras progresivo 4/4",
+          "duration_seconds": 40,
+          "intensity_min": 55,
+          "intensity_max": 70,
+          "intensityClass": "rest"
         },
         {
           "name": "Vuelta a la calma caminando",
@@ -2247,6 +2767,40 @@
         {
           "name": "Vuelta a la calma caminando",
           "duration_seconds": 300,
+          "intensity_min": 40,
+          "intensity_max": 55,
+          "intensityClass": "coolDown"
+        }
+      ]
+    }
+  },
+  {
+    "date": "2027-01-11",
+    "sport": "Run",
+    "title": "Rodaje corto regenerativo — semana 11",
+    "duration_minutes": 25,
+    "tss": 15,
+    "description": "25 min exactos: 3 min caminando + 20 min de trote muy fácil + 2 min caminando = 25 min. 4º día corto para sumar tiempo de carrera sin fatiga: más suave que el jueves, RPE 2/10, conversación completa. Sin ritmo objetivo. Si estás cansado o has dormido poco, sáltalo sin problema.",
+    "structure": {
+      "primaryIntensityMetric": "percentOfThresholdPace",
+      "steps": [
+        {
+          "name": "Calentamiento caminando",
+          "duration_seconds": 180,
+          "intensity_min": 40,
+          "intensity_max": 55,
+          "intensityClass": "warmUp"
+        },
+        {
+          "name": "Trote muy fácil",
+          "duration_seconds": 1200,
+          "intensity_min": 68,
+          "intensity_max": 82,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Vuelta a la calma caminando",
+          "duration_seconds": 120,
           "intensity_min": 40,
           "intensity_max": 55,
           "intensityClass": "coolDown"
@@ -2311,10 +2865,10 @@
   {
     "date": "2027-01-14",
     "sport": "Run",
-    "title": "Rodaje aeróbico fácil — semana 11",
-    "duration_minutes": 40,
-    "tss": 25,
-    "description": "40 min exactos: 5 min de calentamiento + 30 min fáciles + 5 min de vuelta a la calma = 40 min. Todo a esfuerzo conversacional. Ritmo fácil orientativo 6:45-7:45 min/km, guiado por el test y RPE 2-3/10; no aceleres para cumplirlo.",
+    "title": "Rodaje aeróbico fácil + progresivos — semana 11",
+    "duration_minutes": 45,
+    "tss": 28,
+    "description": "45 min exactos: 5 min de calentamiento + 31 min fáciles + 4 x (20 s progresivo relajado + 40 s muy suave) + 5 min de vuelta a la calma = 45 min. Todo a esfuerzo conversacional. Ritmo fácil orientativo 6:45-7:45 min/km, guiado por el test y RPE 2-3/10; no aceleres para cumplirlo. Progresivos por sensación (RPE 6/10, sin sprint), solo para soltar zancada.",
     "structure": {
       "primaryIntensityMetric": "percentOfThresholdPace",
       "steps": [
@@ -2327,10 +2881,66 @@
         },
         {
           "name": "Carrera fácil conversacional",
-          "duration_seconds": 1800,
+          "duration_seconds": 1860,
           "intensity_min": 70,
           "intensity_max": 85,
           "intensityClass": "active"
+        },
+        {
+          "name": "Progresivo relajado 1/4",
+          "duration_seconds": 20,
+          "intensity_min": 100,
+          "intensity_max": 110,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Suave tras progresivo 1/4",
+          "duration_seconds": 40,
+          "intensity_min": 55,
+          "intensity_max": 70,
+          "intensityClass": "rest"
+        },
+        {
+          "name": "Progresivo relajado 2/4",
+          "duration_seconds": 20,
+          "intensity_min": 100,
+          "intensity_max": 110,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Suave tras progresivo 2/4",
+          "duration_seconds": 40,
+          "intensity_min": 55,
+          "intensity_max": 70,
+          "intensityClass": "rest"
+        },
+        {
+          "name": "Progresivo relajado 3/4",
+          "duration_seconds": 20,
+          "intensity_min": 100,
+          "intensity_max": 110,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Suave tras progresivo 3/4",
+          "duration_seconds": 40,
+          "intensity_min": 55,
+          "intensity_max": 70,
+          "intensityClass": "rest"
+        },
+        {
+          "name": "Progresivo relajado 4/4",
+          "duration_seconds": 20,
+          "intensity_min": 100,
+          "intensity_max": 110,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Suave tras progresivo 4/4",
+          "duration_seconds": 40,
+          "intensity_min": 55,
+          "intensity_max": 70,
+          "intensityClass": "rest"
         },
         {
           "name": "Vuelta a la calma caminando",
@@ -2473,12 +3083,46 @@
     "description": "Carrera 10K Santa Pola. Salida a las 17:00. Objetivo: ganar fondo y calibrar ritmos. Usa la carrera como test de ritmo sostenido; no como marca personal a cualquier precio. Observa a qué pace llegas cómodo en los primeros 5K y si puedes mantenerlo o acelerar en la segunda mitad. Anota sensaciones, FC media y ritmo para ajustar los entrenamientos siguientes."
   },
   {
+    "date": "2027-01-25",
+    "sport": "Run",
+    "title": "Rodaje corto regenerativo — semana 13",
+    "duration_minutes": 20,
+    "tss": 12,
+    "description": "20 min exactos: 3 min caminando + 15 min de trote muy fácil + 2 min caminando = 20 min. 4º día corto para sumar tiempo de carrera sin fatiga: más suave que el jueves, RPE 2/10, conversación completa. Sin ritmo objetivo. Si estás cansado o has dormido poco, sáltalo sin problema.",
+    "structure": {
+      "primaryIntensityMetric": "percentOfThresholdPace",
+      "steps": [
+        {
+          "name": "Calentamiento caminando",
+          "duration_seconds": 180,
+          "intensity_min": 40,
+          "intensity_max": 55,
+          "intensityClass": "warmUp"
+        },
+        {
+          "name": "Trote muy fácil",
+          "duration_seconds": 900,
+          "intensity_min": 68,
+          "intensity_max": 82,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Vuelta a la calma caminando",
+          "duration_seconds": 120,
+          "intensity_min": 40,
+          "intensity_max": 55,
+          "intensityClass": "coolDown"
+        }
+      ]
+    }
+  },
+  {
     "date": "2027-01-26",
     "sport": "Run",
-    "title": "Series 6 x 2 min — semana 13",
-    "duration_minutes": 40,
-    "tss": 25,
-    "description": "40 min exactos: 7 min calentamiento + 2 min trote fácil + 24 min de bloques (6 x 2 min vivos + 2 min suaves tras cada repetición) + 7 min vuelta a la calma = 40 min. Ritmo guía para los tramos vivos: 5:30-5:45 min/km; es una progresión orientativa hacia el objetivo de 4:59 min/km, no una obligación. Usa ese rango solo si el último test y la sensación (RPE 6-7/10) lo respaldan; si no, repite el ritmo actual calibrado y no fuerces.",
+    "title": "Series 7 x 2 min — semana 13",
+    "duration_minutes": 45,
+    "tss": 28,
+    "description": "45 min exactos: 7 min calentamiento + 3 min trote fácil + 28 min de bloques (7 x 2 min vivos + 2 min suaves tras cada repetición) + 7 min vuelta a la calma = 45 min. Ritmo guía para los tramos vivos: 5:30-5:45 min/km; es una progresión orientativa hacia el objetivo de 4:59 min/km, no una obligación. Usa ese rango solo si el último test y la sensación (RPE 6-7/10) lo respaldan; si no, repite el ritmo actual calibrado y no fuerces.",
     "structure": {
       "primaryIntensityMetric": "percentOfThresholdPace",
       "steps": [
@@ -2490,84 +3134,98 @@
           "intensityClass": "warmUp"
         },
         {
-          "name": "Bloque vivo 1/6",
+          "name": "Bloque vivo 1/7",
           "duration_seconds": 120,
           "intensity_min": 98,
           "intensity_max": 108,
           "intensityClass": "active"
         },
         {
-          "name": "Recuperación 1/6",
+          "name": "Recuperación 1/7",
           "duration_seconds": 120,
           "intensity_min": 55,
           "intensity_max": 70,
           "intensityClass": "rest"
         },
         {
-          "name": "Bloque vivo 2/6",
+          "name": "Bloque vivo 2/7",
           "duration_seconds": 120,
           "intensity_min": 98,
           "intensity_max": 108,
           "intensityClass": "active"
         },
         {
-          "name": "Recuperación 2/6",
+          "name": "Recuperación 2/7",
           "duration_seconds": 120,
           "intensity_min": 55,
           "intensity_max": 70,
           "intensityClass": "rest"
         },
         {
-          "name": "Bloque vivo 3/6",
+          "name": "Bloque vivo 3/7",
           "duration_seconds": 120,
           "intensity_min": 98,
           "intensity_max": 108,
           "intensityClass": "active"
         },
         {
-          "name": "Recuperación 3/6",
+          "name": "Recuperación 3/7",
           "duration_seconds": 120,
           "intensity_min": 55,
           "intensity_max": 70,
           "intensityClass": "rest"
         },
         {
-          "name": "Bloque vivo 4/6",
+          "name": "Bloque vivo 4/7",
           "duration_seconds": 120,
           "intensity_min": 98,
           "intensity_max": 108,
           "intensityClass": "active"
         },
         {
-          "name": "Recuperación 4/6",
+          "name": "Recuperación 4/7",
           "duration_seconds": 120,
           "intensity_min": 55,
           "intensity_max": 70,
           "intensityClass": "rest"
         },
         {
-          "name": "Bloque vivo 5/6",
+          "name": "Bloque vivo 5/7",
           "duration_seconds": 120,
           "intensity_min": 98,
           "intensity_max": 108,
           "intensityClass": "active"
         },
         {
-          "name": "Recuperación 5/6",
+          "name": "Recuperación 5/7",
           "duration_seconds": 120,
           "intensity_min": 55,
           "intensity_max": 70,
           "intensityClass": "rest"
         },
         {
-          "name": "Bloque vivo 6/6",
+          "name": "Bloque vivo 6/7",
           "duration_seconds": 120,
           "intensity_min": 98,
           "intensity_max": 108,
           "intensityClass": "active"
         },
         {
-          "name": "Recuperación 6/6",
+          "name": "Recuperación 6/7",
+          "duration_seconds": 120,
+          "intensity_min": 55,
+          "intensity_max": 70,
+          "intensityClass": "rest"
+        },
+        {
+          "name": "Bloque vivo 7/7",
+          "duration_seconds": 120,
+          "intensity_min": 98,
+          "intensity_max": 108,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Recuperación 7/7",
           "duration_seconds": 120,
           "intensity_min": 55,
           "intensity_max": 70,
@@ -2575,7 +3233,7 @@
         },
         {
           "name": "Trote fácil previo a la vuelta a la calma",
-          "duration_seconds": 120,
+          "duration_seconds": 180,
           "intensity_min": 70,
           "intensity_max": 85,
           "intensityClass": "active"
@@ -2613,10 +3271,10 @@
   {
     "date": "2027-01-28",
     "sport": "Run",
-    "title": "Rodaje aeróbico fácil — semana 13",
-    "duration_minutes": 40,
-    "tss": 25,
-    "description": "40 min exactos: 5 min de calentamiento + 30 min fáciles + 5 min de vuelta a la calma = 40 min. Todo a esfuerzo conversacional. Ritmo fácil orientativo 6:30-7:30 min/km, guiado por el test y RPE 2-3/10; no aceleres para cumplirlo.",
+    "title": "Rodaje aeróbico fácil + progresivos — semana 13",
+    "duration_minutes": 45,
+    "tss": 28,
+    "description": "45 min exactos: 5 min de calentamiento + 31 min fáciles + 4 x (20 s progresivo relajado + 40 s muy suave) + 5 min de vuelta a la calma = 45 min. Todo a esfuerzo conversacional. Ritmo fácil orientativo 6:30-7:30 min/km, guiado por el test y RPE 2-3/10; no aceleres para cumplirlo. Progresivos por sensación (RPE 6/10, sin sprint), solo para soltar zancada.",
     "structure": {
       "primaryIntensityMetric": "percentOfThresholdPace",
       "steps": [
@@ -2629,10 +3287,66 @@
         },
         {
           "name": "Carrera fácil conversacional",
-          "duration_seconds": 1800,
+          "duration_seconds": 1860,
           "intensity_min": 70,
           "intensity_max": 85,
           "intensityClass": "active"
+        },
+        {
+          "name": "Progresivo relajado 1/4",
+          "duration_seconds": 20,
+          "intensity_min": 100,
+          "intensity_max": 110,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Suave tras progresivo 1/4",
+          "duration_seconds": 40,
+          "intensity_min": 55,
+          "intensity_max": 70,
+          "intensityClass": "rest"
+        },
+        {
+          "name": "Progresivo relajado 2/4",
+          "duration_seconds": 20,
+          "intensity_min": 100,
+          "intensity_max": 110,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Suave tras progresivo 2/4",
+          "duration_seconds": 40,
+          "intensity_min": 55,
+          "intensity_max": 70,
+          "intensityClass": "rest"
+        },
+        {
+          "name": "Progresivo relajado 3/4",
+          "duration_seconds": 20,
+          "intensity_min": 100,
+          "intensity_max": 110,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Suave tras progresivo 3/4",
+          "duration_seconds": 40,
+          "intensity_min": 55,
+          "intensity_max": 70,
+          "intensityClass": "rest"
+        },
+        {
+          "name": "Progresivo relajado 4/4",
+          "duration_seconds": 20,
+          "intensity_min": 100,
+          "intensity_max": 110,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Suave tras progresivo 4/4",
+          "duration_seconds": 40,
+          "intensity_min": 55,
+          "intensity_max": 70,
+          "intensityClass": "rest"
         },
         {
           "name": "Vuelta a la calma caminando",
@@ -2679,12 +3393,46 @@
     }
   },
   {
+    "date": "2027-02-01",
+    "sport": "Run",
+    "title": "Rodaje corto regenerativo — semana 14",
+    "duration_minutes": 25,
+    "tss": 15,
+    "description": "25 min exactos: 3 min caminando + 20 min de trote muy fácil + 2 min caminando = 25 min. 4º día corto para sumar tiempo de carrera sin fatiga: más suave que el jueves, RPE 2/10, conversación completa. Sin ritmo objetivo. Si estás cansado o has dormido poco, sáltalo sin problema.",
+    "structure": {
+      "primaryIntensityMetric": "percentOfThresholdPace",
+      "steps": [
+        {
+          "name": "Calentamiento caminando",
+          "duration_seconds": 180,
+          "intensity_min": 40,
+          "intensity_max": 55,
+          "intensityClass": "warmUp"
+        },
+        {
+          "name": "Trote muy fácil",
+          "duration_seconds": 1200,
+          "intensity_min": 68,
+          "intensity_max": 82,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Vuelta a la calma caminando",
+          "duration_seconds": 120,
+          "intensity_min": 40,
+          "intensity_max": 55,
+          "intensityClass": "coolDown"
+        }
+      ]
+    }
+  },
+  {
     "date": "2027-02-02",
     "sport": "Run",
-    "title": "Tempo fraccionado 3 x 6 min — semana 14",
-    "duration_minutes": 45,
-    "tss": 28,
-    "description": "45 min exactos: 7 min calentamiento + 7 min trote fácil + 24 min de bloques (3 x 6 min tempo + 2 min suaves tras cada bloque) + 7 min vuelta a la calma = 45 min. Ritmo guía para los tramos vivos: 5:20-5:35 min/km; es una progresión orientativa hacia el objetivo de 4:59 min/km, no una obligación. Usa ese rango solo si el último test y la sensación (RPE 6-7/10) lo respaldan; si no, repite el ritmo actual calibrado y no fuerces.",
+    "title": "Tempo fraccionado 3 x 7 min — semana 14",
+    "duration_minutes": 50,
+    "tss": 32,
+    "description": "50 min exactos: 7 min calentamiento + 9 min trote fácil + 27 min de bloques (3 x 7 min tempo + 2 min suaves tras cada bloque) + 7 min vuelta a la calma = 50 min. Ritmo guía para los tramos vivos: 5:20-5:35 min/km; es una progresión orientativa hacia el objetivo de 4:59 min/km, no una obligación. Usa ese rango solo si el último test y la sensación (RPE 6-7/10) lo respaldan; si no, repite el ritmo actual calibrado y no fuerces.",
     "structure": {
       "primaryIntensityMetric": "percentOfThresholdPace",
       "steps": [
@@ -2697,7 +3445,7 @@
         },
         {
           "name": "Bloque vivo 1/3",
-          "duration_seconds": 360,
+          "duration_seconds": 420,
           "intensity_min": 100,
           "intensity_max": 110,
           "intensityClass": "active"
@@ -2711,7 +3459,7 @@
         },
         {
           "name": "Bloque vivo 2/3",
-          "duration_seconds": 360,
+          "duration_seconds": 420,
           "intensity_min": 100,
           "intensity_max": 110,
           "intensityClass": "active"
@@ -2725,7 +3473,7 @@
         },
         {
           "name": "Bloque vivo 3/3",
-          "duration_seconds": 360,
+          "duration_seconds": 420,
           "intensity_min": 100,
           "intensity_max": 110,
           "intensityClass": "active"
@@ -2739,7 +3487,7 @@
         },
         {
           "name": "Trote fácil previo a la vuelta a la calma",
-          "duration_seconds": 420,
+          "duration_seconds": 540,
           "intensity_min": 70,
           "intensity_max": 85,
           "intensityClass": "active"
@@ -2777,10 +3525,10 @@
   {
     "date": "2027-02-04",
     "sport": "Run",
-    "title": "Rodaje aeróbico fácil — semana 14",
-    "duration_minutes": 40,
-    "tss": 25,
-    "description": "40 min exactos: 5 min de calentamiento + 30 min fáciles + 5 min de vuelta a la calma = 40 min. Todo a esfuerzo conversacional. Ritmo fácil orientativo 6:30-7:30 min/km, guiado por el test y RPE 2-3/10; no aceleres para cumplirlo.",
+    "title": "Rodaje aeróbico fácil + progresivos — semana 14",
+    "duration_minutes": 45,
+    "tss": 28,
+    "description": "45 min exactos: 5 min de calentamiento + 31 min fáciles + 4 x (20 s progresivo relajado + 40 s muy suave) + 5 min de vuelta a la calma = 45 min. Todo a esfuerzo conversacional. Ritmo fácil orientativo 6:30-7:30 min/km, guiado por el test y RPE 2-3/10; no aceleres para cumplirlo. Progresivos por sensación (RPE 6/10, sin sprint), solo para soltar zancada.",
     "structure": {
       "primaryIntensityMetric": "percentOfThresholdPace",
       "steps": [
@@ -2793,10 +3541,66 @@
         },
         {
           "name": "Carrera fácil conversacional",
-          "duration_seconds": 1800,
+          "duration_seconds": 1860,
           "intensity_min": 70,
           "intensity_max": 85,
           "intensityClass": "active"
+        },
+        {
+          "name": "Progresivo relajado 1/4",
+          "duration_seconds": 20,
+          "intensity_min": 100,
+          "intensity_max": 110,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Suave tras progresivo 1/4",
+          "duration_seconds": 40,
+          "intensity_min": 55,
+          "intensity_max": 70,
+          "intensityClass": "rest"
+        },
+        {
+          "name": "Progresivo relajado 2/4",
+          "duration_seconds": 20,
+          "intensity_min": 100,
+          "intensity_max": 110,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Suave tras progresivo 2/4",
+          "duration_seconds": 40,
+          "intensity_min": 55,
+          "intensity_max": 70,
+          "intensityClass": "rest"
+        },
+        {
+          "name": "Progresivo relajado 3/4",
+          "duration_seconds": 20,
+          "intensity_min": 100,
+          "intensity_max": 110,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Suave tras progresivo 3/4",
+          "duration_seconds": 40,
+          "intensity_min": 55,
+          "intensity_max": 70,
+          "intensityClass": "rest"
+        },
+        {
+          "name": "Progresivo relajado 4/4",
+          "duration_seconds": 20,
+          "intensity_min": 100,
+          "intensity_max": 110,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Suave tras progresivo 4/4",
+          "duration_seconds": 40,
+          "intensity_min": 55,
+          "intensity_max": 70,
+          "intensityClass": "rest"
         },
         {
           "name": "Vuelta a la calma caminando",
@@ -2842,6 +3646,40 @@
         {
           "name": "Vuelta a la calma caminando",
           "duration_seconds": 300,
+          "intensity_min": 40,
+          "intensity_max": 55,
+          "intensityClass": "coolDown"
+        }
+      ]
+    }
+  },
+  {
+    "date": "2027-02-08",
+    "sport": "Run",
+    "title": "Rodaje corto regenerativo — semana 15",
+    "duration_minutes": 25,
+    "tss": 15,
+    "description": "25 min exactos: 3 min caminando + 20 min de trote muy fácil + 2 min caminando = 25 min. 4º día corto para sumar tiempo de carrera sin fatiga: más suave que el jueves, RPE 2/10, conversación completa. Sin ritmo objetivo. Si estás cansado o has dormido poco, sáltalo sin problema.",
+    "structure": {
+      "primaryIntensityMetric": "percentOfThresholdPace",
+      "steps": [
+        {
+          "name": "Calentamiento caminando",
+          "duration_seconds": 180,
+          "intensity_min": 40,
+          "intensity_max": 55,
+          "intensityClass": "warmUp"
+        },
+        {
+          "name": "Trote muy fácil",
+          "duration_seconds": 1200,
+          "intensity_min": 68,
+          "intensity_max": 82,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Vuelta a la calma caminando",
+          "duration_seconds": 120,
           "intensity_min": 40,
           "intensity_max": 55,
           "intensityClass": "coolDown"
@@ -2906,10 +3744,10 @@
   {
     "date": "2027-02-11",
     "sport": "Run",
-    "title": "Rodaje aeróbico fácil — semana 15",
-    "duration_minutes": 45,
-    "tss": 28,
-    "description": "45 min exactos: 5 min de calentamiento + 35 min fáciles + 5 min de vuelta a la calma = 45 min. Todo a esfuerzo conversacional. Ritmo fácil orientativo 6:30-7:30 min/km, guiado por el test y RPE 2-3/10; no aceleres para cumplirlo.",
+    "title": "Rodaje aeróbico fácil + progresivos — semana 15",
+    "duration_minutes": 50,
+    "tss": 31,
+    "description": "50 min exactos: 5 min de calentamiento + 36 min fáciles + 4 x (20 s progresivo relajado + 40 s muy suave) + 5 min de vuelta a la calma = 50 min. Todo a esfuerzo conversacional. Ritmo fácil orientativo 6:30-7:30 min/km, guiado por el test y RPE 2-3/10; no aceleres para cumplirlo. Progresivos por sensación (RPE 6/10, sin sprint), solo para soltar zancada.",
     "structure": {
       "primaryIntensityMetric": "percentOfThresholdPace",
       "steps": [
@@ -2922,10 +3760,66 @@
         },
         {
           "name": "Carrera fácil conversacional",
-          "duration_seconds": 2100,
+          "duration_seconds": 2160,
           "intensity_min": 70,
           "intensity_max": 85,
           "intensityClass": "active"
+        },
+        {
+          "name": "Progresivo relajado 1/4",
+          "duration_seconds": 20,
+          "intensity_min": 100,
+          "intensity_max": 110,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Suave tras progresivo 1/4",
+          "duration_seconds": 40,
+          "intensity_min": 55,
+          "intensity_max": 70,
+          "intensityClass": "rest"
+        },
+        {
+          "name": "Progresivo relajado 2/4",
+          "duration_seconds": 20,
+          "intensity_min": 100,
+          "intensity_max": 110,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Suave tras progresivo 2/4",
+          "duration_seconds": 40,
+          "intensity_min": 55,
+          "intensity_max": 70,
+          "intensityClass": "rest"
+        },
+        {
+          "name": "Progresivo relajado 3/4",
+          "duration_seconds": 20,
+          "intensity_min": 100,
+          "intensity_max": 110,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Suave tras progresivo 3/4",
+          "duration_seconds": 40,
+          "intensity_min": 55,
+          "intensity_max": 70,
+          "intensityClass": "rest"
+        },
+        {
+          "name": "Progresivo relajado 4/4",
+          "duration_seconds": 20,
+          "intensity_min": 100,
+          "intensity_max": 110,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Suave tras progresivo 4/4",
+          "duration_seconds": 40,
+          "intensity_min": 55,
+          "intensity_max": 70,
+          "intensityClass": "rest"
         },
         {
           "name": "Vuelta a la calma caminando",
@@ -3200,10 +4094,10 @@
   {
     "date": "2027-02-25",
     "sport": "Run",
-    "title": "Rodaje aeróbico fácil — semana 17",
-    "duration_minutes": 40,
-    "tss": 25,
-    "description": "40 min exactos: 5 min de calentamiento + 30 min fáciles + 5 min de vuelta a la calma = 40 min. Todo a esfuerzo conversacional. Ritmo fácil orientativo 6:20-7:20 min/km, guiado por el test y RPE 2-3/10; no aceleres para cumplirlo.",
+    "title": "Rodaje aeróbico fácil + progresivos — semana 17",
+    "duration_minutes": 45,
+    "tss": 28,
+    "description": "45 min exactos: 5 min de calentamiento + 31 min fáciles + 4 x (20 s progresivo relajado + 40 s muy suave) + 5 min de vuelta a la calma = 45 min. Todo a esfuerzo conversacional. Ritmo fácil orientativo 6:20-7:20 min/km, guiado por el test y RPE 2-3/10; no aceleres para cumplirlo. Progresivos por sensación (RPE 6/10, sin sprint), solo para soltar zancada.",
     "structure": {
       "primaryIntensityMetric": "percentOfThresholdPace",
       "steps": [
@@ -3216,10 +4110,66 @@
         },
         {
           "name": "Carrera fácil conversacional",
-          "duration_seconds": 1800,
+          "duration_seconds": 1860,
           "intensity_min": 70,
           "intensity_max": 85,
           "intensityClass": "active"
+        },
+        {
+          "name": "Progresivo relajado 1/4",
+          "duration_seconds": 20,
+          "intensity_min": 100,
+          "intensity_max": 110,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Suave tras progresivo 1/4",
+          "duration_seconds": 40,
+          "intensity_min": 55,
+          "intensity_max": 70,
+          "intensityClass": "rest"
+        },
+        {
+          "name": "Progresivo relajado 2/4",
+          "duration_seconds": 20,
+          "intensity_min": 100,
+          "intensity_max": 110,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Suave tras progresivo 2/4",
+          "duration_seconds": 40,
+          "intensity_min": 55,
+          "intensity_max": 70,
+          "intensityClass": "rest"
+        },
+        {
+          "name": "Progresivo relajado 3/4",
+          "duration_seconds": 20,
+          "intensity_min": 100,
+          "intensity_max": 110,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Suave tras progresivo 3/4",
+          "duration_seconds": 40,
+          "intensity_min": 55,
+          "intensity_max": 70,
+          "intensityClass": "rest"
+        },
+        {
+          "name": "Progresivo relajado 4/4",
+          "duration_seconds": 20,
+          "intensity_min": 100,
+          "intensity_max": 110,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Suave tras progresivo 4/4",
+          "duration_seconds": 40,
+          "intensity_min": 55,
+          "intensity_max": 70,
+          "intensityClass": "rest"
         },
         {
           "name": "Vuelta a la calma caminando",
@@ -3483,6 +4433,40 @@
         {
           "name": "Vuelta a la calma caminando",
           "duration_seconds": 300,
+          "intensity_min": 40,
+          "intensity_max": 55,
+          "intensityClass": "coolDown"
+        }
+      ]
+    }
+  },
+  {
+    "date": "2027-03-15",
+    "sport": "Run",
+    "title": "Rodaje corto regenerativo — semana 20",
+    "duration_minutes": 20,
+    "tss": 12,
+    "description": "20 min exactos: 3 min caminando + 15 min de trote muy fácil + 2 min caminando = 20 min. 4º día corto para sumar tiempo de carrera sin fatiga: más suave que el jueves, RPE 2/10, conversación completa. Sin ritmo objetivo. Si estás cansado o has dormido poco, sáltalo sin problema.",
+    "structure": {
+      "primaryIntensityMetric": "percentOfThresholdPace",
+      "steps": [
+        {
+          "name": "Calentamiento caminando",
+          "duration_seconds": 180,
+          "intensity_min": 40,
+          "intensity_max": 55,
+          "intensityClass": "warmUp"
+        },
+        {
+          "name": "Trote muy fácil",
+          "duration_seconds": 900,
+          "intensity_min": 68,
+          "intensity_max": 82,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Vuelta a la calma caminando",
+          "duration_seconds": 120,
           "intensity_min": 40,
           "intensity_max": 55,
           "intensityClass": "coolDown"
