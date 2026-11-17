@@ -740,7 +740,7 @@
     }
   },
   {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "sport": "Run",
     "title": "Rodaje fácil + progresivos — semana 3",
     "duration_minutes": 35,
@@ -851,26 +851,6 @@
     }
   },
   {
-    "date": "2026-11-18",
-    "sport": "Bike",
-    "title": "Bicicleta fácil — semana 3",
-    "duration_minutes": 40,
-    "tss": 18,
-    "description": "Bicicleta fácil Z1, conversación completa, sin intervalos ni esfuerzos; debe dejar las piernas frescas para correr. 40 min.",
-    "structure": {
-      "primaryIntensityMetric": "percentOfFtp",
-      "steps": [
-        {
-          "name": "Bicicleta fácil Z1",
-          "duration_seconds": 2400,
-          "intensity_min": 45,
-          "intensity_max": 60,
-          "intensityClass": "active"
-        }
-      ]
-    }
-  },
-  {
     "date": "2026-11-19",
     "sport": "Run",
     "title": "Rodaje aeróbico fácil — semana 3",
@@ -900,6 +880,26 @@
           "intensity_min": 40,
           "intensity_max": 55,
           "intensityClass": "coolDown"
+        }
+      ]
+    }
+  },
+  {
+    "date": "2026-11-20",
+    "sport": "Bike",
+    "title": "Bicicleta fácil — semana 3",
+    "duration_minutes": 40,
+    "tss": 18,
+    "description": "Bicicleta fácil Z1, conversación completa, sin intervalos ni esfuerzos; debe dejar las piernas frescas para correr. 40 min.",
+    "structure": {
+      "primaryIntensityMetric": "percentOfFtp",
+      "steps": [
+        {
+          "name": "Bicicleta fácil Z1",
+          "duration_seconds": 2400,
+          "intensity_min": 45,
+          "intensity_max": 60,
+          "intensityClass": "active"
         }
       ]
     }
