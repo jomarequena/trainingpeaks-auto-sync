@@ -740,7 +740,41 @@
     }
   },
   {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
+    "sport": "Run",
+    "title": "Rodaje aeróbico fácil — semana 3",
+    "duration_minutes": 35,
+    "tss": 22,
+    "description": "35 min exactos: 5 min de calentamiento + 25 min fáciles + 5 min de vuelta a la calma = 35 min. Todo a esfuerzo conversacional. Sin ritmo objetivo: RPE 2-3/10 y conversación fácil.",
+    "structure": {
+      "primaryIntensityMetric": "percentOfThresholdPace",
+      "steps": [
+        {
+          "name": "Calentamiento caminando",
+          "duration_seconds": 300,
+          "intensity_min": 40,
+          "intensity_max": 55,
+          "intensityClass": "warmUp"
+        },
+        {
+          "name": "Carrera fácil conversacional",
+          "duration_seconds": 1500,
+          "intensity_min": 70,
+          "intensity_max": 85,
+          "intensityClass": "active"
+        },
+        {
+          "name": "Vuelta a la calma caminando",
+          "duration_seconds": 300,
+          "intensity_min": 40,
+          "intensity_max": 55,
+          "intensityClass": "coolDown"
+        }
+      ]
+    }
+  },
+  {
+    "date": "2026-11-20",
     "sport": "Run",
     "title": "Rodaje fácil + progresivos — semana 3",
     "duration_minutes": 35,
@@ -851,61 +885,7 @@
     }
   },
   {
-    "date": "2026-11-19",
-    "sport": "Run",
-    "title": "Rodaje aeróbico fácil — semana 3",
-    "duration_minutes": 35,
-    "tss": 22,
-    "description": "35 min exactos: 5 min de calentamiento + 25 min fáciles + 5 min de vuelta a la calma = 35 min. Todo a esfuerzo conversacional. Sin ritmo objetivo: RPE 2-3/10 y conversación fácil.",
-    "structure": {
-      "primaryIntensityMetric": "percentOfThresholdPace",
-      "steps": [
-        {
-          "name": "Calentamiento caminando",
-          "duration_seconds": 300,
-          "intensity_min": 40,
-          "intensity_max": 55,
-          "intensityClass": "warmUp"
-        },
-        {
-          "name": "Carrera fácil conversacional",
-          "duration_seconds": 1500,
-          "intensity_min": 70,
-          "intensity_max": 85,
-          "intensityClass": "active"
-        },
-        {
-          "name": "Vuelta a la calma caminando",
-          "duration_seconds": 300,
-          "intensity_min": 40,
-          "intensity_max": 55,
-          "intensityClass": "coolDown"
-        }
-      ]
-    }
-  },
-  {
-    "date": "2026-11-20",
-    "sport": "Bike",
-    "title": "Bicicleta fácil — semana 3",
-    "duration_minutes": 40,
-    "tss": 18,
-    "description": "Bicicleta fácil Z1, conversación completa, sin intervalos ni esfuerzos; debe dejar las piernas frescas para correr. 40 min.",
-    "structure": {
-      "primaryIntensityMetric": "percentOfFtp",
-      "steps": [
-        {
-          "name": "Bicicleta fácil Z1",
-          "duration_seconds": 2400,
-          "intensity_min": 45,
-          "intensity_max": 60,
-          "intensityClass": "active"
-        }
-      ]
-    }
-  },
-  {
-    "date": "2026-11-21",
+    "date": "2026-11-22",
     "sport": "Run",
     "title": "Fondo fácil progresivo — semana 3",
     "duration_minutes": 40,
