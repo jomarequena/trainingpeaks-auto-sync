@@ -207,5 +207,18 @@
     "title": "Rodaje fácil + progresivos — semana 3",
     "sport": "Run",
     "synced_at": "2026-11-18T13:34:38.891644"
+  },
+  "2026-11-19": {
+    "status": "skipped_existing",
+    "title": "Rodaje aeróbico fácil — semana 3",
+    "sport": "Run",
+    "existing_workout_id": "4065314332",
+    "skipped_at": "2026-11-19T14:01:29.487012"
+  },
+  "2026-11-20": {
+    "workout_id": "4066817810",
+    "title": "Rodaje fácil + progresivos — semana 3",
+    "sport": "Run",
+    "synced_at": "2026-11-19T14:01:29.682559"
   }
 }
