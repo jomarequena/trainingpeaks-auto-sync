@@ -1,0 +1,46 @@
+name: TrainingPeaks Workout Comments
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'comments/*.txt'
+  schedule:
+    # Reintento diario por si el workout aún no estaba en TrainingPeaks.
+    - cron: '15 12 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: trainingpeaks-comments
+  cancel-in-progress: false
+
+jobs:
+  comment:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: pip install -r requirements.txt
+
+      - name: Post pending comments
+        env:
+          TP_AUTH_COOKIE: ${{ secrets.TP_AUTH_COOKIE }}
+          TP_ATHLETE_ID: ${{ secrets.TP_ATHLETE_ID }}
+        run: python post_tp_comments.py
+
+      - name: Commit posted log
+        if: always()
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "auto: update comments/posted.json [skip ci]"
+          file_pattern: "comments/posted.json"
