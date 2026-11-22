@@ -5,16 +5,13 @@ on:
     branches: [main]
     paths:
       - 'comments/*.txt'
-  schedule:
-    # Reintento diario por si el workout aún no estaba en TrainingPeaks.
-    - cron: '15 12 * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
 
 concurrency:
-  group: trainingpeaks-comments
+  group: trainingpeaks-daily-sync
   cancel-in-progress: false
 
 jobs:

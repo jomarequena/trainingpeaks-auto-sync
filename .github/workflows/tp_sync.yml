@@ -39,8 +39,20 @@ jobs:
         run: |
           python auto_sync_tp.py
 
-      - name: Commit & Push Updated Synced Log
+      - name: Post pending workout comments
+        # Publica los informes de entrenos ya hechos (comments/*.txt) que aún no estén en TrainingPeaks.
+        # Si falla, no bloquea la sincronización del plan.
+        if: always()
+        continue-on-error: true
+        env:
+          TP_AUTH_COOKIE: ${{ secrets.TP_AUTH_COOKIE }}
+          TP_ATHLETE_ID: ${{ secrets.TP_ATHLETE_ID }}
+        run: |
+          python post_tp_comments.py
+
+      - name: Commit & Push Updated Logs
+        if: always()
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "auto: update synced_log.json [skip ci]"
-          file_pattern: "synced_log.json"
+          file_pattern: "synced_log.json comments/posted.json"

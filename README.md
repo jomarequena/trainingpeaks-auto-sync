@@ -47,3 +47,7 @@ El calendario empieza desde cero el martes 3 de noviembre de 2026: las primeras 
 Los entrenamientos de carrera y bicicleta se envían a TrainingPeaks con bloques temporizados y objetivos de intensidad relativa (% del ritmo umbral o FTP). Actualiza el ritmo umbral de carrera tras cada test de 20 minutos para que las zonas de las sesiones estructuradas reflejen el estado actual. Hasta tener esa medición, los ritmos de la descripción son referencias conservadoras y debe prevalecer el esfuerzo indicado. Las dos medias maratones se dejan como eventos guiados por su descripción, sin imponer una estructura de ritmo no calibrada.
 
 El calendario contiene además una sesión CACO de prueba de 20 minutos para el 29 de octubre de 2026, destinada a comprobar la sincronización de intervalos estructurados; la protección de duplicados evita crear otra sesión si ya existe un entrenamiento ese día.
+
+## Comentarios con el informe del entreno
+
+La tarea "Informe del entreno de ayer" del Mac deja el informe de cada sesión en `comments/YYYY-MM-DD_<run|bike>.txt`. `post_tp_comments.py` lo publica como comentario del workout de ese día y lo apunta en `comments/posted.json` para no repetirlo. Se ejecuta en dos momentos: nada más subir un informe (workflow *TrainingPeaks Workout Comments*) y en cada sincronización diaria del plan, que publica cualquier informe que siga pendiente. Si falla, no bloquea la sincronización del plan.
