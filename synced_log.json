@@ -232,5 +232,11 @@
     "title": "Rodaje de descarga — semana 4",
     "sport": "Run",
     "synced_at": "2026-11-23T15:32:13.158452"
+  },
+  "2026-11-25": {
+    "workout_id": "4075480966",
+    "title": "Bicicleta fácil — semana 4",
+    "sport": "Bike",
+    "synced_at": "2026-11-24T15:26:09.063949"
   }
 }
